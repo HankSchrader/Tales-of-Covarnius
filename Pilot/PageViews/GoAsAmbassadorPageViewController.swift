@@ -50,13 +50,14 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                 setImage(image: Constants.AMBASSADOR_FRIDGE_PIC)
                 return [self.newVC(viewController: "what should they eat?")]
             case "dessert"?:
-               // setImage(Constants.pic)
+               setImage(image: Constants.CHRONO_AND_LUNA_PIC)
                 
                 return [self.newVC(viewController: "dessert"),
                         self.newVC(viewController: "council chamber sneak"),
                         self.newVC(viewController: "council chamber sneak 1.5"),
                         self.newVC(viewController: "Chrono knows the layout")]
             case "stinky meat"?:
+                setImage(image: Constants.SINISTERIAN_SHIP_PIC)
                 return [
                         self.newVC(viewController: "Phase One Complete"),
                         self.newVC(viewController: "Chapter 6 3 Ambassador"),
@@ -66,6 +67,7 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                         self.newVC(viewController: "Chapter 6 7 Ambassador")]
                 
             case "check door"?:
+                setImage(image: Constants.PARKING_LOT_PIC)
                 return [self.newVC(viewController: "check door"),
                         self.newVC(viewController: "Chapter 6 3 Ambassador"),
                         self.newVC(viewController: "Chapter 6 4 Ambassador")]

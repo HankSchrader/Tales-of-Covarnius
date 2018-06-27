@@ -74,6 +74,7 @@ class RaidOnCovarniusPageViewController: GenericPageViewController {
             }
                 
             else if self.segueID == "ram ship" {
+                setImage(image: Constants.KORGLE_ATTACKS_PIC)
                return [self.newVC(viewController: "ram ship"),
                 self.newVC(viewController: "ram ship 2"),
                 self.newVC(viewController: "ram ship 2.5"),
@@ -85,6 +86,7 @@ class RaidOnCovarniusPageViewController: GenericPageViewController {
                 
             }
         else if self.segueID == "broker peace"{
+            setImage(image: Constants.KORGLE_ATTACKS_PIC)
             return [self.newVC(viewController: "no peace 1"),
                     self.newVC(viewController: "no peace 2"),
                     self.newVC(viewController: "raid on covarnius 1"),

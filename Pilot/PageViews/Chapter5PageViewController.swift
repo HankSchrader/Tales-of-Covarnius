@@ -48,7 +48,7 @@ class Chapter5PageViewController: GenericPageViewController {
                 ]
             case "great plan"?:
 
-              setImage(image: Constants.AMBASSADOR_ARC)
+              setImage(image: Constants.AMBASSADOR_OR_SNEAK)
                 return [
                     self.newVC(viewController: "Chapter 5 6"),
                     self.newVC(viewController: "Chapter 5 before7"),

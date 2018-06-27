@@ -8961,6 +8961,25 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sneezing Sinisterian" translatesAutoresizingMaskIntoConstraints="NO" id="Biq-TZ-0kh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zSA-Bn-gcw">
+                                <rect key="frame" x="16" y="468" width="288" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Luna stays with us!"/>
+                                <connections>
+                                    <segue destination="qLc-cK-4nG" kind="show" identifier="Luna Stays" id="pst-IE-SND"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vgX-Ju-zTQ">
+                                <rect key="frame" x="16" y="410" width="288" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="This needs to go smoothly."/>
+                                <connections>
+                                    <segue destination="VR6-TB-rp0" kind="show" identifier="don't test him" id="Cpv-90-8rr"/>
+                                </connections>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qqe-yr-9SB">
                                 <rect key="frame" x="25" y="70" width="270" height="298"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -9069,22 +9088,6 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vgX-Ju-zTQ">
-                                <rect key="frame" x="16" y="410" width="288" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="This needs to go smoothly."/>
-                                <connections>
-                                    <segue destination="VR6-TB-rp0" kind="show" identifier="don't test him" id="Cpv-90-8rr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zSA-Bn-gcw">
-                                <rect key="frame" x="16" y="468" width="288" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Luna stays with us!"/>
-                                <connections>
-                                    <segue destination="qLc-cK-4nG" kind="show" identifier="Luna Stays" id="pst-IE-SND"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -9093,12 +9096,16 @@ Cg
                             <constraint firstItem="vgX-Ju-zTQ" firstAttribute="leading" secondItem="cDL-xT-bBH" secondAttribute="leading" constant="16" id="8TO-89-lvd"/>
                             <constraint firstItem="zSA-Bn-gcw" firstAttribute="top" secondItem="vgX-Ju-zTQ" secondAttribute="bottom" constant="25" id="IKV-fv-8nQ"/>
                             <constraint firstItem="cDL-xT-bBH" firstAttribute="trailing" secondItem="vgX-Ju-zTQ" secondAttribute="trailing" constant="16" id="RRp-9z-uZg"/>
+                            <constraint firstItem="Biq-TZ-0kh" firstAttribute="bottom" secondItem="cDL-xT-bBH" secondAttribute="bottom" id="TZ3-dG-9QW"/>
                             <constraint firstItem="cDL-xT-bBH" firstAttribute="trailing" secondItem="zSA-Bn-gcw" secondAttribute="trailing" constant="16" id="VU6-vg-Cds"/>
                             <constraint firstItem="cDL-xT-bBH" firstAttribute="bottom" secondItem="zSA-Bn-gcw" secondAttribute="bottom" constant="67" id="WeW-6W-aJ8"/>
                             <constraint firstItem="vgX-Ju-zTQ" firstAttribute="top" secondItem="qqe-yr-9SB" secondAttribute="bottom" constant="42" id="aiL-sJ-wag"/>
                             <constraint firstItem="qqe-yr-9SB" firstAttribute="leading" secondItem="cDL-xT-bBH" secondAttribute="leading" constant="25" id="c2n-nC-kCQ"/>
                             <constraint firstItem="qqe-yr-9SB" firstAttribute="top" secondItem="cDL-xT-bBH" secondAttribute="top" constant="50" id="fa9-Eh-Vhb"/>
+                            <constraint firstItem="Biq-TZ-0kh" firstAttribute="top" secondItem="xqI-jb-xBI" secondAttribute="top" id="ghP-UX-h01"/>
                             <constraint firstItem="cDL-xT-bBH" firstAttribute="trailing" secondItem="qqe-yr-9SB" secondAttribute="trailing" constant="25" id="mMa-bj-RT1"/>
+                            <constraint firstItem="Biq-TZ-0kh" firstAttribute="leading" secondItem="cDL-xT-bBH" secondAttribute="leading" id="mTs-Tw-SCy"/>
+                            <constraint firstItem="cDL-xT-bBH" firstAttribute="trailing" secondItem="Biq-TZ-0kh" secondAttribute="trailing" id="plq-Ta-PfK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cDL-xT-bBH"/>
                     </view>
@@ -9110,7 +9117,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gz7-l5-jq1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5428" y="12231.634182908547"/>
+            <point key="canvasLocation" x="-5428.125" y="12231.338028169013"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="41A-KA-0JG">
@@ -15534,7 +15541,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">After what felt like a brief moment on the hypno couch, you awake back on Earth.
+                                        <string key="content">After a brief nap in hyper sleep, you wake up back on Earth.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15677,6 +15684,27 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chrono_And_Ship" translatesAutoresizingMaskIntoConstraints="NO" id="WlA-uw-PfS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRk-f7-65B">
+                                <rect key="frame" x="30" y="462" width="260" height="30"/>
+                                <state key="normal" title="Never give up! We can do this.">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UXc-Qz-fDL" kind="show" identifier="never give up" id="y6E-Eg-nSg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRd-wL-7HJ">
+                                <rect key="frame" x="30" y="417" width="260" height="30"/>
+                                <state key="normal" title="I'm Done. I just want to go home.">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2VN-on-IE5" kind="show" id="aV1-jU-UhX"/>
+                                </connections>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTo-gU-WGw">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -15756,34 +15784,20 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRd-wL-7HJ">
-                                <rect key="frame" x="30" y="417" width="260" height="30"/>
-                                <state key="normal" title="I'm Done. I just want to go home.">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="2VN-on-IE5" kind="show" id="aV1-jU-UhX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRk-f7-65B">
-                                <rect key="frame" x="30" y="462" width="260" height="30"/>
-                                <state key="normal" title="Never give up! We can do this.">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UXc-Qz-fDL" kind="show" identifier="never give up" id="y6E-Eg-nSg"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="oRd-wL-7HJ" firstAttribute="leading" secondItem="mob-a7-9Fu" secondAttribute="leading" constant="30" id="AzR-6m-6V1"/>
                             <constraint firstItem="tTo-gU-WGw" firstAttribute="leading" secondItem="mob-a7-9Fu" secondAttribute="leading" constant="25" id="D9o-zd-gO7"/>
                             <constraint firstItem="tTo-gU-WGw" firstAttribute="top" secondItem="mob-a7-9Fu" secondAttribute="top" constant="50" id="E40-ch-Wsf"/>
+                            <constraint firstItem="WlA-uw-PfS" firstAttribute="leading" secondItem="mob-a7-9Fu" secondAttribute="leading" id="E6H-Qg-sCg"/>
                             <constraint firstItem="eRk-f7-65B" firstAttribute="top" secondItem="oRd-wL-7HJ" secondAttribute="bottom" constant="15" id="KuV-J5-I2R"/>
+                            <constraint firstItem="WlA-uw-PfS" firstAttribute="trailing" secondItem="mob-a7-9Fu" secondAttribute="trailing" id="Qgo-X0-1vI"/>
                             <constraint firstItem="eRk-f7-65B" firstAttribute="leading" secondItem="mob-a7-9Fu" secondAttribute="leading" constant="30" id="So6-90-Fcv"/>
                             <constraint firstItem="eRk-f7-65B" firstAttribute="top" secondItem="oRd-wL-7HJ" secondAttribute="bottom" constant="15" id="Z5Z-v7-li4"/>
+                            <constraint firstItem="WlA-uw-PfS" firstAttribute="top" secondItem="htU-8G-5kJ" secondAttribute="top" id="eFC-yo-US6"/>
                             <constraint firstItem="mob-a7-9Fu" firstAttribute="trailing" secondItem="eRk-f7-65B" secondAttribute="trailing" constant="30" id="hpn-dc-lnP"/>
+                            <constraint firstItem="WlA-uw-PfS" firstAttribute="bottom" secondItem="mob-a7-9Fu" secondAttribute="bottom" id="iiV-bP-h0P"/>
                             <constraint firstItem="mob-a7-9Fu" firstAttribute="bottom" secondItem="eRk-f7-65B" secondAttribute="bottom" constant="76" id="lbD-5A-YPc"/>
                             <constraint firstItem="oRd-wL-7HJ" firstAttribute="top" secondItem="tTo-gU-WGw" secondAttribute="bottom" constant="46" id="ltQ-qh-BdL"/>
                             <constraint firstItem="mob-a7-9Fu" firstAttribute="trailing" secondItem="tTo-gU-WGw" secondAttribute="trailing" constant="25" id="tov-GW-ag1"/>
@@ -15799,7 +15813,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ghG-gV-Twj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1526" y="7934"/>
+            <point key="canvasLocation" x="1524.375" y="7933.0985915492956"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="UVZ-T9-fVc">
@@ -19666,10 +19680,12 @@ Do you:
         </scene>
     </scenes>
     <resources>
+        <image name="Chrono_And_Ship" width="834" height="1112"/>
         <image name="Earth" width="834" height="1112"/>
         <image name="GreenFizzTheEnd" width="834" height="1112"/>
         <image name="Luna_And_TV" width="500" height="667"/>
         <image name="Sinisterian Gang" width="834" height="1112"/>
+        <image name="Sneezing Sinisterian" width="834" height="1112"/>
         <image name="baby hapal" width="834" height="1112"/>
         <image name="frog" width="834" height="1112"/>
         <image name="iceray" width="834" height="1112"/>
@@ -19677,12 +19693,12 @@ Do you:
     <inferredMetricsTieBreakers>
         <segue reference="2SN-St-die"/>
         <segue reference="TmK-dd-ndt"/>
-        <segue reference="DP0-Ef-V4N"/>
-        <segue reference="XQA-n2-sYJ"/>
+        <segue reference="pst-IE-SND"/>
+        <segue reference="Cpv-90-8rr"/>
         <segue reference="6cW-v5-1e6"/>
         <segue reference="9Y9-jv-VoU"/>
         <segue reference="EU2-bt-ued"/>
-        <segue reference="RCY-zu-fcZ"/>
+        <segue reference="y6E-Eg-nSg"/>
         <segue reference="jox-Tc-HCZ"/>
         <segue reference="44a-Dl-z7T"/>
         <segue reference="His-wU-R6i"/>
@@ -19690,6 +19706,6 @@ Do you:
         <segue reference="dmg-3r-Uw5"/>
         <segue reference="ijG-Ma-eQD"/>
         <segue reference="5Vr-zP-NTi"/>
-        <segue reference="wdf-hn-TO6"/>
+        <segue reference="4hG-Mm-Rda"/>
     </inferredMetricsTieBreakers>
 </document>

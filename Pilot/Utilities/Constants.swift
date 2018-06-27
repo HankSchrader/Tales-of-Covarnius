@@ -72,7 +72,7 @@ struct Constants {
     static let SNEEZING_SINISTERIAN_PIC = "Sneezing Sinisterian.png"
     static let SINISTERIAN_GANG_PIC = "Sinisterian Gang.png"
     static let PARKING_LOT_PIC = "Parking Lot.png"
-    
+    //TEST
     //other constants
     static let CHAPTER_UNLOCK_MESSAGE = "You Just Unlocked A Chapter!"
     static let SUBMIT = "Great!"
