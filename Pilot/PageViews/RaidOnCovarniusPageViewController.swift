@@ -14,7 +14,7 @@ class RaidOnCovarniusPageViewController: GenericPageViewController {
     override lazy var orderedViewControllers: [UIViewController] =
         
         {
-            if (self.segueID == "Raid On Covarnius" || self.segueID == "broke out of prison") {
+            if (self.previousRID == Constants.RAID_ON_COVARNIUS || self.segueID == "broke out of prison") {
             
             setImage(image: Constants.KORGLE_ATTACKS_PIC)
             return [

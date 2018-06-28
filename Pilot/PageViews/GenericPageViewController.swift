@@ -11,8 +11,9 @@ import UIKit
 class GenericPageViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource
  {
     
+    @IBOutlet weak var tableView: UITableView!
     var segueID: String? = nil
-
+    static let sharedGenericPageView = GenericPageViewController()
     let viewController = ViewController()
     var previousRID: String? = nil
 
@@ -22,6 +23,8 @@ class GenericPageViewController: UIPageViewController, UIPageViewControllerDeleg
     var pageControl = UIPageControl()
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(self.tableView)
+        
         view.backgroundColor = UIColor.clear
         self.dataSource = self
         if let firstViewController = orderedViewControllers.first {

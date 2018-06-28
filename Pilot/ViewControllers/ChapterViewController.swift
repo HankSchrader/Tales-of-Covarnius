@@ -9,11 +9,12 @@
 import UIKit
 
 class ChapterViewController: UIViewController {
-
+    static let chapterSelectLauncher = ChapterSelectViewController()
     static let chapterVC = ChapterViewController()
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.clear
+        
         
         goToChapterSelectAction()
         let width = self.view.frame.size.width
@@ -711,20 +712,16 @@ class ChapterViewController: UIViewController {
     
     func goToChapterSelectAction() {
         let button = NavButton()
-       /* // let button = CustomButton(value: 100) // also works
-        button.setTitle(nil, for: .normal)
-        // auto layout
-        // button.translatesAutoresizingMaskIntoConstraints = false */
         button.frame = CGRect(x: -100, y: 30, width: 300, height: 40)
         view.addSubview(button)
-        button.addTarget(self, action: #selector(goToChapterSelect(_:)), for:
+        button.addTarget(self, action: #selector(handleMore(sender:)), for:
             UIControlEvents.touchUpInside)
         
     }
 
- /*   @objc func handleMore(sender: UIButton?)  {
-        chapterSelectLauncher?.showChapters(sender: sender)
-    }*/
+    @objc func handleMore(sender: UIButton?)  {
+        ChapterViewController.chapterSelectLauncher.showChapters(sender: sender)
+    }
     
     
     @IBAction func goToChapterSelect(_ sender: Any?) {

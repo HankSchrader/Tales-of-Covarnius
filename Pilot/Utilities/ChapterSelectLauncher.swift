@@ -7,7 +7,7 @@
 //
 
 import UIKit
-class ChapterSelectLauncher: ChapterSelectViewController {
+class ChapterSelectLauncher: UIViewController {
     let blackView = UIView()
     let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
     let collectionView: UICollectionView = {

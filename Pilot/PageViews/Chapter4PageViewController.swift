@@ -14,20 +14,20 @@ class Chapter4PageViewController: GenericPageViewController {
         
         self.orderedViewControllers =  {
        
-            if self.segueID == "keep going" || self.segueID == "Earth's Greatest Scientist" {
+            if self.segueID == "keep going" || self.previousRID == Constants.EARTHS_GREATEST_SCIENTIST {
                 //MARK: Picture of King Zanarq.
      
                 return [self.newVC(viewController: "chap4_1"),
                         self.newVC(viewController: "chap4_2"),
                         self.newVC(viewController: "chap4_3"),
                         self.newVC(viewController: "chap4_4")]
-            } else if self.segueID == "You Didn't Help The Hapal" || segueID == "You Let The Hapal Down..." {
+            } else if self.previousRID == Constants.YOU_SAVED_THE_HAPAL || segueID == "You Let The Hapal Down..." {
                 setImage(image: Constants.KING_ZANARQ_PIC)
                 return [self.newVC(viewController: "Let Hapal Down"),
                         self.newVC(viewController: "Let Hapal Down 2"),
                         self.newVC(viewController: "chap4_3"),
                         self.newVC(viewController: "chap4_4")]
-            } else if self.segueID == "Help The Hapal" || self.segueID == "You Saved The Hapal!!" {
+            } else if self.previousRID == Constants.YOU_SAVED_THE_HAPAL || self.segueID == "You Saved The Hapal!!" {
                 
                 setImage(image: Constants.BABY_HAPAL_PIC)
                 return [self.newVC(viewController: "Hapal Rescue 1"),
@@ -53,7 +53,7 @@ class Chapter4PageViewController: GenericPageViewController {
 
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
-        if self.segueID == "keep going" {
+        if self.segueID == "keep going" || self.previousRID == Constants.EARTHS_GREATEST_SCIENTIST {
             super.checkNewChapter(chapterName: Constants.EARTHS_GREATEST_SCIENTIST,order: 4)
             ChapterSelectViewController.chapterSelect.deleteById(id: "You Saved The Hapal!!")
             ChapterSelectViewController.chapterSelect.deleteById(id: Constants.BY_RANDOM_HAPAL_STANCE)
@@ -61,22 +61,21 @@ class Chapter4PageViewController: GenericPageViewController {
             ChapterSelectViewController.chapterSelect.deleteById(id: Constants.COWBOYS_OF_KATONIA)
             ChapterSelectViewController.chapterSelect.deleteById(id: "You Let The Hapal Down...")
         }
-        else if self.segueID == "Help The Hapal" {
+        else if self.previousRID == Constants.YOU_SAVED_THE_HAPAL {
             super.checkNewChapter(chapterName: Constants.YOU_SAVED_THE_HAPAL, order: 3)
             ChapterSelectViewController.chapterSelect.deleteById(id: "You Let The Hapal Down...")
             ChapterSelectViewController.chapterSelect.deleteById(id: Constants.EARTHS_GREATEST_SCIENTIST)
         }
-        else if self.segueID == "You Didn't Help The Hapal" {
+        else if self.previousRID == Constants.YOU_LET_THE_HAPAL_DOWN {
             super.checkNewChapter(chapterName: Constants.YOU_LET_THE_HAPAL_DOWN, order: 3)
             ChapterSelectViewController.chapterSelect.deleteById(id: "You Saved The Hapal!!")
              ChapterSelectViewController.chapterSelect.deleteById(id: Constants.EARTHS_GREATEST_SCIENTIST)
         } else
         {
-            if self.previousRID != "Chapter Select" {
             super.checkNewChapter(chapterName: Constants.COWBOYS_OF_KATONIA, order: 2)
             ChapterSelectViewController.chapterSelect.deleteById(id: Constants.EARTHS_GREATEST_SCIENTIST)
             }
-        }
+        
     }
 
 }

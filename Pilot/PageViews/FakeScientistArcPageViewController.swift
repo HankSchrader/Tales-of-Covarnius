@@ -14,7 +14,7 @@ class FakeScientistArcPageViewController: GenericPageViewController {
     override func viewDidLoad() {
         setImage(image: Constants.COVARNIAN_LAB_PIC)
         self.orderedViewControllers =  {
-            if self.segueID == "I'm A Scientist" || self.segueID == "Fake It Til You Make It"{
+            if self.segueID == "I'm A Scientist" || self.previousRID == Constants.FAKE_IT_TIL_YOU_MAKE_IT{
                 
                 return [self.newVC(viewController: "I'm Not A Scientist 0.5"),
                     self.newVC(viewController: "I'm Not A Scientist")]

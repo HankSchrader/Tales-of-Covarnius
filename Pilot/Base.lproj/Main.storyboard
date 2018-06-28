@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXB-1E-p2b">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXB-1E-p2b">
                                 <rect key="frame" x="16" y="89" width="288" height="29"/>
                                 <attributedString key="attributedText">
                                     <fragment content="COVARNIUS">
@@ -32,7 +32,7 @@
                                 <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="4" height="-1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DH5-4b-1cb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DH5-4b-1cb">
                                 <rect key="frame" x="16" y="53" width="288" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="TALES FROM">
@@ -120,11 +120,11 @@
         <scene sceneID="mFr-ct-7jt">
             <objects>
                 <viewController id="cx7-q2-roP" customClass="CreditsViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Yhf-P8-D2T">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Yhf-P8-D2T">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Written By:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhs-DQ-sHU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Written By:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhs-DQ-sHU">
                                 <rect key="frame" x="32" y="125" width="256" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -176,7 +176,7 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="tableView" destination="9RF-UE-Vzd" id="fzp-nV-rST"/>
+                        <outlet property="tableViwe0" destination="9RF-UE-Vzd" id="Eqr-Ug-HNE"/>
                         <segue destination="Vlv-wC-eax" kind="show" identifier="Fork In The Road" id="TfN-Qd-HdO"/>
                         <segue destination="2G9-hX-PrL" kind="show" identifier="Earth's Greatest Scientist" id="sAp-zm-trV"/>
                         <segue destination="9te-Ml-u1s" kind="show" identifier="Cowboys of Katonia" id="44a-Dl-z7T"/>
@@ -197,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tXH-ll-hLA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="817.5" y="-1088.0281690140846"/>
+            <point key="canvasLocation" x="1708" y="-4802"/>
         </scene>
         <!--Chapter 1-->
         <scene sceneID="fLG-Ff-mob">
@@ -315,7 +315,7 @@ Butterflies fill your stomach. Maybe you should have ran while you had the chanc
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Pz-cS-26i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1526" y="2074"/>
+            <point key="canvasLocation" x="1318" y="2074"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="11N-Vk-mri">
@@ -648,7 +648,7 @@ Just 7 days? That’s not too bad. You breath a small sigh of relief. A week was
         <!--Earth's Greatest Scientist-->
         <scene sceneID="1Rv-Y8-w4B">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" title="Earth's Greatest Scientist" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="2G9-hX-PrL" customClass="Chapter4PageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController storyboardIdentifier="Chapt4VC" autoresizesArchivedViewToFullSize="NO" title="Earth's Greatest Scientist" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="2G9-hX-PrL" customClass="Chapter4PageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="epm-LR-xz1" kind="show" identifier="Made It To Covarnius" id="cSf-RQ-ef6"/>
                     </connections>
@@ -1033,7 +1033,7 @@ Cg
         <!--Back At The Ranch Page View Controller-->
         <scene sceneID="odp-84-fpR">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="34s-dZ-fdU" customClass="BackAtTheRanchPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="BackAtTheRanchVC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="34s-dZ-fdU" customClass="BackAtTheRanchPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iur-dj-sgs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5140" y="3512"/>
@@ -1519,7 +1519,7 @@ You wonder what kind of issues the Covarnians are having as Chrono engages hyper
         <!--Chapter5 Page View Controller-->
         <scene sceneID="A9y-8v-kyg">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="UXc-Qz-fDL" customClass="Chapter5PageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="Chapter5VC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="UXc-Qz-fDL" customClass="Chapter5PageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eOu-Iq-3l0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3641" y="7254"/>
@@ -1527,7 +1527,7 @@ You wonder what kind of issues the Covarnians are having as Chrono engages hyper
         <!--Fake Scientist Arc Page View Controller-->
         <scene sceneID="90z-sf-ae7">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="kdu-ys-dcd" customClass="FakeScientistArcPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="FakeItVC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="kdu-ys-dcd" customClass="FakeScientistArcPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUU-e0-A8L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5185" y="7255"/>
@@ -2035,7 +2035,7 @@ Cg
         <!--Go As Ambassador Page View Controller-->
         <scene sceneID="mEa-zx-VKY">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="HMa-9y-sc6" customClass="GoAsAmbassadorPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="GoAsAmbassadorVC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="HMa-9y-sc6" customClass="GoAsAmbassadorPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMT-ft-H2K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4290" y="8366"/>
@@ -6574,7 +6574,7 @@ Cg
         <!--Rise And Shine Page View Controller-->
         <scene sceneID="fi8-o3-GYG">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="tnv-J0-xgn" customClass="RiseAndShinePageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="Rise And ShineVC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="tnv-J0-xgn" customClass="RiseAndShinePageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ii4-3G-nuY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-14874" y="10053"/>
@@ -8948,7 +8948,7 @@ Cg
         <!--The Two Diplomats Page View Controller-->
         <scene sceneID="35p-9S-uyo">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="VR6-TB-rp0" customClass="TheTwoDiplomatsPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="Two DiplomatsVC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="VR6-TB-rp0" customClass="TheTwoDiplomatsPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7QP-Ha-kuM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-7754" y="11314"/>
@@ -10473,7 +10473,7 @@ Cg
         <!--Sneak Onto Ship Page View Controller-->
         <scene sceneID="Mho-Od-gnu">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="qLc-cK-4nG" customClass="SneakOntoShipPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="BoardingTicketVC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="qLc-cK-4nG" customClass="SneakOntoShipPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9IU-zh-Ht8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2420" y="8656"/>
@@ -12067,7 +12067,7 @@ Cg
         <!--Raid On Covarnius Page View Controller-->
         <scene sceneID="AwI-gp-00I">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="amq-0H-d2h" customClass="RaidOnCovarniusPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="RaidOnCovarnusVC" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="amq-0H-d2h" customClass="RaidOnCovarniusPageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="odU-Lj-u0v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1668" y="10254"/>
@@ -17035,7 +17035,7 @@ Kayo and Kina stand up and you can see the worried looks on their faces. “The 
         <!--By Random Hapal Stance-->
         <scene sceneID="0ok-rS-jaF">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" title="By Random Hapal Stance" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="Acj-X1-5dj" customClass="RandomHapalStancePageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="HapalStanceVC" autoresizesArchivedViewToFullSize="NO" title="By Random Hapal Stance" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="Acj-X1-5dj" customClass="RandomHapalStancePageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TNt-lu-nCR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4986" y="155"/>
@@ -19693,19 +19693,19 @@ Do you:
     <inferredMetricsTieBreakers>
         <segue reference="2SN-St-die"/>
         <segue reference="TmK-dd-ndt"/>
-        <segue reference="pst-IE-SND"/>
-        <segue reference="Cpv-90-8rr"/>
+        <segue reference="DP0-Ef-V4N"/>
+        <segue reference="E0a-7V-sHG"/>
         <segue reference="6cW-v5-1e6"/>
         <segue reference="9Y9-jv-VoU"/>
         <segue reference="EU2-bt-ued"/>
-        <segue reference="y6E-Eg-nSg"/>
+        <segue reference="h2w-MD-tXx"/>
         <segue reference="jox-Tc-HCZ"/>
         <segue reference="44a-Dl-z7T"/>
-        <segue reference="His-wU-R6i"/>
+        <segue reference="sAp-zm-trV"/>
         <segue reference="TfN-Qd-HdO"/>
         <segue reference="dmg-3r-Uw5"/>
         <segue reference="ijG-Ma-eQD"/>
-        <segue reference="5Vr-zP-NTi"/>
-        <segue reference="4hG-Mm-Rda"/>
+        <segue reference="cSf-RQ-ef6"/>
+        <segue reference="eEh-7I-qgF"/>
     </inferredMetricsTieBreakers>
 </document>

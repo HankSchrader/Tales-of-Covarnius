@@ -10,6 +10,7 @@ import UIKit
 
 class TheTwoDiplomatsPageViewController: GenericPageViewController {
     var keyFlag: Bool = false
+
     lazy override var orderedViewControllers: [UIViewController] = {
             let segue: String? = self.segueID
             switch segue {
