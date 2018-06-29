@@ -11,9 +11,9 @@ import UIKit
 class RiseAndShinePageViewController: GenericPageViewController {
     
     lazy override var orderedViewControllers: [UIViewController] = {
-
-        
+        setImage(image: Constants.SLEEPING_SINISTERIANS)
         if(self.segueID == "Use Key") {
+        
             return [self.newVC(viewController: "yet another distraction"),
                     self.newVC(viewController: "yet another distraction 2"),
                     self.newVC(viewController: "yet another distraction 3"),

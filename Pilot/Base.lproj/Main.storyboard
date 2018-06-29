@@ -75,7 +75,6 @@
         <!--Chapter View Controller-->
         <scene sceneID="yVg-IS-Jwq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bh6-An-O6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="Sidewalk Image" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MoQ-Y2-CoM" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dvD-a7-3Dh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -83,6 +82,7 @@
                         <viewLayoutGuide key="safeArea" id="Wfd-It-xeQ"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bh6-An-O6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-11" y="-1883"/>
         </scene>
@@ -6537,6 +6537,28 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hypersleep Control Panel" translatesAutoresizingMaskIntoConstraints="NO" id="dbX-Qa-It9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gLF-iE-Rgy">
+                                <rect key="frame" x="40" y="437" width="264" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Too complicated. Go clog toilets!"/>
+                                <connections>
+                                    <segue destination="VR6-TB-rp0" kind="show" identifier="go back to toilet" id="vLZ-qm-1Bl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TzH-cb-eVh">
+                                <rect key="frame" x="40" y="478" width="264" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HvP-2D-Op2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Stick to the plan!"/>
+                                <connections>
+                                    <segue destination="tnv-J0-xgn" kind="show" identifier="stick to plan" id="Oo5-EB-rb3"/>
+                                </connections>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YRg-vz-GWS">
                                 <rect key="frame" x="25" y="70" width="270" height="298"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -6645,33 +6667,18 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TzH-cb-eVh">
-                                <rect key="frame" x="40" y="478" width="264" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="HvP-2D-Op2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Stick to the plan!"/>
-                                <connections>
-                                    <segue destination="tnv-J0-xgn" kind="show" identifier="stick to plan" id="Oo5-EB-rb3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gLF-iE-Rgy">
-                                <rect key="frame" x="40" y="437" width="264" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Too complicated. Go clog toilets!"/>
-                                <connections>
-                                    <segue destination="VR6-TB-rp0" kind="show" identifier="go back to toilet" id="vLZ-qm-1Bl"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="dbX-Qa-It9" firstAttribute="leading" secondItem="Jzt-qo-RIP" secondAttribute="leading" id="1HQ-5K-XFm"/>
                             <constraint firstItem="YRg-vz-GWS" firstAttribute="leading" secondItem="Jzt-qo-RIP" secondAttribute="leading" constant="25" id="3ff-7a-iQy"/>
                             <constraint firstItem="TzH-cb-eVh" firstAttribute="top" secondItem="gLF-iE-Rgy" secondAttribute="bottom" constant="8" id="4eZ-W2-6al"/>
+                            <constraint firstItem="dbX-Qa-It9" firstAttribute="trailing" secondItem="Jzt-qo-RIP" secondAttribute="trailing" id="Edl-cC-KL3"/>
+                            <constraint firstItem="dbX-Qa-It9" firstAttribute="top" secondItem="CuN-8N-lEf" secondAttribute="top" id="HiX-Rh-YF3"/>
                             <constraint firstItem="Jzt-qo-RIP" firstAttribute="trailing" secondItem="gLF-iE-Rgy" secondAttribute="trailing" constant="16" id="JxY-rb-9hT"/>
                             <constraint firstItem="TzH-cb-eVh" firstAttribute="leading" secondItem="Jzt-qo-RIP" secondAttribute="leading" constant="40" id="NZl-eu-Xio"/>
                             <constraint firstItem="Jzt-qo-RIP" firstAttribute="trailing" secondItem="YRg-vz-GWS" secondAttribute="trailing" constant="25" id="S2q-J1-44H"/>
+                            <constraint firstItem="dbX-Qa-It9" firstAttribute="bottom" secondItem="Jzt-qo-RIP" secondAttribute="bottom" id="Vre-SQ-Fjz"/>
                             <constraint firstItem="gLF-iE-Rgy" firstAttribute="top" secondItem="YRg-vz-GWS" secondAttribute="bottom" constant="69" id="XGa-f9-UVi"/>
                             <constraint firstItem="YRg-vz-GWS" firstAttribute="top" secondItem="Jzt-qo-RIP" secondAttribute="top" constant="50" id="buC-dD-weF"/>
                             <constraint firstItem="gLF-iE-Rgy" firstAttribute="leading" secondItem="Jzt-qo-RIP" secondAttribute="leading" constant="40" id="dUd-7s-xLc"/>
@@ -6689,7 +6696,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBx-Wp-kWC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15722" y="12287"/>
+            <point key="canvasLocation" x="-15723.75" y="12286.267605633802"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="koU-H0-sx5">
@@ -19633,6 +19640,7 @@ Do you:
         <image name="Chrono_And_Ship" width="834" height="1112"/>
         <image name="Earth" width="834" height="1112"/>
         <image name="GreenFizzTheEnd" width="834" height="1112"/>
+        <image name="Hypersleep Control Panel" width="834" height="1112"/>
         <image name="Luna_And_TV" width="500" height="667"/>
         <image name="Sinisterian Gang" width="834" height="1112"/>
         <image name="Sneezing Sinisterian" width="834" height="1112"/>
@@ -19643,8 +19651,8 @@ Do you:
         <segue reference="U32-uH-FzI"/>
         <segue reference="UXL-GQ-izu"/>
         <segue reference="hvB-TT-ury"/>
-        <segue reference="Wvi-I4-RYJ"/>
-        <segue reference="pZ2-f4-yno"/>
+        <segue reference="vLZ-qm-1Bl"/>
+        <segue reference="Oo5-EB-rb3"/>
         <segue reference="9nH-Db-LBT"/>
         <segue reference="7dg-rL-hhO"/>
         <segue reference="h2w-MD-tXx"/>

@@ -216,68 +216,68 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
         case Constants.INTRO:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chap1PVC") as!IntroPageViewController
             vcToPresent?.previousRID = Constants.INTRO
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Lawn Gnome")
+            
         case Constants.ONTO_COVARNIUS:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chap2PVC") as! Chapter2PageViewController
             vcToPresent?.previousRID = Constants.ONTO_COVARNIUS
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Chrono_Lands")
+           
         case Constants.LANDED_ON_COVARNIUS:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chap3PVC") as! Chapter3PageViewController
             vcToPresent?.previousRID = Constants.LANDED_ON_COVARNIUS
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Luna In Spaceship")
+           
         case Constants.BY_RANDOM_HAPAL_STANCE_NO_TRUST:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "HapalStanceVC") as! RandomHapalStancePageViewController
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Kayo")
+            
             vcToPresent?.previousRID = Constants.BY_RANDOM_HAPAL_STANCE_NO_TRUST
         case Constants.BY_RANDOM_HAPAL_STANCE:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "HapalStanceVC") as! RandomHapalStancePageViewController
             vcToPresent?.previousRID = Constants.BY_RANDOM_HAPAL_STANCE
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Kayo")
+            
         case Constants.COWBOYS_OF_KATONIA:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chapt4VC") as! Chapter4PageViewController
             vcToPresent?.previousRID = Constants.COWBOYS_OF_KATONIA
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Crash_Land_On_Katonia")
+          
         case Constants.EARTHS_GREATEST_SCIENTIST:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chapt4VC") as! Chapter4PageViewController
             vcToPresent?.previousRID = Constants.EARTHS_GREATEST_SCIENTIST
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "King_Zanark")
+            
         case Constants.MASTER_OF_DISGUISE_OR_LIES:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chapter5VC") as! Chapter5PageViewController
             vcToPresent?.previousRID = Constants.MASTER_OF_DISGUISE_OR_LIES
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Ambassador or Sneak")
+           
         case Constants.FAKE_IT_TIL_YOU_MAKE_IT:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "FakeItVC") as! FakeScientistArcPageViewController
             vcToPresent?.previousRID = Constants.FAKE_IT_TIL_YOU_MAKE_IT
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "frog")
+           
         case Constants.SNEAK_ONTO_SHIP:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "BoardingTicketVC") as! SneakOntoShipPageViewController
             vcToPresent?.previousRID = Constants.SNEAK_ONTO_SHIP
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Sneezing Sinisterian")
+           
         case Constants.YOU_SAVED_THE_HAPAL:
             self.restorationIdentifier = Constants.YOU_SAVED_THE_HAPAL
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chapt4VC") as! Chapter4PageViewController
             vcToPresent?.previousRID = Constants.YOU_SAVED_THE_HAPAL
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "baby hapal")
+           
         case Constants.YOU_LET_THE_HAPAL_DOWN:
             self.restorationIdentifier = Constants.YOU_LET_THE_HAPAL_DOWN
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chapt4VC") as! Chapter4PageViewController
             vcToPresent?.previousRID = Constants.YOU_LET_THE_HAPAL_DOWN
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "King_Zanark")
+        
         case Constants.RISE_AND_SHINE:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Rise And ShineVC") as! RiseAndShinePageViewController
             vcToPresent?.previousRID = Constants.RISE_AND_SHINE
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Sinisterian Gang")
+           
         case Constants.RAID_ON_COVARNIUS:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "RaidOnCovarnusVC") as! RaidOnCovarniusPageViewController
             vcToPresent?.previousRID = Constants.RAID_ON_COVARNIUS
         case Constants.AMBASSADOR_ARC:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "GoAsAmbassadorVC") as! GoAsAmbassadorPageViewController
             vcToPresent?.previousRID = Constants.AMBASSADOR_ARC
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "Growlics")
+            
         case Constants.THE_TWO_DIPLOMATS:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Two DiplomatsVC") as! TheTwoDiplomatsPageViewController
             vcToPresent?.previousRID = Constants.THE_TWO_DIPLOMATS
-            vcToPresent?.defaultImage = #imageLiteral(resourceName: "TakeKey")
+            
         default:
             let mainMenu = storyboard.instantiateViewController(withIdentifier: "MainMenu")
             present(mainMenu, animated: true, completion: nil)
@@ -318,7 +318,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
             return #imageLiteral(resourceName: "frog")
         case Constants.SNEAK_ONTO_SHIP:
 
-            return #imageLiteral(resourceName: "Sneezing Sinisterian")
+            return #imageLiteral(resourceName: "Luna and Ambassador")
         case Constants.YOU_SAVED_THE_HAPAL:
 
             return #imageLiteral(resourceName: "baby hapal")
@@ -327,7 +327,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
             return #imageLiteral(resourceName: "King_Zanark")
         case Constants.RISE_AND_SHINE:
 
-            return #imageLiteral(resourceName: "Sinisterian Gang")
+            return #imageLiteral(resourceName: "Hypersleep Control Panel")
         case Constants.RAID_ON_COVARNIUS:
             return #imageLiteral(resourceName: "Korgle Attacks")
 
