@@ -724,13 +724,6 @@ class ChapterViewController: UIViewController {
     }
     
     
-    @IBAction func goToChapterSelect(_ sender: Any?) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "Chapter Select")
-        self.show(vc, sender: self)
-    }
-    
-    
     @IBOutlet weak var chap2_0TextBox: UITextView!
     @IBOutlet weak var chap2_1TextBox: UITextView!
     @IBOutlet weak var chap2_2TextBox: UITextView!

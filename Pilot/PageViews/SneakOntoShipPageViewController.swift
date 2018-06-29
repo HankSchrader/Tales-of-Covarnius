@@ -40,7 +40,7 @@ class SneakOntoShipPageViewController: GenericPageViewController {
                 
                 ]
             default:
-                setImage(image: Constants.SNEEZING_SINISTERIAN_PIC)
+                setImage(image: Constants.LUNA_AND_AMBASSADOR_PIC)
                 return [self.newVC(viewController: "Chapter 6 1 Sneak Arc"),
                         self.newVC(viewController: "Chapter 6 1.5 Sneak Arc"),
                      ]

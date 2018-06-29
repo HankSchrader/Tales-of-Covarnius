@@ -59,11 +59,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Main Menu" id="7PC-I7-Qs5">
                         <barButtonItem key="backBarButtonItem" title="Main Menu" id="IZD-Ga-ECf"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="Duw-uU-zfV">
-                            <connections>
-                                <segue destination="epm-LR-xz1" kind="show" identifier="fromMainMenu" id="5Vr-zP-NTi"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="Duw-uU-zfV"/>
                     </navigationItem>
                     <connections>
                         <outlet property="bottomLabel" destination="sXB-1E-p2b" id="VnE-RO-oE3"/>
@@ -76,35 +72,10 @@
             </objects>
             <point key="canvasLocation" x="-10" y="-277"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="8b7-db-giC">
-            <objects>
-                <viewController storyboardIdentifier="Baby Hapal Image" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eAR-WR-bxG" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gev-BB-Hn8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baby hapal" translatesAutoresizingMaskIntoConstraints="NO" id="Ruc-3m-tWG">
-                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="UF9-uO-27w" firstAttribute="bottom" secondItem="Ruc-3m-tWG" secondAttribute="bottom" id="0XH-XM-Wbc"/>
-                            <constraint firstItem="Ruc-3m-tWG" firstAttribute="top" secondItem="UF9-uO-27w" secondAttribute="top" id="147-Gf-FHi"/>
-                            <constraint firstItem="Ruc-3m-tWG" firstAttribute="leading" secondItem="UF9-uO-27w" secondAttribute="leading" id="oei-vw-LFc"/>
-                            <constraint firstItem="UF9-uO-27w" firstAttribute="trailing" secondItem="Ruc-3m-tWG" secondAttribute="trailing" id="sH8-bh-umc"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="UF9-uO-27w"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iEQ-rq-gnh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-947" y="-1883"/>
-        </scene>
         <!--Chapter View Controller-->
         <scene sceneID="yVg-IS-Jwq">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bh6-An-O6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="Sidewalk Image" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MoQ-Y2-CoM" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dvD-a7-3Dh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -112,7 +83,6 @@
                         <viewLayoutGuide key="safeArea" id="Wfd-It-xeQ"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bh6-An-O6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-11" y="-1883"/>
         </scene>
@@ -177,27 +147,11 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableViwe0" destination="9RF-UE-Vzd" id="Eqr-Ug-HNE"/>
-                        <segue destination="Vlv-wC-eax" kind="show" identifier="Fork In The Road" id="TfN-Qd-HdO"/>
-                        <segue destination="2G9-hX-PrL" kind="show" identifier="Earth's Greatest Scientist" id="sAp-zm-trV"/>
-                        <segue destination="9te-Ml-u1s" kind="show" identifier="Cowboys of Katonia" id="44a-Dl-z7T"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="Introduction" id="WKD-KN-cYJ"/>
-                        <segue destination="Acj-X1-5dj" kind="show" identifier="By Random Hapal Stance" id="qyY-c4-Pfi"/>
-                        <segue destination="2G9-hX-PrL" kind="show" identifier="You Saved The Hapal!!" id="His-wU-R6i"/>
-                        <segue destination="2G9-hX-PrL" kind="show" identifier="You Let The Hapal Down..." id="Bqg-K4-ZeW"/>
-                        <segue destination="kdu-ys-dcd" kind="show" identifier="Fake It Til You Make It" id="EU2-bt-ued"/>
-                        <segue destination="UXc-Qz-fDL" kind="show" identifier="The King and the Invasion" id="RCY-zu-fcZ"/>
-                        <segue destination="qLc-cK-4nG" kind="show" identifier="Where's Your Boarding Ticket?" id="DP0-Ef-V4N"/>
-                        <segue destination="HMa-9y-sc6" kind="show" identifier="Diplomatic Immunity" id="9Y9-jv-VoU"/>
-                        <segue destination="amq-0H-d2h" kind="show" identifier="Raid On Covarnius" id="TmK-dd-ndt"/>
-                        <segue destination="tnv-J0-xgn" kind="show" identifier="Rise and Shine!" id="6cW-v5-1e6"/>
-                        <segue destination="Acj-X1-5dj" kind="show" identifier="Who Trusts Alien Cowboys?" id="2SN-St-die"/>
-                        <segue destination="Txc-t6-P1L" kind="show" identifier="Onto Covarnius" id="dmg-3r-Uw5"/>
-                        <segue destination="VR6-TB-rp0" kind="show" identifier="The Two Diplomats" id="E0a-7V-sHG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tXH-ll-hLA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1708" y="-4802"/>
+            <point key="canvasLocation" x="-861" y="-1088"/>
         </scene>
         <!--Chapter 1-->
         <scene sceneID="fLG-Ff-mob">
@@ -205,7 +159,7 @@
                 <pageViewController storyboardIdentifier="Chap1PVC" autoresizesArchivedViewToFullSize="NO" title="Chapter 1" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="GYB-hd-9Im" customClass="IntroPageViewController" customModule="Pilot" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ykj-NV-NaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10" y="517"/>
+            <point key="canvasLocation" x="-534" y="517"/>
         </scene>
         <!--Onto Covarnius-->
         <scene sceneID="TDW-4k-dul">
@@ -227,7 +181,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </button>
             </objects>
-            <point key="canvasLocation" x="2402" y="-1006"/>
+            <point key="canvasLocation" x="1779" y="-1088"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="aUU-cS-MFf">
@@ -303,7 +257,7 @@ Butterflies fill your stomach. Maybe you should have ran while you had the chanc
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zj5-tm-ZHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2927" y="1299"/>
+            <point key="canvasLocation" x="3023" y="1297"/>
         </scene>
         <!--Landed On Covarnius-->
         <scene sceneID="aSJ-qq-VF4">
@@ -465,7 +419,7 @@ You stare at him defiantly, “If I’m going back to Covarnius with you, at lea
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="un0-Eo-bBR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2925" y="2073.5915492957747"/>
+            <point key="canvasLocation" x="3024" y="2074"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="JQe-Im-zqn">
@@ -518,7 +472,7 @@ You stare at him defiantly, “If I’m going back to Covarnius with you, at lea
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H6M-8U-GKW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3641" y="2074"/>
+            <point key="canvasLocation" x="3713" y="2074"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="anh-8v-uuj">
@@ -562,7 +516,7 @@ And where is Covarnius located anyway? If it was close to Earth, wouldn’t we k
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xy9-GJ-i2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3641" y="2785"/>
+            <point key="canvasLocation" x="3308" y="2791"/>
         </scene>
         <!--Generic Decision Point View Controller-->
         <scene sceneID="MFT-bE-Bpi">
@@ -643,16 +597,12 @@ Just 7 days? That’s not too bad. You breath a small sigh of relief. A week was
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fEG-3g-Zoo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4371.5" y="2073.5"/>
+            <point key="canvasLocation" x="4410" y="2070"/>
         </scene>
         <!--Earth's Greatest Scientist-->
         <scene sceneID="1Rv-Y8-w4B">
             <objects>
-                <pageViewController storyboardIdentifier="Chapt4VC" autoresizesArchivedViewToFullSize="NO" title="Earth's Greatest Scientist" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="2G9-hX-PrL" customClass="Chapter4PageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
-                    <connections>
-                        <segue destination="epm-LR-xz1" kind="show" identifier="Made It To Covarnius" id="cSf-RQ-ef6"/>
-                    </connections>
-                </pageViewController>
+                <pageViewController storyboardIdentifier="Chapt4VC" autoresizesArchivedViewToFullSize="NO" title="Earth's Greatest Scientist" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="2G9-hX-PrL" customClass="Chapter4PageViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mmt-dH-mHj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1492" y="5036"/>
@@ -1312,7 +1262,7 @@ You look at the opening in the cave. It’s small, but not too small for you. Wi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2xt-zg-MLu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3521" y="5739"/>
+            <point key="canvasLocation" x="3598" y="5643"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="bDQ-9S-JWT">
@@ -10633,7 +10583,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i0s-iA-Qyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3891" y="10102"/>
+            <point key="canvasLocation" x="-3857" y="10258"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="fZT-ao-BhO">
@@ -19298,7 +19248,7 @@ Yup, definitely an alien!
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qg0-sz-awl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3641" y="1299"/>
+            <point key="canvasLocation" x="3713" y="1296"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="6y8-1q-BD9">
@@ -19686,26 +19636,23 @@ Do you:
         <image name="Luna_And_TV" width="500" height="667"/>
         <image name="Sinisterian Gang" width="834" height="1112"/>
         <image name="Sneezing Sinisterian" width="834" height="1112"/>
-        <image name="baby hapal" width="834" height="1112"/>
         <image name="frog" width="834" height="1112"/>
         <image name="iceray" width="834" height="1112"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2SN-St-die"/>
-        <segue reference="TmK-dd-ndt"/>
-        <segue reference="DP0-Ef-V4N"/>
-        <segue reference="E0a-7V-sHG"/>
-        <segue reference="6cW-v5-1e6"/>
-        <segue reference="9Y9-jv-VoU"/>
-        <segue reference="EU2-bt-ued"/>
+        <segue reference="U32-uH-FzI"/>
+        <segue reference="UXL-GQ-izu"/>
+        <segue reference="hvB-TT-ury"/>
+        <segue reference="Wvi-I4-RYJ"/>
+        <segue reference="pZ2-f4-yno"/>
+        <segue reference="9nH-Db-LBT"/>
+        <segue reference="7dg-rL-hhO"/>
         <segue reference="h2w-MD-tXx"/>
         <segue reference="jox-Tc-HCZ"/>
-        <segue reference="44a-Dl-z7T"/>
-        <segue reference="sAp-zm-trV"/>
-        <segue reference="TfN-Qd-HdO"/>
-        <segue reference="dmg-3r-Uw5"/>
+        <segue reference="vUV-Ay-okI"/>
+        <segue reference="Rlm-ND-bdU"/>
+        <segue reference="KYf-bL-oLj"/>
         <segue reference="ijG-Ma-eQD"/>
-        <segue reference="cSf-RQ-ef6"/>
         <segue reference="eEh-7I-qgF"/>
     </inferredMetricsTieBreakers>
 </document>

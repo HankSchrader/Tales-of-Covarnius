@@ -10,7 +10,7 @@ import UIKit
 
 class GenericPageViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource
  {
-    
+    var defaultImage: UIImage?
     @IBOutlet weak var tableView: UITableView!
     var segueID: String? = nil
     static let sharedGenericPageView = GenericPageViewController()
