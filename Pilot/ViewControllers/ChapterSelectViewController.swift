@@ -31,6 +31,10 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
     let tableView: UITableView? = {
         let cv = UITableView(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
         cv.backgroundColor = UIColor.white
+        cv.separatorStyle = .none
+       
+        
+
         return cv
     }()
     func loadChapters() {
@@ -39,6 +43,8 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
             let chapters = try PersistanceService.context.fetch(fetchRequest)
             self.chapters = chapters
             self.tableView?.reloadData()
+            spaceCells(cells: tableView?.visibleCells)
+            
         } catch
         {
             NSLog("FETCH FAILED")
@@ -48,6 +54,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
     
     override func viewDidLoad() {
       //  super.viewDidLoad()
+        
         
         let fetchRequest: NSFetchRequest<Chapter> = Chapter.fetchRequest()
         do {
@@ -81,6 +88,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
             window.addSubview(tableView!)
             
             tableView?.frame = CGRect(x: 0, y: 0, width: 0, height: window.frame.height)
+            tableView?.contentInset = UIEdgeInsetsMake(50.0, 10, 0, 0)
             blackView.frame = window.frame
             blackView.alpha = 0
             
@@ -205,7 +213,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
     }
     
     func goToPageView(cell: String!) -> GenericPageViewController? {
@@ -288,65 +296,82 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
         return vcToPresent
         
     }
+    func roundImageEdges(imageView: UIImageView!) -> UIImageView {
+        
+        imageView.layer.cornerRadius = 10
+        imageView.clipsToBounds = true
+        imageView.layer.borderWidth = 3
+        imageView.layer.borderColor = UIColor.white.cgColor
+        return imageView
+    }
     
     func setCellImage(cell: String!) -> UIImage? {
+        let imageView: UIImageView?
         switch cell {
         case Constants.INTRO:
-            return #imageLiteral(resourceName: "Lawn Gnome")
-        case Constants.ONTO_COVARNIUS:
-            return #imageLiteral(resourceName: "Chrono_Lands")
-        case Constants.LANDED_ON_COVARNIUS:
-            return #imageLiteral(resourceName: "Luna In Spaceship")
-        case Constants.BY_RANDOM_HAPAL_STANCE_NO_TRUST:
+            imageView = UIImageView(image: #imageLiteral(resourceName: "Lawn Gnome"))
             
-            return #imageLiteral(resourceName: "Kayo")
+        case Constants.ONTO_COVARNIUS:
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "Chrono_Lands"))
+            
+        case Constants.LANDED_ON_COVARNIUS:
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "Luna In Spaceship"))
+            
+        case Constants.BY_RANDOM_HAPAL_STANCE_NO_TRUST:
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "Kayo"))
+          
            
         case Constants.BY_RANDOM_HAPAL_STANCE:
-
-            return #imageLiteral(resourceName: "Kayo")
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "Kayo"))
+           
         case Constants.COWBOYS_OF_KATONIA:
-
-            return #imageLiteral(resourceName: "Crash_Land_On_Katonia")
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "Crash_Land_On_Katonia"))
+            
         case Constants.EARTHS_GREATEST_SCIENTIST:
-
-            return #imageLiteral(resourceName: "King_Zanark")
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "King_Zanark"))
+           
         case Constants.MASTER_OF_DISGUISE_OR_LIES:
-
-            return #imageLiteral(resourceName: "Ambassador or Sneak")
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "Ambassador or Sneak"))
+           
         case Constants.FAKE_IT_TIL_YOU_MAKE_IT:
-
-            return #imageLiteral(resourceName: "frog")
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "frog"))
+           
         case Constants.SNEAK_ONTO_SHIP:
-
-            return #imageLiteral(resourceName: "Luna and Ambassador")
+            imageView = UIImageView(image:   #imageLiteral(resourceName: "Luna and Ambassador"))
+           
         case Constants.YOU_SAVED_THE_HAPAL:
-
-            return #imageLiteral(resourceName: "baby hapal")
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "baby hapal"))
+           
         case Constants.YOU_LET_THE_HAPAL_DOWN:
-
-            return #imageLiteral(resourceName: "King_Zanark")
+            imageView = UIImageView(image:   #imageLiteral(resourceName: "King_Zanark"))
+            
         case Constants.RISE_AND_SHINE:
-
-            return #imageLiteral(resourceName: "Hypersleep Control Panel")
+            imageView = UIImageView(image:  #imageLiteral(resourceName: "Hypersleep Control Panel"))
+            
         case Constants.RAID_ON_COVARNIUS:
-            return #imageLiteral(resourceName: "Korgle Attacks")
+              imageView = UIImageView(image:  #imageLiteral(resourceName: "Korgle Attacks"))
+            
 
         case Constants.AMBASSADOR_ARC:
-            return #imageLiteral(resourceName: "Growlics")
-        case Constants.THE_TWO_DIPLOMATS:
+              imageView = UIImageView(image:  #imageLiteral(resourceName: "Growlics"))
             
-            return #imageLiteral(resourceName: "TakeKey")
+        case Constants.THE_TWO_DIPLOMATS:
+              imageView = UIImageView(image:  #imageLiteral(resourceName: "TakeKey"))
+          
         default:
-            return #imageLiteral(resourceName: "Chrono_Lands")
+              imageView = UIImageView(image:  #imageLiteral(resourceName: "Chrono_Lands"))
+         
             
         }
-  
+        let roundedimageView: UIImageView = roundImageEdges(imageView: imageView)
+        return roundedimageView.image
+        
     }
 
 
 }
 extension ChapterSelectViewController: UITableViewDataSource, UITableViewDelegate{
-    
+
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -356,12 +381,17 @@ extension ChapterSelectViewController: UITableViewDataSource, UITableViewDelegat
         return chapters.count
     }
     
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
+        //let cell = tableView.dequeueReusableCell(withIdentifier: "ChapterCell", for: indexPath)
         chapters.sort(by: {$0.order < $1.order})
         
-        cell.textLabel?.text = chapters[indexPath.row].name
         cell.imageView?.image = setCellImage(cell: chapters[indexPath.row].name)
+        cell.imageView?.layer.cornerRadius = 10.0
+        cell.imageView?.layer.masksToBounds = true
+        cell.textLabel?.text = chapters[indexPath.row].name
+       
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -386,10 +416,27 @@ extension ChapterSelectViewController: UITableViewDataSource, UITableViewDelegat
         handleDismiss(self)
         
     }
+    func spaceCells(cells: [UITableViewCell]!) {
+        print("Inseide space cells.")
+        for cell in cells{
+            cell.contentView.layer.borderColor = UIColor.white.cgColor
+            cell.contentView.layer.borderWidth = 4.0
+           
+        }
+    }
     
-
+    func tableViewSetup() {
+        tableView?.rowHeight = UITableViewAutomaticDimension
+        tableView?.estimatedRowHeight = 350
+        
+        // NOTE: - Registering the cell programmatically
+        tableView?.register(UITableViewCell.self, forCellReuseIdentifier: "ChapterCell")
+    }
     
 
 }
+
+
+
 
 

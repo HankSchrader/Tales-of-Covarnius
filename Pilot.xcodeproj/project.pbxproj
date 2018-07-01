@@ -24,7 +24,6 @@
 		5365E3DC20602104009E481F /* GoAsAmbassadorPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3DB20602104009E481F /* GoAsAmbassadorPageViewController.swift */; };
 		5365E3DE20602120009E481F /* SneakOntoShipPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3DD20602120009E481F /* SneakOntoShipPageViewController.swift */; };
 		5365E3E020614227009E481F /* TheTwoDiplomatsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3DF20614227009E481F /* TheTwoDiplomatsPageViewController.swift */; };
-		5365E3E220616074009E481F /* myTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3E120616074009E481F /* myTextView.swift */; };
 		5365E3E420628DC8009E481F /* RaidOnCovarniusPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3E320628DC8009E481F /* RaidOnCovarniusPageViewController.swift */; };
 		53796AFA205B28F500C6B7F8 /* GenericPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53796AF9205B28F500C6B7F8 /* GenericPageViewController.swift */; };
 		53796AFC205B331B00C6B7F8 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53796AFB205B331B00C6B7F8 /* ChapterViewController.swift */; };
@@ -83,7 +82,6 @@
 		5365E3DB20602104009E481F /* GoAsAmbassadorPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoAsAmbassadorPageViewController.swift; sourceTree = "<group>"; };
 		5365E3DD20602120009E481F /* SneakOntoShipPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakOntoShipPageViewController.swift; sourceTree = "<group>"; };
 		5365E3DF20614227009E481F /* TheTwoDiplomatsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTwoDiplomatsPageViewController.swift; sourceTree = "<group>"; };
-		5365E3E120616074009E481F /* myTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTextView.swift; sourceTree = "<group>"; };
 		5365E3E320628DC8009E481F /* RaidOnCovarniusPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidOnCovarniusPageViewController.swift; sourceTree = "<group>"; };
 		53796AF9205B28F500C6B7F8 /* GenericPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPageViewController.swift; sourceTree = "<group>"; };
 		53796AFB205B331B00C6B7F8 /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
@@ -199,7 +197,6 @@
 				533B40982049EA0000D61D80 /* Constants.swift */,
 				5336A421205D2DB3002802C7 /* NavButton.swift */,
 				53A5FAE720692050008304F9 /* GenericButton.swift */,
-				5365E3E120616074009E481F /* myTextView.swift */,
 				53176F8820D687AA0026A456 /* ChapterSelectLauncher.swift */,
 				53B3C6B120D8618700E4BAE7 /* ChapterViewControllerDelegate.swift */,
 			);
@@ -399,7 +396,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				53984230204468AA00CCD93E /* MainMenuViewController.swift in Sources */,
-				5365E3E220616074009E481F /* myTextView.swift in Sources */,
 				5317FA9E2049AF3E00CC30EE /* Chapter+CoreDataClass.swift in Sources */,
 				53176F8920D687AA0026A456 /* ChapterSelectLauncher.swift in Sources */,
 				5317FA9F2049AF3E00CC30EE /* Chapter+CoreDataProperties.swift in Sources */,

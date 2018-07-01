@@ -734,9 +734,9 @@ class ChapterViewController: UIViewController {
     @IBOutlet weak var chap3_2TextBox: UITextView!
     @IBOutlet weak var chap3_25TextBox: UITextView! //Not 25 2.5
     @IBOutlet weak var katonian1_point5TextBox: UITextView!
-    @IBOutlet weak var katonian1TextBox: myTextView!
-    @IBOutlet weak var katonian2TextBox: myTextView!
-    @IBOutlet weak var katonian2Point5TextBox: myTextView!
+    @IBOutlet weak var katonian1TextBox: UITextView!
+    @IBOutlet weak var katonian2TextBox: UITextView!
+    @IBOutlet weak var katonian2Point5TextBox: UITextView!
     @IBOutlet weak var at_the_ranch_run_choice_part_1TextBox: UITextView!
     @IBOutlet weak var at_the_ranch_run_choice_part_2TextBox: UITextView!
     @IBOutlet weak var at_the_ranch_run_choice_part_2Point5TextBox: UITextView!
@@ -858,7 +858,7 @@ class ChapterViewController: UIViewController {
     @IBOutlet weak var riseAndShine8TextBox: UITextView!
     @IBOutlet weak var chapter3page2: UITextView!
     @IBOutlet weak var whichFizz: UITextView!
-    @IBOutlet weak var IntroductionTextBox: myTextView!
+    @IBOutlet weak var IntroductionTextBox: UITextView!
     @IBOutlet weak var yetAnotherDistraction1TextBox: UITextView!
     @IBOutlet weak var yetAnotherDistraction2TextBox: UITextView!
     @IBOutlet weak var yetAnotherDistraction3TextBox: UITextView!

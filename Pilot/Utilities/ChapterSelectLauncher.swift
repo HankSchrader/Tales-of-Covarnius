@@ -21,11 +21,13 @@ class ChapterSelectLauncher: UIViewController {
             
             blackView.backgroundColor = UIColor(white: 0, alpha: 0.5)
             
-            
+            window.layer.shadowRadius = 2
+            window.layer.shadowOpacity = 0.5
             window.addSubview(blackView)
             window.bringSubview(toFront: blackView)
+        
             window.addSubview(collectionView)
-         
+            
             collectionView.frame = CGRect(x: 0, y: 0, width: 0, height: window.frame.height)
             blackView.frame = window.frame
             blackView.alpha = 0
@@ -36,7 +38,7 @@ class ChapterSelectLauncher: UIViewController {
             })
             
             UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations:
-                { self.collectionView.frame = CGRect(x: -10, y: 0, width: window.frame.width / 1.5, height: window.frame.height)},
+                { self.collectionView.frame = CGRect(x: -10, y: 0, width: window.frame.width / 2, height: window.frame.height)},
                            completion: nil)
             
             let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleDismiss(_:)))

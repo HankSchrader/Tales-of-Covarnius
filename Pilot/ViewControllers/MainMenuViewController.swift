@@ -69,7 +69,7 @@ class ViewController: ChapterViewController {
         button.layer.cornerRadius = 18
         
         view.addSubview(button)
-        view.sendSubview(toBack: button)
+        view.bringSubview(toFront: button)
         button.addTarget(self, action: #selector(ViewController.goToChapter1(_:)), for: UIControlEvents.touchUpInside)
         
     }
@@ -86,7 +86,7 @@ class ViewController: ChapterViewController {
         button.layer.cornerRadius = 18
         
         view.addSubview(button)
-        view.sendSubview(toBack: button)
+        view.bringSubview(toFront: button)
         button.addTarget(self, action: #selector(ViewController.alertForDelete(_:)), for: UIControlEvents.touchUpInside)
     }
     
@@ -102,7 +102,7 @@ class ViewController: ChapterViewController {
         button.layer.cornerRadius = 18
         
         view.addSubview(button)
-        view.sendSubview(toBack: button)
+        view.bringSubview(toFront: button)
         button.addTarget(self, action: #selector(ViewController.goToCredits(_:)), for: UIControlEvents.touchUpInside)
     }
     
