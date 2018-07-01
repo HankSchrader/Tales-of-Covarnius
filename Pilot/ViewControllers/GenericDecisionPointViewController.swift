@@ -38,6 +38,7 @@ class GenericDecisionPointViewController: ChapterViewController {
         self.snackOrRunTextBox?.changeFontSizeByDevice(width: width)
         self.ramShipNextTextBox?.changeFontSizeByDevice(width: width)
         self.fetchKeyTextBox?.changeFontSizeByDevice(width: width)
+        self.celebrate_or_homeTextBox?.changeFontSizeByDevice(width: width)
         
         self.atTheRanch_4TextBox?.changeFontSizeByDevice(width: width)
         self.hapalStanceTextBox?.changeFontSizeByDevice(width: width)
@@ -79,6 +80,7 @@ class GenericDecisionPointViewController: ChapterViewController {
         self.katonian3TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.ramShipNextTextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.fetchKeyTextBox?.setContentOffset(CGPoint.zero, animated: true)
+        self.celebrate_or_homeTextBox?.setContentOffset(CGPoint.zero, animated: true)
         
         self.atTheRanch_4TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.hapalStanceTextBox?.setContentOffset(CGPoint.zero, animated: true)
@@ -215,6 +217,7 @@ class GenericDecisionPointViewController: ChapterViewController {
         self.katonian3TextBox?.layer.borderColor = myColor
         self.ramShipNextTextBox?.layer.borderColor = myColor
         self.fetchKeyTextBox?.layer.borderColor = myColor
+        self.celebrate_or_homeTextBox?.layer.borderColor = myColor
         
         self.atTheRanch_4TextBox?.layer.borderColor = myColor
         self.hapalStanceTextBox?.layer.borderColor = myColor
@@ -262,6 +265,7 @@ class GenericDecisionPointViewController: ChapterViewController {
         self.katonian3TextBox?.layer.borderWidth = borderWidth
         self.ramShipNextTextBox?.layer.borderWidth = borderWidth
         self.fetchKeyTextBox?.layer.borderWidth = borderWidth
+        self.celebrate_or_homeTextBox?.layer.borderWidth = borderWidth
         self.atTheRanch_4TextBox?.layer.borderWidth = borderWidth
         self.hapalStanceTextBox?.layer.borderWidth = borderWidth
         self.someSortOfMistake?.layer.borderWidth = borderWidth
@@ -310,6 +314,7 @@ class GenericDecisionPointViewController: ChapterViewController {
         self.katonian3TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.ramShipNextTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.fetchKeyTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
+        self.celebrate_or_homeTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.atTheRanch_4TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.hapalStanceTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.someSortOfMistake?.layer.backgroundColor = UIColor.lightText.cgColor
@@ -357,6 +362,7 @@ class GenericDecisionPointViewController: ChapterViewController {
         self.katonian3TextBox?.layer.cornerRadius = cornerRadius
         self.ramShipNextTextBox?.layer.cornerRadius = cornerRadius
         self.fetchKeyTextBox?.layer.cornerRadius = cornerRadius
+        self.celebrate_or_homeTextBox?.layer.cornerRadius = cornerRadius
         
         self.atTheRanch_4TextBox?.layer.cornerRadius = cornerRadius
         self.hapalStanceTextBox?.layer.cornerRadius = cornerRadius
@@ -454,7 +460,8 @@ class GenericDecisionPointViewController: ChapterViewController {
     @IBOutlet weak var chap6_4TextBox: UITextView!
     
     
-  
+    @IBOutlet weak var celebrate_or_homeTextBox: UITextView!
+    
     //Buttons
     
     override func loadDecisionPointButtons() {
@@ -557,6 +564,10 @@ class GenericDecisionPointViewController: ChapterViewController {
         loadDecisionPointButton(button: self.nextChapterRaidOnCovarniusButton)
         
         loadDecisionPointButton(button: self.nextChapterRamShipButton)
+        loadDecisionPointButton(button: self.homeSweetHomeButton)
+
+        loadDecisionPointButton(button: self.celebrateButton)
+
     }
     
 
@@ -630,5 +641,7 @@ class GenericDecisionPointViewController: ChapterViewController {
     @IBOutlet weak var murkblurButton: UIButton!
     @IBOutlet weak var skipTestButton: UIButton!
     @IBOutlet weak var goodNewsKingButton: UIButton!
+    @IBOutlet weak var homeSweetHomeButton: UIButton!
     @IBOutlet weak var noTellKingButton: UIButton!
+    @IBOutlet weak var celebrateButton: UIButton!
 }

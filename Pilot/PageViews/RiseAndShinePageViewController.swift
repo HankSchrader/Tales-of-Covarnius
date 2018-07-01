@@ -20,15 +20,23 @@ class RiseAndShinePageViewController: GenericPageViewController {
                     self.newVC(viewController: "rise and shine 4"),
                     self.newVC(viewController: "rise and shine 5"),
                     self.newVC(viewController: "rise and shine 6"),
-                    self.newVC(viewController: "rise and shine 7") ]
-        } else {
+                    self.newVC(viewController: "rise and shine 7")
+                     ]
+        } else if(self.segueID == "home sweet home") {
+            return [self.newVC(viewController: "rise and shine 8")]
+        } else if(self.segueID == "celebrate") {
+            return [self.newVC(viewController: "celebrate")]
+        } else
+        
+        {
         return [self.newVC(viewController: "rise and shine 1"),
                     self.newVC(viewController: "rise and shine 2"),
                     self.newVC(viewController: "rise and shine 3"),
                     self.newVC(viewController: "rise and shine 4"),
                     self.newVC(viewController: "rise and shine 5"),
                     self.newVC(viewController: "rise and shine 6"),
-                    self.newVC(viewController: "rise and shine 7")]
+                    self.newVC(viewController: "rise and shine 7"),
+             self.newVC(viewController: "rise and shine 8")]
         }
     }()
  

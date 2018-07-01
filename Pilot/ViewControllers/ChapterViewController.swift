@@ -25,6 +25,8 @@ class ChapterViewController: UIViewController {
         loadDecisionPointButtons()
         
         self.yetAnotherDistraction1TextBox?.changeFontSizeByDevice(width: width)
+        self.celebrateTextBox?.changeFontSizeByDevice(width: width)
+        self.theEndKatoniaHelpTextBox?.changeFontSizeByDevice(width: width)
         self.yetAnotherDistraction2TextBox?.changeFontSizeByDevice(width: width)
          self.chronoRemindsTextBox?.changeFontSizeByDevice(width: width)
         self.yetAnotherDistraction3TextBox?.changeFontSizeByDevice(width: width)
@@ -210,6 +212,8 @@ class ChapterViewController: UIViewController {
         self.phaseOneCompleteTextBox?.changeFontSizeByDevice(width: width)
         
         self.yetAnotherDistraction1TextBox?.setContentOffset(CGPoint.zero, animated: true)
+        self.celebrateTextBox?.setContentOffset(CGPoint.zero, animated: true)
+        self.theEndKatoniaHelpTextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.yetAnotherDistraction2TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.chronoRemindsTextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.yetAnotherDistraction3TextBox?.setContentOffset(CGPoint.zero, animated: true)
@@ -376,6 +380,8 @@ class ChapterViewController: UIViewController {
         loadDecisionPointButtons()
         
         self.yetAnotherDistraction1TextBox?.changeFontSizeByDevice(width: width)
+        self.celebrateTextBox?.changeFontSizeByDevice(width: width)
+        self.theEndKatoniaHelpTextBox?.changeFontSizeByDevice(width: width)
         self.yetAnotherDistraction2TextBox?.changeFontSizeByDevice(width: width)
         self.chronoRemindsTextBox?.changeFontSizeByDevice(width: width)
         self.yetAnotherDistraction3TextBox?.changeFontSizeByDevice(width: width)
@@ -565,6 +571,8 @@ class ChapterViewController: UIViewController {
         self.chronoRemindsTextBox?.setContentOffset(CGPoint.zero, animated: true)
         
          self.yetAnotherDistraction1TextBox?.setContentOffset(CGPoint.zero, animated: true)
+        self.celebrateTextBox?.setContentOffset(CGPoint.zero, animated: true)
+        self.theEndKatoniaHelpTextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.chap2_0TextBox?.setContentOffset(CGPoint.zero, animated: true)
         
         self.chap2_3TextBox?.setContentOffset(CGPoint.zero, animated: true)
@@ -864,6 +872,8 @@ class ChapterViewController: UIViewController {
     @IBOutlet weak var yetAnotherDistraction3TextBox: UITextView!
     @IBOutlet weak var runForItTheEnd: UITextView!
     
+    @IBOutlet weak var theEndKatoniaHelpTextBox: UITextView!
+    @IBOutlet weak var celebrateTextBox: UITextView!
     @IBOutlet weak var chronoRemindsTextBox: UITextView!
     
     @IBOutlet weak var greenFoodTheEnd: UITextView!
@@ -871,6 +881,8 @@ class ChapterViewController: UIViewController {
     
     func loadCornerRadius(cornerRadius: CGFloat!) {
         self.yetAnotherDistraction1TextBox?.layer.cornerRadius = cornerRadius
+        self.celebrateTextBox?.layer.cornerRadius = cornerRadius
+        self.theEndKatoniaHelpTextBox?.layer.cornerRadius = cornerRadius
         self.yetAnotherDistraction2TextBox?.layer.cornerRadius = cornerRadius
         self.chronoRemindsTextBox?.layer.cornerRadius = cornerRadius
         self.yetAnotherDistraction3TextBox?.layer.cornerRadius = cornerRadius
@@ -1031,7 +1043,8 @@ class ChapterViewController: UIViewController {
         self.chronoRemindsTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         
         self.yetAnotherDistraction1TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
-
+        self.celebrateTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
+          self.theEndKatoniaHelpTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.chap2_0TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         
         self.chap2_3TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
@@ -1067,7 +1080,7 @@ class ChapterViewController: UIViewController {
         self.hapalRescueTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.hapalRescue4TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.chap4_1TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
-        self.chap4_1TextBox?.textColor = UIColor.black
+        
         self.chapt4_2TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.chap4_3TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.imNotAScientistPoint5TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
@@ -1185,6 +1198,8 @@ class ChapterViewController: UIViewController {
         self.chap2_0TextBox?.layer.borderColor = myColor
         
         self.yetAnotherDistraction1TextBox?.layer.borderColor = myColor
+        self.celebrateTextBox?.layer.borderColor = myColor
+        self.theEndKatoniaHelpTextBox?.layer.borderColor = myColor
         self.yetAnotherDistraction2TextBox?.layer.borderColor = myColor
         self.chronoRemindsTextBox?.layer.borderColor = myColor
         self.yetAnotherDistraction3TextBox?.layer.borderColor = myColor
@@ -1347,6 +1362,8 @@ class ChapterViewController: UIViewController {
     func loadBorderWidth(borderWidth:CGFloat!) {
         
         self.yetAnotherDistraction1TextBox?.layer.borderWidth = borderWidth
+        self.celebrateTextBox?.layer.borderWidth = borderWidth
+         self.theEndKatoniaHelpTextBox?.layer.borderWidth = borderWidth
         self.yetAnotherDistraction2TextBox?.layer.borderWidth = borderWidth
         self.chronoRemindsTextBox?.layer.borderWidth = borderWidth
         self.yetAnotherDistraction3TextBox?.layer.borderWidth = borderWidth
@@ -1521,6 +1538,7 @@ class ChapterViewController: UIViewController {
     @IBOutlet weak var theEndFirstOneButton: UIButton!
     @IBOutlet weak var theEndRaidOnCovarniusButton: UIButton!
     
+    @IBOutlet weak var theEndCelebrateButton: UIButton!
     
     @IBOutlet weak var newPlanButton: UIButton!
     @IBOutlet weak var theEndWindowButton: UIButton!
@@ -1530,7 +1548,8 @@ class ChapterViewController: UIViewController {
     @IBOutlet weak var theEndBestEnding: UIButton!
     @IBOutlet weak var brightGreenButton: UIButton!
     
-
+    @IBOutlet weak var theEndKatonianButton: UIButton!
+    
     func loadDecisionPointButton(button: UIButton?) {
         button?.layer.borderWidth = 2
         button?.layer.cornerRadius = 18
@@ -1578,7 +1597,9 @@ class ChapterViewController: UIViewController {
         loadTheEndButton(button: self.theEndRaidOnCovarniusButton)
         loadTheEndButton(button: self.theEndClogToiletDistractionFailed)
         loadTheEndButton(button: self.theEndWindowButton)
+        loadTheEndButton(button: self.theEndCelebrateButton)
         loadTheEndButton(button: self.theEndBadFoodButton)
+        loadTheEndButton(button: self.theEndKatonianButton)
         
         
     }

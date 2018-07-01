@@ -75,6 +75,7 @@ struct Constants {
     static let CHRONO_STATUE_PIC = "Chrono Statue.png"
     static let SLEEPING_SINISTERIANS = "Sleeping Sinisterians Light.png"
     static let HYPERSLEEP_CONTROL_PANEL = "Hypersleep Control Panel.png"
+    static let LUNA_IN_SHIP_PIC = "Luna_In_Ship.png"
     //other constants
     static let CHAPTER_UNLOCK_MESSAGE = "You Just Unlocked A Chapter!"
     static let SUBMIT = "Great!"
