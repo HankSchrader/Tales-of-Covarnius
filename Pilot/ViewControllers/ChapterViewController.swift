@@ -1603,6 +1603,20 @@ class ChapterViewController: UIViewController {
         
         
     }
+    @IBAction func specialEndingButton(_ sender: Any) {
+        let topVC = ChapterSelectViewController.chapterSelect.topMostController()
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if(ChapterSelectViewController.chapterSelect.isChapterThere(chapterName: Constants.YOU_SAVED_THE_HAPAL)) {
+           
+            let vc = storyboard.instantiateViewController(withIdentifier: "The End Katonia")
+            topVC.present(vc, animated: true, completion: nil)
+            
+        } else{
+            let vc = storyboard.instantiateViewController(withIdentifier: "MainMenu")
+           topVC.present(vc, animated: true, completion: nil)
+        }
+    }
+     
 }
 extension UITextView {
     

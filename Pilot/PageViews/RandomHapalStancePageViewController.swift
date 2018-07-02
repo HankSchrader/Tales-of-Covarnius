@@ -36,12 +36,12 @@ class RandomHapalStancePageViewController: GenericPageViewController {
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
         if self.segueID == "Don't Trust" || self.previousRID == Constants.BY_RANDOM_HAPAL_STANCE_NO_TRUST {
-            super.checkNewChapter(chapterName: Constants.BY_RANDOM_HAPAL_STANCE_NO_TRUST, order: 5)
+            super.checkNewChapter(chapterName: Constants.BY_RANDOM_HAPAL_STANCE_NO_TRUST, order: 3)
             ChapterSelectViewController.chapterSelect.deleteById(id: Constants.BY_RANDOM_HAPAL_STANCE)
             
         }
         else {
-            super.checkNewChapter(chapterName: Constants.BY_RANDOM_HAPAL_STANCE, order: 5)
+            super.checkNewChapter(chapterName: Constants.BY_RANDOM_HAPAL_STANCE, order: 3)
             ChapterSelectViewController.chapterSelect.deleteById(id: Constants.BY_RANDOM_HAPAL_STANCE_NO_TRUST)}
         }
 

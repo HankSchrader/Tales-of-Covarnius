@@ -193,7 +193,7 @@ class GenericDecisionPointViewController: ChapterViewController {
         }
             
         else if segue.destination is RaidOnCovarniusPageViewController {
-             print("Inside the segue")
+             
             let vc = segue.destination as? RaidOnCovarniusPageViewController
             vc?.segueID = segue.identifier!
         }

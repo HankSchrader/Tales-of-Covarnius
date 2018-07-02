@@ -199,7 +199,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIZ-1v-KuY" customClass="myTextView" customModule="Pilot" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIZ-1v-KuY">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">“We could be missing out on a chance of a lifetime!” you say to Luna. She wags her tail playfully and barks in agreement.
@@ -235,7 +235,7 @@ Could it be military? Or an alien? Or an extra dimensional being? It could be an
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWW-Jm-yLg" customClass="myTextView" customModule="Pilot" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWW-Jm-yLg">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Run away? No way, this is too good to miss!
@@ -13595,9 +13595,13 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You dance around on the lawn with Chrono. You did it! The Sinisterians have been stopped. “Let’s go tell King Zanarq!” Chrono says excitedly. “The invasion is over!” Your celebration however is stifled by coughing. Luna may have stopped the Sinisterians, but there is dog fur up to your ankles as far as the eye can see. Not to mention an 80 foot dog carelessly trampling over the homes of everyone, utterly destroying them. The Sinisterians are defeated…but do you really want to take responsibility for all this damage? You tug nervously on your shirt and shift your feet. Maybe it’d be best to just shrink Luna back to normal and go back to Earth!
+                                        <mutableString key="content">You dance around on the lawn with Chrono. You did it! The Sinisterians have been stopped. “Let’s go tell King Zanarq!” Chrono says excitedly. “The invasion is over!” 
 
-Chrono looks at you excitedly and says, “Ready to tell the King?”</string>
+Unfortunately, your celebration is stifled by coughing. Luna may have stopped the Sinisterians, but there’s dog fur up to your ankles as far as the eye can see! Not to mention an 80 foot dog carelessly trampling over the homes of everyone, utterly destroying them.
+
+The Sinisterians are defeated…but do you really want to take responsibility for all this damage? You tug nervously on your shirt and shift your feet. Maybe it’d be best to just shrink Luna back to normal and go back to Earth!
+
+Chrono looks at you excitedly and says, “Ready to tell the King?”</mutableString>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name="Baskerville"/>
@@ -13605,6 +13609,7 @@ Chrono looks at you excitedly and says, “Ready to tell the King?”</string>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -13810,7 +13815,7 @@ Cg
                                 <rect key="frame" x="16" y="478" width="288" height="30"/>
                                 <state key="normal" title="THE END"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="AIT-DE-6cl"/>
+                                    <action selector="specialEndingButton:" destination="Fi8-gR-FhE" eventType="touchUpInside" id="Ss6-za-wK7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -13850,6 +13855,9 @@ Cg
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdF-5X-Hgn">
                                 <rect key="frame" x="30" y="478" width="260" height="30"/>
                                 <state key="normal" title="THE END"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="PTd-wR-twb"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJ0-2f-khe">
                                 <rect key="frame" x="25" y="70" width="270" height="310"/>
@@ -18435,7 +18443,7 @@ The message on the monitor changes and you read it aloud, “Making emergency la
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kea-UW-soe" customClass="myTextView" customModule="Pilot" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kea-UW-soe">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <attributedString key="attributedText">
@@ -18483,7 +18491,7 @@ The lights in the ship begin to flicker on and off. A static sound emanates thro
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qX4-BB-dfy" customClass="myTextView" customModule="Pilot" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qX4-BB-dfy">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -18660,7 +18668,7 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTc-6f-4Xb" customClass="myTextView" customModule="Pilot" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTc-6f-4Xb">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -19803,7 +19811,7 @@ Do you:
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="U32-uH-FzI"/>
-        <segue reference="UXL-GQ-izu"/>
+        <segue reference="NE5-qU-BcF"/>
         <segue reference="hvB-TT-ury"/>
         <segue reference="mtw-oa-Di5"/>
         <segue reference="W4d-hl-1Gg"/>
@@ -19811,10 +19819,10 @@ Do you:
         <segue reference="7dg-rL-hhO"/>
         <segue reference="h2w-MD-tXx"/>
         <segue reference="jox-Tc-HCZ"/>
-        <segue reference="vUV-Ay-okI"/>
+        <segue reference="dm8-JS-0k1"/>
         <segue reference="Rlm-ND-bdU"/>
         <segue reference="UT2-He-dFh"/>
         <segue reference="ijG-Ma-eQD"/>
-        <segue reference="7r4-c5-k5O"/>
+        <segue reference="PTd-wR-twb"/>
     </inferredMetricsTieBreakers>
 </document>

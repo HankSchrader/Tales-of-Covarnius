@@ -93,10 +93,6 @@ class RaidOnCovarniusPageViewController: GenericPageViewController {
                     self.newVC(viewController: "raid on covarnius 2"),
                     self.newVC(viewController: "raid on covarnius 3"),
                     self.newVC(viewController: "raid on covarnius 3.5")]
-        } else if self.segueID == "Second Best Ending" && ChapterSelectViewController.chapterSelect.isChapterThere(chapterName: Constants.YOU_SAVED_THE_HAPAL) {
-            return [self.newVC(viewController: "Special Ending")]
-        } else if self.segueID == "Second Best Ending" && ChapterSelectViewController.chapterSelect.isChapterThere(chapterName: Constants.YOU_SAVED_THE_HAPAL) == false {
-            return [self.newVC(viewController: "No Special Ending")]
         }
   
         else {

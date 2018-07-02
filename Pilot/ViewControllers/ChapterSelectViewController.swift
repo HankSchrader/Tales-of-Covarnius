@@ -58,8 +58,8 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
         
         let fetchRequest: NSFetchRequest<Chapter> = Chapter.fetchRequest()
         do {
-        let chapters = try PersistanceService.context.fetch(fetchRequest)
-        
+        var chapters = try PersistanceService.context.fetch(fetchRequest)
+        chapters.sort(by: {$0.order < $1.order})
         self.chapters = chapters
 
         self.tableView?.reloadData()
@@ -385,7 +385,7 @@ extension ChapterSelectViewController: UITableViewDataSource, UITableViewDelegat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
         //let cell = tableView.dequeueReusableCell(withIdentifier: "ChapterCell", for: indexPath)
-        chapters.sort(by: {$0.order < $1.order})
+        
         
         cell.imageView?.image = setCellImage(cell: chapters[indexPath.row].name)
         cell.imageView?.layer.cornerRadius = 10.0
@@ -417,7 +417,7 @@ extension ChapterSelectViewController: UITableViewDataSource, UITableViewDelegat
         
     }
     func spaceCells(cells: [UITableViewCell]!) {
-        print("Inseide space cells.")
+        
         for cell in cells{
             cell.contentView.layer.borderColor = UIColor.white.cgColor
             cell.contentView.layer.borderWidth = 4.0

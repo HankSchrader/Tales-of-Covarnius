@@ -23,7 +23,6 @@ class GenericPageViewController: UIPageViewController, UIPageViewControllerDeleg
     var pageControl = UIPageControl()
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(self.tableView)
         
         view.backgroundColor = UIColor.clear
         self.dataSource = self
