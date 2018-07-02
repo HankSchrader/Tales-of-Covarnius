@@ -628,7 +628,7 @@ Just 7 days? That’s not too bad. You breath a small sigh of relief. A week was
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Chrono grins at you, brimming with hope. A weight appears to have been lifted off his shoulders.
+                                        <string key="content">Chrono grins at you, brimming with hope. A weight appears to have been lifted off his shoulders.
 
 “You’ll help me? That’s great! So if you have no further questions, I will engage hypersleep now.” Chrono says glancing in your direction. 
 
@@ -641,7 +641,7 @@ Just 7 days? That’s not too bad. You breath a small sigh of relief. A week was
 Chrono looks down dejectedly. “The ship has been pre-programmed to take us back to Covarnius. I’m not allowed to pilot the ships by myself anymore.” Manual piloting must be a privilege where he is from, you think to yourself.
 
 “Why not?” You ask Chrono. “Did you crash one or something? Just how superior are these aliens anyhow? You begin to wonder. After all, they’re relying on you to save their planet. 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="17" name="Baskerville"/>
@@ -5618,6 +5618,17 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Luna_In_Ship_to_Earth" translatesAutoresizingMaskIntoConstraints="NO" id="v2M-oB-nLj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2RM-7g-Ief">
+                                <rect key="frame" x="16" y="478" width="288" height="30"/>
+                                <state key="normal" title="THE END (BEST ENDING)"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="7r4-c5-k5O"/>
+                                </connections>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3r5-cg-CCk">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5685,13 +5696,6 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2RM-7g-Ief">
-                                <rect key="frame" x="16" y="478" width="288" height="30"/>
-                                <state key="normal" title="THE END (BEST ENDING)"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="7r4-c5-k5O"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -5713,7 +5717,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eUv-Q1-Qsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-22353" y="12296"/>
+            <point key="canvasLocation" x="-22353.75" y="12295.774647887323"/>
         </scene>
         <!--Generic Decision Point View Controller-->
         <scene sceneID="D1y-bZ-M6B">
@@ -5936,17 +5940,24 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chrono Statue" translatesAutoresizingMaskIntoConstraints="NO" id="zNK-Qa-uHD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50D-Wk-uWY">
+                                <rect key="frame" x="16" y="478" width="288" height="30"/>
+                                <state key="normal" title="THE END (BEST ENDING)"/>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wk1-UW-rFQ">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">The celebration starts the next day, and it’s unlike anything that you’ve seen before.  There’s music, dancing, and all sorts of different Covarnian delicacies. King Zanarq gives a speech and personally thanks you for the brave and intelligent plan that you, Chrono, (and Luna) constructed an carried out. 
+                                        <string key="content">The celebration starts the next day, and it’s unlike anything that you’ve seen before.  There’s music, dancing, and all sorts of different Covarnian delicacies. King Zanarq gives a speech and personally thanks you for the brave and intelligent plan that you, Chrono, (and Luna) constructed an carried out. 
 
-Chrono couldn’t be happier. He is finally taken seriously on Covarnius. He is given a position on the official King’s Covarnian Council, where he will work to ensure the safety and happiness of all Covarnians. 
+Chrono couldn’t be happier. He is finally taken seriously on Covarnius. He is given a position on the official King’s Covarnian Council, where he will work to ensure the safety and happiness of all Covarnians. Best of all, a statue was created to memorialize him! 
 
 After the celebration, King Zanarq sends you back home in the most beautiful spaceship you have ever seen. And guess what? You can keep it.
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Times-Roman"/>
@@ -5985,18 +5996,18 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50D-Wk-uWY">
-                                <rect key="frame" x="16" y="478" width="288" height="30"/>
-                                <state key="normal" title="THE END (BEST ENDING)"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="zNK-Qa-uHD" firstAttribute="leading" secondItem="N6F-t3-aeb" secondAttribute="leading" id="Art-8a-eL1"/>
+                            <constraint firstItem="zNK-Qa-uHD" firstAttribute="bottom" secondItem="N6F-t3-aeb" secondAttribute="bottom" id="GMx-sn-ECV"/>
+                            <constraint firstItem="zNK-Qa-uHD" firstAttribute="top" secondItem="euX-W1-2z4" secondAttribute="top" id="H3o-ps-usK"/>
                             <constraint firstItem="N6F-t3-aeb" firstAttribute="trailing" secondItem="wk1-UW-rFQ" secondAttribute="trailing" constant="25" id="L2u-Ss-L2d"/>
                             <constraint firstItem="wk1-UW-rFQ" firstAttribute="leading" secondItem="N6F-t3-aeb" secondAttribute="leading" constant="25" id="Wa7-uh-kTB"/>
                             <constraint firstItem="N6F-t3-aeb" firstAttribute="trailing" secondItem="50D-Wk-uWY" secondAttribute="trailing" constant="16" id="XDm-V9-UiO"/>
                             <constraint firstItem="50D-Wk-uWY" firstAttribute="top" secondItem="wk1-UW-rFQ" secondAttribute="bottom" constant="107" id="hG8-p5-jmQ"/>
                             <constraint firstItem="N6F-t3-aeb" firstAttribute="bottom" secondItem="wk1-UW-rFQ" secondAttribute="bottom" constant="197" id="nLJ-oJ-J0H"/>
+                            <constraint firstItem="zNK-Qa-uHD" firstAttribute="trailing" secondItem="N6F-t3-aeb" secondAttribute="trailing" id="omU-qu-YjS"/>
                             <constraint firstItem="N6F-t3-aeb" firstAttribute="bottom" secondItem="50D-Wk-uWY" secondAttribute="bottom" constant="60" id="vQZ-V7-6e8"/>
                             <constraint firstItem="50D-Wk-uWY" firstAttribute="leading" secondItem="N6F-t3-aeb" secondAttribute="leading" constant="16" id="y2j-ed-bfq"/>
                             <constraint firstItem="wk1-UW-rFQ" firstAttribute="top" secondItem="N6F-t3-aeb" secondAttribute="top" constant="50" id="yKp-Ut-bFA"/>
@@ -6011,7 +6022,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QgF-oX-7sL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-20888" y="13031"/>
+            <point key="canvasLocation" x="-20889.375" y="13030.985915492958"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="JGc-KG-Lvh">
@@ -13833,12 +13844,19 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KayoEnding" translatesAutoresizingMaskIntoConstraints="NO" id="rGi-Qa-6Cy">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdF-5X-Hgn">
+                                <rect key="frame" x="30" y="478" width="260" height="30"/>
+                                <state key="normal" title="THE END"/>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJ0-2f-khe">
                                 <rect key="frame" x="25" y="70" width="270" height="310"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">“Wait!” you cry out, “I just remembered something. Kayo and the Katonians are known for cleaning up after the missing Hapals…”
+                                        <string key="content">“Wait!” you cry out, “I just remembered something. Kayo and the Katonians are known for cleaning up after the missing Hapals…”
 
 “That’s right!” Chrono chimes in, “And Kayo said that if ever needed anything, to let him know!”
 
@@ -13853,7 +13871,7 @@ You exchange a heartfelt goodbye with your new friend Chrono and make your way b
 You helped the Katonians, saved the Covarnians, and got back to Earth in one piece. I’d call that a success. I’d call that an adventure!
 
 
-THE END.</mutableString>
+THE END.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="11" name="HelveticaNeue"/>
@@ -13867,18 +13885,18 @@ THE END.</mutableString>
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdF-5X-Hgn">
-                                <rect key="frame" x="30" y="478" width="260" height="30"/>
-                                <state key="normal" title="THE END"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="rGi-Qa-6Cy" firstAttribute="leading" secondItem="MKX-S6-VY0" secondAttribute="leading" id="3Tc-6x-J8N"/>
                             <constraint firstItem="dJ0-2f-khe" firstAttribute="top" secondItem="MKX-S6-VY0" secondAttribute="top" constant="50" id="8QW-ck-OgT"/>
                             <constraint firstItem="MKX-S6-VY0" firstAttribute="trailing" secondItem="dJ0-2f-khe" secondAttribute="trailing" constant="25" id="Fqr-Ye-Pwx"/>
+                            <constraint firstItem="rGi-Qa-6Cy" firstAttribute="bottom" secondItem="MKX-S6-VY0" secondAttribute="bottom" id="MKP-tN-4sv"/>
+                            <constraint firstItem="rGi-Qa-6Cy" firstAttribute="trailing" secondItem="MKX-S6-VY0" secondAttribute="trailing" id="Qoq-a1-DqQ"/>
                             <constraint firstItem="MKX-S6-VY0" firstAttribute="trailing" secondItem="BdF-5X-Hgn" secondAttribute="trailing" constant="30" id="T5N-fx-ZO5"/>
                             <constraint firstItem="BdF-5X-Hgn" firstAttribute="top" secondItem="dJ0-2f-khe" secondAttribute="bottom" constant="98" id="Tyl-NZ-APK"/>
                             <constraint firstItem="dJ0-2f-khe" firstAttribute="leading" secondItem="MKX-S6-VY0" secondAttribute="leading" constant="25" id="Zyx-yX-NXD"/>
+                            <constraint firstItem="rGi-Qa-6Cy" firstAttribute="top" secondItem="jzC-DO-nle" secondAttribute="top" id="aol-6x-Ef7"/>
                             <constraint firstItem="BdF-5X-Hgn" firstAttribute="leading" secondItem="MKX-S6-VY0" secondAttribute="leading" constant="30" id="c19-Fa-2N5"/>
                             <constraint firstItem="MKX-S6-VY0" firstAttribute="bottom" secondItem="BdF-5X-Hgn" secondAttribute="bottom" constant="60" id="gBl-cq-NXz"/>
                         </constraints>
@@ -13891,7 +13909,7 @@ THE END.</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O5z-ii-sSg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12148" y="10259"/>
+            <point key="canvasLocation" x="12146.25" y="10258.098591549297"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="mip-4c-FOS">
@@ -19769,11 +19787,14 @@ Do you:
         </scene>
     </scenes>
     <resources>
+        <image name="Chrono Statue" width="834" height="1112"/>
         <image name="Chrono_And_Ship" width="834" height="1112"/>
         <image name="Earth" width="834" height="1112"/>
         <image name="GreenFizzTheEnd" width="834" height="1112"/>
         <image name="Hypersleep Control Panel" width="250" height="333"/>
+        <image name="KayoEnding" width="834" height="1112"/>
         <image name="Luna_And_TV" width="500" height="667"/>
+        <image name="Luna_In_Ship_to_Earth" width="834" height="1112"/>
         <image name="Shooting Star" width="834" height="1112"/>
         <image name="Sinisterian Gang" width="834" height="1112"/>
         <image name="Sneezing Sinisterian" width="834" height="1112"/>
@@ -19792,8 +19813,8 @@ Do you:
         <segue reference="jox-Tc-HCZ"/>
         <segue reference="vUV-Ay-okI"/>
         <segue reference="Rlm-ND-bdU"/>
-        <segue reference="KYf-bL-oLj"/>
+        <segue reference="UT2-He-dFh"/>
         <segue reference="ijG-Ma-eQD"/>
-        <segue reference="AIT-DE-6cl"/>
+        <segue reference="7r4-c5-k5O"/>
     </inferredMetricsTieBreakers>
 </document>
