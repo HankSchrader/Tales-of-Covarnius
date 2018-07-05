@@ -1613,7 +1613,7 @@ class ChapterViewController: UIViewController {
             topVC.present(vc, animated: true, completion: nil)
             
         } else{
-            let vc = storyboard.instantiateViewController(withIdentifier: "MainMenu")
+            let vc = storyboard.instantiateViewController(withIdentifier: Constants.MAIN_MENU)
            topVC.present(vc, animated: true, completion: nil)
         }
     }

@@ -13,7 +13,7 @@
         <!--Main Menu-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="MainMenu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main Menu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,16 +96,83 @@
         <scene sceneID="mFr-ct-7jt">
             <objects>
                 <viewController id="cx7-q2-roP" customClass="CreditsViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Yhf-P8-D2T">
+                    <view key="view" clipsSubviews="YES" alpha="0.69999999999999996" contentMode="scaleToFill" id="Yhf-P8-D2T">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visit our site! www.sunnyanchor.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyw-Sl-6sk">
+                                <rect key="frame" x="25" y="441" width="270" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Written By: Sara and Erik MIkac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMK-Pg-dmv">
+                                <rect key="frame" x="25" y="193" width="270" height="21"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed By: Erik MIkac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5r-Jc-Kno">
+                                <rect key="frame" x="25" y="355" width="270" height="21"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Illustrations By: Sara MIkac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c20-lx-VGe">
+                                <rect key="frame" x="25" y="274" width="270" height="21"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xh-on-VPE">
+                                <rect key="frame" x="7" y="42" width="288" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Credits">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="Luminari-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I5r-Jc-Kno" firstAttribute="top" secondItem="c20-lx-VGe" secondAttribute="bottom" constant="60" id="7ky-GB-umQ"/>
+                            <constraint firstItem="Eyw-Sl-6sk" firstAttribute="top" secondItem="I5r-Jc-Kno" secondAttribute="bottom" constant="65" id="83D-c6-d8b"/>
+                            <constraint firstItem="I5r-Jc-Kno" firstAttribute="leading" secondItem="h7b-gp-n4u" secondAttribute="leading" constant="25" id="9I3-sl-HSH"/>
+                            <constraint firstItem="h7b-gp-n4u" firstAttribute="trailing" secondItem="DMK-Pg-dmv" secondAttribute="trailing" constant="25" id="AaC-IN-tIR"/>
+                            <constraint firstItem="DMK-Pg-dmv" firstAttribute="trailing" secondItem="4xh-on-VPE" secondAttribute="trailing" id="IzI-SM-qTX"/>
+                            <constraint firstItem="Eyw-Sl-6sk" firstAttribute="leading" secondItem="h7b-gp-n4u" secondAttribute="leading" constant="25" id="PwA-wY-2W6"/>
+                            <constraint firstItem="4xh-on-VPE" firstAttribute="leading" secondItem="h7b-gp-n4u" secondAttribute="leading" constant="7" id="RZz-Ed-vND"/>
+                            <constraint firstItem="I5r-Jc-Kno" firstAttribute="top" secondItem="c20-lx-VGe" secondAttribute="bottom" constant="60" id="S0m-10-h0n"/>
+                            <constraint firstItem="DMK-Pg-dmv" firstAttribute="top" secondItem="Yhf-P8-D2T" secondAttribute="top" constant="193" id="W63-tc-YlU"/>
+                            <constraint firstItem="h7b-gp-n4u" firstAttribute="trailing" secondItem="c20-lx-VGe" secondAttribute="trailing" constant="25" id="cWp-D8-jJf"/>
+                            <constraint firstItem="c20-lx-VGe" firstAttribute="leading" secondItem="h7b-gp-n4u" secondAttribute="leading" constant="25" id="hle-Ty-xPY"/>
+                            <constraint firstItem="Eyw-Sl-6sk" firstAttribute="top" secondItem="I5r-Jc-Kno" secondAttribute="bottom" constant="65" id="iUY-wX-m2o"/>
+                            <constraint firstItem="DMK-Pg-dmv" firstAttribute="leading" secondItem="h7b-gp-n4u" secondAttribute="leading" constant="25" id="mBf-y9-CZg"/>
+                            <constraint firstItem="h7b-gp-n4u" firstAttribute="trailing" secondItem="I5r-Jc-Kno" secondAttribute="trailing" constant="25" id="mVc-Zo-Ema"/>
+                            <constraint firstItem="4xh-on-VPE" firstAttribute="top" secondItem="h7b-gp-n4u" secondAttribute="top" constant="22" id="tUF-CR-t3O"/>
+                            <constraint firstItem="c20-lx-VGe" firstAttribute="top" secondItem="DMK-Pg-dmv" secondAttribute="bottom" constant="60" id="ur9-Ic-ZI0"/>
+                            <constraint firstItem="h7b-gp-n4u" firstAttribute="trailing" secondItem="Eyw-Sl-6sk" secondAttribute="trailing" constant="25" id="uz9-Aa-KGi"/>
+                            <constraint firstItem="c20-lx-VGe" firstAttribute="top" secondItem="DMK-Pg-dmv" secondAttribute="bottom" constant="60" id="zSj-QY-YBe"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="h7b-gp-n4u"/>
                     </view>
+                    <connections>
+                        <outlet property="developedBy" destination="I5r-Jc-Kno" id="0Bu-dw-Omr"/>
+                        <outlet property="illustrationsBy" destination="c20-lx-VGe" id="Ecp-ay-Q0H"/>
+                        <outlet property="site" destination="Eyw-Sl-6sk" id="UIX-ZG-XZY"/>
+                        <outlet property="writtenBy" destination="DMK-Pg-dmv" id="czm-5j-3vd"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="to menu" id="8jX-R8-t3k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4d-xU-iKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10.4" y="-1087.1064467766118"/>
+            <point key="canvasLocation" x="-11.25" y="-1088.0281690140846"/>
         </scene>
         <!--Chapter Menu-->
         <scene sceneID="UbU-d0-5y0">
@@ -13581,13 +13648,13 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">You dance around on the lawn with Chrono. You did it! The Sinisterians have been stopped. “Let’s go tell King Zanarq!” Chrono says excitedly. “The invasion is over!” 
+                                        <string key="content">You dance around on the lawn with Chrono. You did it! The Sinisterians have been stopped. “Let’s go tell King Zanarq!” Chrono says excitedly. “The invasion is over!” 
 
 Unfortunately, your celebration is stifled by coughing. Luna may have stopped the Sinisterians, but there’s dog fur up to your ankles as far as the eye can see! Not to mention an 80 foot dog carelessly trampling over the homes of everyone, utterly destroying them.
 
 The Sinisterians are defeated…but do you really want to take responsibility for all this damage? You tug nervously on your shirt and shift your feet. Maybe it’d be best to just shrink Luna back to normal and go back to Earth!
 
-Chrono looks at you excitedly and says, “Ready to tell the King?”</mutableString>
+Chrono looks at you excitedly and says, “Ready to tell the King?”</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name="Baskerville"/>
@@ -13850,7 +13917,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">“Wait!” you cry out, “I just remembered something. Kayo and the Katonians are known for cleaning up after messy Hapals…”
+                                        <string key="content">“Wait!” you cry out, “I just remembered something. Kayo and the Katonians are known for cleaning up after messy Hapals…”
 
 “That’s right!” Chrono chimes in, “And Kayo said that if we ever needed anything, to let him know!”
 
@@ -13862,7 +13929,7 @@ After a little finagling, Chrono manages to shrink Luna back down to regular siz
 
 You exchange a heartfelt goodbye with your new friend Chrono and make your way back home to Earth. 
 
-You helped the Katonians, saved the Covarnians, and got back to Earth in one piece. I’d call that a success. I’d call that an adventure!</mutableString>
+You helped the Katonians, saved the Covarnians, and got back to Earth in one piece. I’d call that a success. I’d call that an adventure!</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="11" name="HelveticaNeue"/>
@@ -19806,6 +19873,6 @@ Do you:
         <segue reference="Rlm-ND-bdU"/>
         <segue reference="UT2-He-dFh"/>
         <segue reference="ijG-Ma-eQD"/>
-        <segue reference="PTd-wR-twb"/>
+        <segue reference="8jX-R8-t3k"/>
     </inferredMetricsTieBreakers>
 </document>

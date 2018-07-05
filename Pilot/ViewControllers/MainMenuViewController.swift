@@ -45,7 +45,9 @@ class ViewController: ChapterViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
+        
         if(ChapterSelectViewController.chapterSelect.isChapterThere(chapterName: Constants.MAIN_MENU) == false) {
+            print("This happens")
             ChapterSelectViewController.chapterSelect.saveChapter(ChapterName: Constants.MAIN_MENU, order: -1)
         }
     }
@@ -152,7 +154,10 @@ class ViewController: ChapterViewController {
     }
     
     @IBAction func goToCredits(_ sender: UIButton) {
-        
+        if(ChapterSelectViewController.chapterSelect.isChapterThere(chapterName: Constants.MAIN_MENU) == false) {
+            
+            ChapterSelectViewController.chapterSelect.saveChapter(ChapterName: Constants.MAIN_MENU, order: -1)
+        }
         MusicHelper.sharedHelper.fadeOutBackgroundMusic(resource: Constants.MAIN_MENU_SONG,fadeDuration: Constants.STANDARD_FADE_TIME)
         performSegue(withIdentifier: "toCredits", sender: self)
         

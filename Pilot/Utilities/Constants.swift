@@ -34,7 +34,6 @@ struct Constants {
     static let KATONIAN_DESERT_PIC = "Desert.png"
     static let SHOOTING_STAR_PIC =  "Shooting Star.png"
     static let WOODEN_BACKGROUND_PIC = "WoodBackground.png"
-    static let CLOUDS_PIC = "Clouds.png"
     static let EMPTY_SIDEWALK_PIC = "Empty_Sidewalk.png"
     static let GREEN_FIZZ_PIC = "GreenFizzTheEnd.png"
     static let KATONIAN_SUNSET_PIC = "Katonian_Sunset.png"

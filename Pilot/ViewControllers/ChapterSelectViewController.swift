@@ -293,7 +293,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
             vcToPresent?.previousRID = Constants.THE_TWO_DIPLOMATS
             
         default:
-            let mainMenu = storyboard.instantiateViewController(withIdentifier: "MainMenu")
+            let mainMenu = storyboard.instantiateViewController(withIdentifier: Constants.MAIN_MENU)
             present(mainMenu, animated: true, completion: nil)
             
             return nil
@@ -395,12 +395,7 @@ extension ChapterSelectViewController: UITableViewDataSource, UITableViewDelegat
         cell.imageView?.image = setCellImage(cell: chapters[indexPath.row].name)
         
         cell.imageView?.layer.masksToBounds = true
-        if indexPath.row % 2 == 0{
-             cell.backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
-        } else {
-             cell.backgroundColor = UIColor.orange.withAlphaComponent(0.5)
-    }
-       
+     
         cell.textLabel?.text = chapters[indexPath.row].name
        
         return cell
