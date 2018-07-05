@@ -99,21 +99,7 @@
                     <view key="view" contentMode="scaleToFill" id="Yhf-P8-D2T">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Written By:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhs-DQ-sHU">
-                                <rect key="frame" x="32" y="125" width="256" height="43"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Nhs-DQ-sHU" firstAttribute="leading" secondItem="h7b-gp-n4u" secondAttribute="leading" constant="32" id="a98-vj-Pgc"/>
-                            <constraint firstItem="h7b-gp-n4u" firstAttribute="trailing" secondItem="Nhs-DQ-sHU" secondAttribute="trailing" constant="32" id="g4C-w8-jvW"/>
-                            <constraint firstItem="Nhs-DQ-sHU" firstAttribute="top" secondItem="h7b-gp-n4u" secondAttribute="top" constant="105" id="nsn-IW-uuf"/>
-                            <constraint firstItem="h7b-gp-n4u" firstAttribute="bottom" secondItem="Nhs-DQ-sHU" secondAttribute="bottom" constant="400" id="uZv-mi-dz9"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="h7b-gp-n4u"/>
                     </view>
                 </viewController>
@@ -13617,7 +13603,7 @@ Chrono looks at you excitedly and says, “Ready to tell the King?”</mutableSt
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtQ-zn-mIt">
                                 <rect key="frame" x="25" y="407" width="270" height="30"/>
-                                <state key="normal" title="Tell King Zanarq the good news"/>
+                                <state key="normal" title="Tell King Zanarq the good news."/>
                                 <connections>
                                     <segue destination="amq-0H-d2h" kind="show" identifier="Tell King Good News" id="NE5-qU-BcF"/>
                                 </connections>
@@ -13657,7 +13643,7 @@ Chrono looks at you excitedly and says, “Ready to tell the King?”</mutableSt
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6eF-3u-3Yv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10631" y="10254"/>
+            <point key="canvasLocation" x="10543" y="10254"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="gvU-yz-x4z">
@@ -13839,7 +13825,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Seq-bi-4U8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11385" y="10253.87323943662"/>
+            <point key="canvasLocation" x="11205" y="10257"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="dqn-OU-UMq">
@@ -13864,9 +13850,9 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Wait!” you cry out, “I just remembered something. Kayo and the Katonians are known for cleaning up after the missing Hapals…”
+                                        <mutableString key="content">“Wait!” you cry out, “I just remembered something. Kayo and the Katonians are known for cleaning up after messy Hapals…”
 
-“That’s right!” Chrono chimes in, “And Kayo said that if ever needed anything, to let him know!”
+“That’s right!” Chrono chimes in, “And Kayo said that if we ever needed anything, to let him know!”
 
 After a quick call, a fleet of cowboys quickly come and begin to clean up after Luna. 
 
@@ -13876,10 +13862,7 @@ After a little finagling, Chrono manages to shrink Luna back down to regular siz
 
 You exchange a heartfelt goodbye with your new friend Chrono and make your way back home to Earth. 
 
-You helped the Katonians, saved the Covarnians, and got back to Earth in one piece. I’d call that a success. I’d call that an adventure!
-
-
-THE END.</string>
+You helped the Katonians, saved the Covarnians, and got back to Earth in one piece. I’d call that a success. I’d call that an adventure!</mutableString>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="11" name="HelveticaNeue"/>
@@ -13917,7 +13900,7 @@ THE END.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O5z-ii-sSg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12146.25" y="10258.098591549297"/>
+            <point key="canvasLocation" x="11873" y="10253"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="mip-4c-FOS">

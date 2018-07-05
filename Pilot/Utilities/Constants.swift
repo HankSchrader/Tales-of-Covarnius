@@ -10,6 +10,7 @@ import Foundation
 struct Constants {
     
     //chapter names
+    static let MAIN_MENU = "Main Menu"
     static let INTRO = "Introduction"
     static let ONTO_COVARNIUS = "Onto Covarnius"
     static let YOU_LET_THE_HAPAL_DOWN = "You Let The Hapal Down..."

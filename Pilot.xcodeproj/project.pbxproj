@@ -41,7 +41,6 @@
 		53A5FAE820692050008304F9 /* GenericButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A5FAE720692050008304F9 /* GenericButton.swift */; };
 		53A973742044A65D00ED4D9D /* MainMenuSong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53A973732044A65D00ED4D9D /* MainMenuSong.wav */; };
 		53B3C6B220D8618700E4BAE7 /* ChapterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B3C6B120D8618700E4BAE7 /* ChapterViewControllerDelegate.swift */; };
-		53B3C6B420D861FD00E4BAE7 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B3C6B320D861FD00E4BAE7 /* ContainerViewController.swift */; };
 		53C647D220653BD1000F08D5 /* GenericDecisionPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C647D120653BD1000F08D5 /* GenericDecisionPointViewController.swift */; };
 		53ED4E6D2063FA42005A271E /* RiseAndShinePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ED4E6C2063FA41005A271E /* RiseAndShinePageViewController.swift */; };
 		53F0959D2046D47E002880D1 /* Chapter2PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F0959C2046D47E002880D1 /* Chapter2PageViewController.swift */; };
@@ -105,7 +104,6 @@
 		53A5FAE720692050008304F9 /* GenericButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericButton.swift; sourceTree = "<group>"; };
 		53A973732044A65D00ED4D9D /* MainMenuSong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MainMenuSong.wav; sourceTree = "<group>"; };
 		53B3C6B120D8618700E4BAE7 /* ChapterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewControllerDelegate.swift; sourceTree = "<group>"; };
-		53B3C6B320D861FD00E4BAE7 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		53C647D120653BD1000F08D5 /* GenericDecisionPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDecisionPointViewController.swift; sourceTree = "<group>"; };
 		53ED4E6C2063FA41005A271E /* RiseAndShinePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiseAndShinePageViewController.swift; sourceTree = "<group>"; };
 		53F0959C2046D47E002880D1 /* Chapter2PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2PageViewController.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 				53796AFB205B331B00C6B7F8 /* ChapterViewController.swift */,
 				53C647D120653BD1000F08D5 /* GenericDecisionPointViewController.swift */,
 				5350C779207A755400DE771A /* CreditsViewController.swift */,
-				53B3C6B320D861FD00E4BAE7 /* ContainerViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -420,7 +417,6 @@
 				5317FA9920499BD400CC30EE /* ChapterSelectViewController.swift in Sources */,
 				5365E3CC205EB87D009E481F /* RandomHapalStancePageViewController.swift in Sources */,
 				53ED4E6D2063FA42005A271E /* RiseAndShinePageViewController.swift in Sources */,
-				53B3C6B420D861FD00E4BAE7 /* ContainerViewController.swift in Sources */,
 				5365E3C8205E8BA9009E481F /* BackAtTheRanchPageViewController.swift in Sources */,
 				5365E3DE20602120009E481F /* SneakOntoShipPageViewController.swift in Sources */,
 				53C647D220653BD1000F08D5 /* GenericDecisionPointViewController.swift in Sources */,

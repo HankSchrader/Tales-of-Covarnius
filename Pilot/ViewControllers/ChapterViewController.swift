@@ -726,6 +726,7 @@ class ChapterViewController: UIViewController {
             UIControlEvents.touchUpInside)
         
     }
+    
 
     @objc func handleMore(sender: UIButton?)  {
         ChapterViewController.chapterSelectLauncher.showChapters(sender: sender)

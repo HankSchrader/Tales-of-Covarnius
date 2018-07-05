@@ -23,6 +23,7 @@ class ViewController: ChapterViewController {
         createBeginButton()
         createDeleteButton()
         createCreditsButton()
+
         
         MusicHelper.sharedHelper.initiateBackgroundMusic(resource: Constants.MAIN_MENU_SONG, numberOfLoops: 3)
        
@@ -44,7 +45,9 @@ class ViewController: ChapterViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        self.navigationController?.isNavigationBarHidden = true
+        if(ChapterSelectViewController.chapterSelect.isChapterThere(chapterName: Constants.MAIN_MENU) == false) {
+            ChapterSelectViewController.chapterSelect.saveChapter(ChapterName: Constants.MAIN_MENU, order: -1)
+        }
     }
    
     

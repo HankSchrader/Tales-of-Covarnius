@@ -20,6 +20,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
     
     func topMostController() -> UIViewController {
         var topController: UIViewController = UIApplication.shared.keyWindow!.rootViewController!
+      
         while (topController.presentedViewController != nil) {
             topController = topController.presentedViewController!
         }
@@ -39,10 +40,15 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
     }()
     func loadChapters() {
         let fetchRequest: NSFetchRequest<Chapter> = Chapter.fetchRequest()
+        
         do {
             let chapters = try PersistanceService.context.fetch(fetchRequest)
             self.chapters = chapters
+            self.chapters.sort(by: {$0.order < $1.order})
+      
+      
             self.tableView?.reloadData()
+
             spaceCells(cells: tableView?.visibleCells)
             
         } catch
@@ -58,8 +64,8 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
         
         let fetchRequest: NSFetchRequest<Chapter> = Chapter.fetchRequest()
         do {
-        var chapters = try PersistanceService.context.fetch(fetchRequest)
-        chapters.sort(by: {$0.order < $1.order})
+        let chapters = try PersistanceService.context.fetch(fetchRequest)
+        
         self.chapters = chapters
 
         self.tableView?.reloadData()
@@ -382,14 +388,19 @@ extension ChapterSelectViewController: UITableViewDataSource, UITableViewDelegat
     }
     
     
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
-        //let cell = tableView.dequeueReusableCell(withIdentifier: "ChapterCell", for: indexPath)
-        
         
         cell.imageView?.image = setCellImage(cell: chapters[indexPath.row].name)
-        cell.imageView?.layer.cornerRadius = 10.0
+        
         cell.imageView?.layer.masksToBounds = true
+        if indexPath.row % 2 == 0{
+             cell.backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
+        } else {
+             cell.backgroundColor = UIColor.orange.withAlphaComponent(0.5)
+    }
+       
         cell.textLabel?.text = chapters[indexPath.row].name
        
         return cell
@@ -409,31 +420,28 @@ extension ChapterSelectViewController: UITableViewDataSource, UITableViewDelegat
         let cell = chapters[indexPath.row].name
        
         let topVC = topMostController()
-        
-        let vcToPresent = goToPageView(cell: cell!)
-        
-        topVC.present(vcToPresent!, animated: true, completion: nil)
-        handleDismiss(self)
-        
+        if(cell != Constants.MAIN_MENU) {
+            let vcToPresent = goToPageView(cell: cell!)
+            
+            topVC.present(vcToPresent!, animated: true, completion: nil)
+            handleDismiss(self)
+            
+        } else {
+            let presentMainMenu = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: Constants.MAIN_MENU)
+            topVC.present(presentMainMenu, animated: true, completion: nil)
+            handleDismiss(self)
+        }
     }
+    
     func spaceCells(cells: [UITableViewCell]!) {
         
         for cell in cells{
             cell.contentView.layer.borderColor = UIColor.white.cgColor
-            cell.contentView.layer.borderWidth = 4.0
+            cell.contentView.layer.cornerRadius = 5.0
+            cell.contentView.layer.borderWidth = 3.0
            
         }
     }
-    
-    func tableViewSetup() {
-        tableView?.rowHeight = UITableViewAutomaticDimension
-        tableView?.estimatedRowHeight = 350
-        
-        // NOTE: - Registering the cell programmatically
-        tableView?.register(UITableViewCell.self, forCellReuseIdentifier: "ChapterCell")
-    }
-    
-
 }
 
 

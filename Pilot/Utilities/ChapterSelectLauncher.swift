@@ -9,18 +9,23 @@
 import UIKit
 class ChapterSelectLauncher: UIViewController {
     let blackView = UIView()
+
+        
+    
     let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
     let collectionView: UICollectionView = {
         let cv = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
-        cv.backgroundColor = UIColor.white
+    
+        cv.backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
+        cv.isSpringLoaded = false
         return cv
     }()
+ 
     @objc func showChapters(sender: UIButton?)  {
         
         if let window = UIApplication.shared.keyWindow {
             
             blackView.backgroundColor = UIColor(white: 0, alpha: 0.5)
-            
             window.layer.shadowRadius = 2
             window.layer.shadowOpacity = 0.5
             window.addSubview(blackView)
@@ -63,20 +68,15 @@ class ChapterSelectLauncher: UIViewController {
         })
     }
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
-    }
-    
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> Int {
-        let cell = 7
-        return cell
-    }
-
-
-    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
 
+}
+
+extension UIColor {
+
+    
+   
 }
