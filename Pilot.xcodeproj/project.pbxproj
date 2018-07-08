@@ -25,6 +25,7 @@
 		5365E3DE20602120009E481F /* SneakOntoShipPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3DD20602120009E481F /* SneakOntoShipPageViewController.swift */; };
 		5365E3E020614227009E481F /* TheTwoDiplomatsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3DF20614227009E481F /* TheTwoDiplomatsPageViewController.swift */; };
 		5365E3E420628DC8009E481F /* RaidOnCovarniusPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3E320628DC8009E481F /* RaidOnCovarniusPageViewController.swift */; };
+		536D8E1A20F24EE900EFF639 /* ArrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536D8E1920F24EE900EFF639 /* ArrowViewController.swift */; };
 		53796AFA205B28F500C6B7F8 /* GenericPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53796AF9205B28F500C6B7F8 /* GenericPageViewController.swift */; };
 		53796AFC205B331B00C6B7F8 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53796AFB205B331B00C6B7F8 /* ChapterViewController.swift */; };
 		5387E8A620EEB2D300C9AC41 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5387E8A520EEB2D300C9AC41 /* IAPHelper.swift */; };
@@ -83,6 +84,7 @@
 		5365E3DD20602120009E481F /* SneakOntoShipPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakOntoShipPageViewController.swift; sourceTree = "<group>"; };
 		5365E3DF20614227009E481F /* TheTwoDiplomatsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTwoDiplomatsPageViewController.swift; sourceTree = "<group>"; };
 		5365E3E320628DC8009E481F /* RaidOnCovarniusPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidOnCovarniusPageViewController.swift; sourceTree = "<group>"; };
+		536D8E1920F24EE900EFF639 /* ArrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowViewController.swift; sourceTree = "<group>"; };
 		53796AF9205B28F500C6B7F8 /* GenericPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPageViewController.swift; sourceTree = "<group>"; };
 		53796AFB205B331B00C6B7F8 /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
 		5387E8A520EEB2D300C9AC41 /* IAPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				53796AFB205B331B00C6B7F8 /* ChapterViewController.swift */,
 				53C647D120653BD1000F08D5 /* GenericDecisionPointViewController.swift */,
 				5350C779207A755400DE771A /* CreditsViewController.swift */,
+				536D8E1920F24EE900EFF639 /* ArrowViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				5365E3DE20602120009E481F /* SneakOntoShipPageViewController.swift in Sources */,
 				53C647D220653BD1000F08D5 /* GenericDecisionPointViewController.swift in Sources */,
 				5350C77A207A755400DE771A /* CreditsViewController.swift in Sources */,
+				536D8E1A20F24EE900EFF639 /* ArrowViewController.swift in Sources */,
 				5365E3D6205EFEE0009E481F /* Chapter5PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
