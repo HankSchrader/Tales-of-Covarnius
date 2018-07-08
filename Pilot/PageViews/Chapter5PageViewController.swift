@@ -20,7 +20,8 @@ class Chapter5PageViewController: GenericPageViewController {
             switch segue {
             case "Fake Scientist"?:
                 setImage(image: Constants.KING_ZANARQ_PIC)
-                return [self.newVC(viewController: "The Jig Is Up"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "The Jig Is Up"),
                         self.newVC(viewController: "Chapter 5 1"),
                         self.newVC(viewController: "Chapter 5 1.5"),
                         self.newVC(viewController: "Chapter 5 brefore2"),
@@ -28,7 +29,7 @@ class Chapter5PageViewController: GenericPageViewController {
             case "never give up"?:
           
                 setImage(image: Constants.CHRONO_AND_SHIP_PIC)
-                return [
+                return [self.newVC(viewController: "Image"),
                     self.newVC(viewController: "never give up"),
                     self.newVC(viewController: "Chapter 5 3"),
                     self.newVC(viewController: "Chapter 5 4"),
@@ -39,7 +40,7 @@ class Chapter5PageViewController: GenericPageViewController {
             case "we tried"?:
      
                 setImage(image: Constants.CHRONO_AND_SHIP_PIC)
-                return [
+                return [self.newVC(viewController: "Image"),
                     self.newVC(viewController: "almost give up"),
                     self.newVC(viewController: "Chapter 5 6"),
                     self.newVC(viewController: "Chapter 5 before7"),
@@ -49,7 +50,7 @@ class Chapter5PageViewController: GenericPageViewController {
             case "great plan"?:
 
               setImage(image: Constants.AMBASSADOR_OR_SNEAK)
-                return [
+                return [self.newVC(viewController: "Image"),
                     self.newVC(viewController: "Chapter 5 6"),
                     self.newVC(viewController: "Chapter 5 before7"),
                     self.newVC(viewController: "Chapter 5 7")
@@ -58,7 +59,8 @@ class Chapter5PageViewController: GenericPageViewController {
                 
             default:
                 setImage(image: Constants.KING_ZANARQ_PIC)
-                return [self.newVC(viewController: "Chapter 5 1"),
+                return [self.newVC(viewController: "Image"),
+                    self.newVC(viewController: "Chapter 5 1"),
                         self.newVC(viewController: "Chapter 5 1.5"),
                         self.newVC(viewController: "Chapter 5 brefore2"),
                 self.newVC(viewController: "Chapter 5 2")]

@@ -34,11 +34,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXB-1E-p2b">
-                                <rect key="frame" x="16" y="89" width="288" height="29"/>
+                                <rect key="frame" x="16" y="89" width="288" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="35e-bV-da6"/>
+                                </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="COVARNIUS">
+                                    <fragment content="Covarnius">
                                         <attributes>
-                                            <font key="NSFont" size="24" name="Luminari-Regular"/>
+                                            <font key="NSFont" size="36" name="Luminari-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -50,16 +53,15 @@
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Qod-vC-UoE" secondAttribute="bottom" id="6Wa-jE-Nvh"/>
-                            <constraint firstItem="sXB-1E-p2b" firstAttribute="top" secondItem="DH5-4b-1cb" secondAttribute="bottom" constant="16" id="JE4-4i-eJA"/>
+                            <constraint firstItem="sXB-1E-p2b" firstAttribute="trailing" secondItem="DH5-4b-1cb" secondAttribute="trailing" id="9vh-nz-T8a"/>
+                            <constraint firstItem="sXB-1E-p2b" firstAttribute="leading" secondItem="DH5-4b-1cb" secondAttribute="leading" id="HIg-Yh-IY9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DH5-4b-1cb" secondAttribute="trailing" constant="16" id="LhW-3z-eHN"/>
+                            <constraint firstItem="sXB-1E-p2b" firstAttribute="top" secondItem="DH5-4b-1cb" secondAttribute="bottom" constant="16" id="MBw-bv-dfX"/>
                             <constraint firstItem="DH5-4b-1cb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="NbJ-ki-vUf"/>
-                            <constraint firstItem="sXB-1E-p2b" firstAttribute="centerX" secondItem="Qod-vC-UoE" secondAttribute="centerX" id="PnA-ZM-q9h"/>
                             <constraint firstItem="Qod-vC-UoE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UmA-lk-txZ"/>
                             <constraint firstItem="Qod-vC-UoE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Umn-pe-7oA"/>
                             <constraint firstItem="DH5-4b-1cb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WSl-p9-ya9"/>
                             <constraint firstItem="Qod-vC-UoE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="d6Q-SO-RIn"/>
-                            <constraint firstItem="sXB-1E-p2b" firstAttribute="leading" secondItem="DH5-4b-1cb" secondAttribute="leading" id="vje-jQ-i5X"/>
-                            <constraint firstItem="sXB-1E-p2b" firstAttribute="trailing" secondItem="DH5-4b-1cb" secondAttribute="trailing" id="xih-CQ-y1N"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -81,7 +83,7 @@
         <!--Chapter View Controller-->
         <scene sceneID="yVg-IS-Jwq">
             <objects>
-                <viewController storyboardIdentifier="Sidewalk Image" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MoQ-Y2-CoM" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Image" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MoQ-Y2-CoM" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dvD-a7-3Dh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,20 +108,20 @@
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Written By: Sara and Erik MIkac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMK-Pg-dmv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Written By: Sara Mikac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMK-Pg-dmv">
                                 <rect key="frame" x="25" y="193" width="270" height="21"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed By: Erik MIkac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5r-Jc-Kno">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed By: Erik Mikac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5r-Jc-Kno">
                                 <rect key="frame" x="25" y="355" width="270" height="21"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Illustrations By: Sara MIkac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c20-lx-VGe">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Illustrations By: Sara Mikac" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c20-lx-VGe">
                                 <rect key="frame" x="25" y="274" width="270" height="21"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

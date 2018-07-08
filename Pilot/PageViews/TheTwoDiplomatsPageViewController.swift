@@ -17,31 +17,37 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
                 
             case "sensitive mission"?:
                  setImage(image: Constants.TAKE_KEY_PIC)
-                return [self.newVC(viewController: "two diplomats 1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "two diplomats 1"),
                         self.newVC(viewController: "two diplomats 2")]
             case "The Two Diplomats"?:
                 setImage(image: Constants.TAKE_KEY_PIC)
-                return [self.newVC(viewController: "two diplomats 1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "two diplomats 1"),
                         self.newVC(viewController: "two diplomats 2")]
             case "don't mess with him"?:
                 setImage(image: Constants.TAKE_KEY_PIC)
-                return [self.newVC(viewController: "two diplomats 1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "two diplomats 1"),
                         self.newVC(viewController: "two diplomats 2")]
             case "take key"?:
                 removeImage(image:  Constants.TAKE_KEY_PIC)
                 setImage(image: Constants.KORGLE_PIC)
-                return [self.newVC(viewController: "took the key"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "took the key"),
                         self.newVC(viewController: "two diplomats 3"),
                         self.newVC(viewController: "two diplomats 4")]
             case "too risky"?:
                 removeImage(image:  Constants.TAKE_KEY_PIC)
                 setImage(image: Constants.KORGLE_PIC)
-                return [self.newVC(viewController: "no key taken"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "no key taken"),
                         self.newVC(viewController: "two diplomats 3"),
                         self.newVC(viewController: "two diplomats 4")]
             case "anti-gravity"?:
                 setImage(image: Constants.KORGLE_PIC)
-                return [self.newVC(viewController: "two diplomats 6"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "two diplomats 6"),
                         self.newVC(viewController: "two diplomats 7"),
                         self.newVC(viewController: "two diplomats 8"),
                         self.newVC(viewController: "two diplomats 9"),
@@ -53,7 +59,8 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
             case "clog"?:
                 removeImage(image:  Constants.KORGLE_PIC)
                 setImage(image: Constants.CLOG_TOILET_PIC)
-                return [self.newVC(viewController: "clog 1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "clog 1"),
                         self.newVC(viewController: "clog 2"),
                         self.newVC(viewController: "clog 3"),
                         self.newVC(viewController: "clog 4")]
@@ -61,17 +68,20 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
             case "go back to toilet"?:
                 removeImage(image:  Constants.KORGLE_PIC)
                 setImage(image: Constants.CLOG_TOILET_PIC)
-                return [self.newVC(viewController: "clog 1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "clog 1"),
                         self.newVC(viewController: "clog 2"),
                         self.newVC(viewController: "clog 3"),
                         self.newVC(viewController: "clog 4")]
             case "failed diversion"?:
                 setImage(image: Constants.SINISTERIAN_GUARDS_PIC)
-                return [self.newVC(viewController: "failed distraction 1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "failed distraction 1"),
                         self.newVC(viewController: "failed distraction 2")]
             default:
                 setImage(image: Constants.TAKE_KEY_PIC)
-                return [self.newVC(viewController: "two diplomats 1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "two diplomats 1"),
                         self.newVC(viewController: "two diplomats 2")]
                 
             }

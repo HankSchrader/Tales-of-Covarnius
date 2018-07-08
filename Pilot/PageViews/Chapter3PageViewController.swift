@@ -19,14 +19,16 @@ class Chapter3PageViewController:  GenericPageViewController{
         self.orderedViewControllers =  {
            
             if self.segueID == "Dissect" {
-                return [self.newVC(viewController: "chap3_0"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "chap3_0"),
                         self.newVC(viewController: "chap3_0.5"),
                         self.newVC(viewController: "chap3_1"),
                         self.newVC(viewController: "chap3_2"),
                         self.newVC(viewController: "chap3_2.5"),
                         self.newVC(viewController: "chap3_3")]
             } else {
-                return [self.newVC(viewController: "chap3_1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "chap3_1"),
                         self.newVC(viewController: "chap3_2"),
                         self.newVC(viewController: "chap3_2.5"),
                         self.newVC(viewController: "chap3_3")]

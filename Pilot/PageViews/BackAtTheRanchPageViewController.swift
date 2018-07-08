@@ -15,8 +15,9 @@ class BackAtTheRanchPageViewController: GenericPageViewController  {
         self.orderedViewControllers =  {
             if self.segueID == "run" {
                 //Katonian Standing next to the ship.
-                return [self.newVC(viewController: "at_the_ranch_run_choice_part_1"),
-                                        self.newVC(viewController: "at_the_ranch_run_choice_part_1.5"),
+                return [self.newVC(self.newVC(viewController: "Image"),
+                        viewController: "at_the_ranch_run_choice_part_1"),
+                        self.newVC(viewController: "at_the_ranch_run_choice_part_1.5"),
                         self.newVC(viewController: "at_the_ranch_run_choice_part_2"),
                        
                         self.newVC(viewController: "at_the_ranch_2"),
@@ -26,7 +27,8 @@ class BackAtTheRanchPageViewController: GenericPageViewController  {
             } else {
                 
                 
-                return [self.newVC(viewController: "at_the_ranch_1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "at_the_ranch_1"),
                         self.newVC(viewController: "at_the_ranch_2"),
                         self.newVC(viewController: "at_the_ranch_2.5"),
                         self.newVC(viewController: "at_the_ranch_3"),

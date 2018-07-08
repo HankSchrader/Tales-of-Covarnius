@@ -14,7 +14,8 @@ class RiseAndShinePageViewController: GenericPageViewController {
         setImage(image: Constants.SLEEPING_SINISTERIANS)
         if(self.segueID == "Use Key") {
         
-            return [self.newVC(viewController: "yet another distraction"),
+            return [self.newVC(viewController: "Image"),
+                    self.newVC(viewController: "yet another distraction"),
                     self.newVC(viewController: "yet another distraction 2"),
                     self.newVC(viewController: "yet another distraction 3"),
                     self.newVC(viewController: "rise and shine 4"),
@@ -29,7 +30,8 @@ class RiseAndShinePageViewController: GenericPageViewController {
         } else
         
         {
-        return [self.newVC(viewController: "rise and shine 1"),
+        return [ self.newVC(viewController: "Image"),
+                    self.newVC(viewController: "rise and shine 1"),
                     self.newVC(viewController: "rise and shine 2"),
                     self.newVC(viewController: "rise and shine 3"),
                     self.newVC(viewController: "rise and shine 4"),

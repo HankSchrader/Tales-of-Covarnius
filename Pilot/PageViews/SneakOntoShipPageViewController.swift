@@ -17,7 +17,8 @@ class SneakOntoShipPageViewController: GenericPageViewController {
             switch segue {
             case "continue as planned"?:
                  setImage(image: Constants.PARKING_LOT_PIC)
-                return [ self.newVC(viewController: "Chapter 6 2 Sneak Arc"),
+                return [   self.newVC(viewController: "Image"),
+                         self.newVC(viewController: "Chapter 6 2 Sneak Arc"),
                          self.newVC(viewController: "Chapter 6 3 Sneak Arc"),
                          self.newVC(viewController: "Chapter 6 4 Sneak Arc"),
                          self.newVC(viewController: "Chapter 6 5 Sneak Arc"),
@@ -27,12 +28,13 @@ class SneakOntoShipPageViewController: GenericPageViewController {
                 
             case "sneak arc"?:
                     setImage(image: Constants.LUNA_AND_AMBASSADOR_PIC)
-                    return [self.newVC(viewController: "Chapter 6 1 Sneak Arc"),
+                    return [self.newVC(viewController: "Image"),
+                            self.newVC(viewController: "Chapter 6 1 Sneak Arc"),
                             self.newVC(viewController: "Chapter 6 1.5 Sneak Arc")]
         
             case "Luna Stays"?:
                 setImage(image: Constants.BRIG_PIC)
-                return [
+                return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "keepLunaGetSentToPrison"),
                         self.newVC(viewController: "Chapter 6 6 Sneak Arc"),
                         self.newVC(viewController: "Chapter 6 6.5 Sneak Arc"),
@@ -41,7 +43,8 @@ class SneakOntoShipPageViewController: GenericPageViewController {
                 ]
             default:
                 setImage(image: Constants.LUNA_AND_AMBASSADOR_PIC)
-                return [self.newVC(viewController: "Chapter 6 1 Sneak Arc"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "Chapter 6 1 Sneak Arc"),
                         self.newVC(viewController: "Chapter 6 1.5 Sneak Arc"),
                      ]
   

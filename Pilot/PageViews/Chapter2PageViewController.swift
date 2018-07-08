@@ -20,6 +20,7 @@ class Chapter2PageViewController: GenericPageViewController{
             if self.segueID == "Whats In The Sky" {
                 setImage(image: Constants.CHRONO_LANDS_PIC)
                 return [
+                    self.newVC(viewController: "Image"),
                     self.newVC(viewController: "chap2_1"),
                     self.newVC(viewController: "chap2_2"),
                     self.newVC(viewController: "chap2_3"),
@@ -27,6 +28,7 @@ class Chapter2PageViewController: GenericPageViewController{
             } else {
                 setImage(image: Constants.LUNA_PIC)
                 return [
+                    self.newVC(viewController: "Image"),
                     self.newVC(viewController: "chap2_0"),
                         self.newVC(viewController: "chap2_2"),
                         self.newVC(viewController: "chap2_3"),

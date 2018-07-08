@@ -17,20 +17,23 @@ class Chapter4PageViewController: GenericPageViewController {
             if self.segueID == "keep going" || self.previousRID == Constants.EARTHS_GREATEST_SCIENTIST {
                 //MARK: Picture of King Zanarq.
                setImage(image: Constants.LUNA_IN_SHIP_PIC)
-                return [self.newVC(viewController: "chap4_1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "chap4_1"),
                         self.newVC(viewController: "chap4_2"),
                         self.newVC(viewController: "chap4_3"),
                         self.newVC(viewController: "chap4_4")]
             } else if self.previousRID == Constants.YOU_LET_THE_HAPAL_DOWN || self.segueID == "You Didn't Help The Hapal" {
                 setImage(image: Constants.KING_ZANARQ_PIC)
-                return [self.newVC(viewController: "Let Hapal Down"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "Let Hapal Down"),
                         self.newVC(viewController: "Let Hapal Down 2"),
                         self.newVC(viewController: "chap4_3"),
                         self.newVC(viewController: "chap4_4")]
             } else if self.previousRID == Constants.YOU_SAVED_THE_HAPAL || self.segueID == "Help The Hapal" {
                 
                 setImage(image: Constants.BABY_HAPAL_PIC)
-                return [self.newVC(viewController: "Hapal Rescue 1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "Hapal Rescue 1"),
                         self.newVC(viewController: "Hapal Rescue 2"),
                         self.newVC(viewController: "Hapal Rescue 3"),
                         self.newVC(viewController: "Hapal Rescue 4"),
@@ -39,7 +42,8 @@ class Chapter4PageViewController: GenericPageViewController {
             }
             else {
                 setImage(image:Constants.CRASH_LAND_ON_KATONIA_PIC)
-                return [self.newVC(viewController: "katonian_1"),
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "katonian_1"),
                         self.newVC(viewController: "katonian_1.5"),
                         self.newVC(viewController: "katonian_2"),
                         self.newVC(viewController: "katonian_2.5"),
