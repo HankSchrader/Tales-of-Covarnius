@@ -30,7 +30,7 @@ class Chapter5PageViewController: GenericPageViewController {
           
                 setImage(image: Constants.CHRONO_AND_SHIP_PIC)
                 return [self.newVC(viewController: "Image"),
-                    self.newVC(viewController: "never give up"),
+                    
                     self.newVC(viewController: "Chapter 5 3"),
                     self.newVC(viewController: "Chapter 5 4"),
                     self.newVC(viewController: "Chapter 5 4.5"),
@@ -40,7 +40,7 @@ class Chapter5PageViewController: GenericPageViewController {
             case "we tried"?:
      
                 setImage(image: Constants.CHRONO_AND_SHIP_PIC)
-                return [self.newVC(viewController: "Image"),
+                return [
                     self.newVC(viewController: "almost give up"),
                     self.newVC(viewController: "Chapter 5 6"),
                     self.newVC(viewController: "Chapter 5 before7"),

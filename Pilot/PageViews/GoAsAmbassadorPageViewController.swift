@@ -64,7 +64,7 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                         self.newVC(viewController: "council chamber sneak 1.5"),
                         self.newVC(viewController: "Chrono knows the layout")]
             case "stinky meat"?:
-                setImage(image: Constants.SINISTERIAN_SHIP_PIC)
+                setImage(image: Constants.PARKING_LOT_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "Phase One Complete"),
                         self.newVC(viewController: "Chapter 6 3 Ambassador"),

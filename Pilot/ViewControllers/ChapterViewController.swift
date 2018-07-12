@@ -69,7 +69,8 @@ class ChapterViewController: UIViewController {
         self.hapalRescue3TextBox?.changeFontSizeByDevice(width: width)
         self.hapalRescue4TextBox?.changeFontSizeByDevice(width: width)
         self.hapalRescueTextBox?.changeFontSizeByDevice(width: width)
-        self.chap4_1TextBox?.changeFontSizeByDevice(width: width)
+        self.chapter4_1TextBox?.changeFontSizeByDevice(width: width)
+      
         self.chapt4_2TextBox?.changeFontSizeByDevice(width: width)
         self.chap4_3TextBox?.changeFontSizeByDevice(width: width)
         
@@ -256,8 +257,10 @@ class ChapterViewController: UIViewController {
         self.hapalRescue2AgainTextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.hapalRescue3TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.hapalRescueTextBox?.setContentOffset(CGPoint.zero, animated: true)
+        self.chapter4_1TextBox?.setContentOffset(CGPoint.zero, animated: true)
+        
         self.hapalRescue4TextBox?.setContentOffset(CGPoint.zero, animated: true)
-        self.chap4_1TextBox?.setContentOffset(CGPoint.zero, animated: true)
+      
         self.chapt4_2TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.chap4_3TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.imNotAScientistPoint5TextBox?.setContentOffset(CGPoint.zero, animated: true)
@@ -424,7 +427,8 @@ class ChapterViewController: UIViewController {
         self.hapalRescue3TextBox?.changeFontSizeByDevice(width: width)
         self.hapalRescue4TextBox?.changeFontSizeByDevice(width: width)
         self.hapalRescueTextBox?.changeFontSizeByDevice(width: width)
-        self.chap4_1TextBox?.changeFontSizeByDevice(width: width)
+        self.chapter4_1TextBox?.changeFontSizeByDevice(width: width)
+      
         self.chapt4_2TextBox?.changeFontSizeByDevice(width: width)
         self.chap4_3TextBox?.changeFontSizeByDevice(width: width)
         
@@ -611,8 +615,10 @@ class ChapterViewController: UIViewController {
         self.hapalRescue2AgainTextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.hapalRescue3TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.hapalRescueTextBox?.setContentOffset(CGPoint.zero, animated: true)
+        self.chapter4_1TextBox?.setContentOffset(CGPoint.zero, animated: true)
+        
         self.hapalRescue4TextBox?.setContentOffset(CGPoint.zero, animated: true)
-        self.chap4_1TextBox?.setContentOffset(CGPoint.zero, animated: true)
+       
         self.chapt4_2TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.chap4_3TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.imNotAScientistPoint5TextBox?.setContentOffset(CGPoint.zero, animated: true)
@@ -766,11 +772,10 @@ class ChapterViewController: UIViewController {
     @IBOutlet weak var letHapalDownTextBox: UITextView!
     @IBOutlet weak var letHapalDown2TextBox: UITextView!
     @IBOutlet weak var hapalRescueTextBox: UITextView!
-    @IBOutlet weak var hapalRescue2TextBox: UITextView!
+    @IBOutlet weak var chapter4_1TextBox: UITextView!
     @IBOutlet weak var hapalRescue2AgainTextBox: UITextView!
     @IBOutlet weak var hapalRescue3TextBox: UITextView!
     @IBOutlet weak var hapalRescue4TextBox: UITextView!
-    @IBOutlet weak var chap4_1TextBox: UITextView!
     @IBOutlet weak var chapt4_2TextBox: UITextView!
     @IBOutlet weak var chap4_3TextBox: UITextView!
     @IBOutlet weak var imNotAScientistPoint5TextBox: UITextView!
@@ -926,8 +931,10 @@ class ChapterViewController: UIViewController {
         self.hapalRescue2AgainTextBox?.layer.cornerRadius = cornerRadius
         self.hapalRescue3TextBox?.layer.cornerRadius = cornerRadius
         self.hapalRescueTextBox?.layer.cornerRadius = cornerRadius
+        self.chapter4_1TextBox?.layer.cornerRadius = cornerRadius
+        
         self.hapalRescue4TextBox?.layer.cornerRadius = cornerRadius
-        self.chap4_1TextBox?.layer.cornerRadius = cornerRadius
+       
         self.chapt4_2TextBox?.layer.cornerRadius = cornerRadius
         self.chap4_3TextBox?.layer.cornerRadius = cornerRadius
         self.imNotAScientistPoint5TextBox?.layer.cornerRadius = cornerRadius
@@ -1084,9 +1091,10 @@ class ChapterViewController: UIViewController {
         self.hapalRescue2AgainTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.hapalRescue3TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.hapalRescueTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
-        self.hapalRescue4TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
-        self.chap4_1TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
+        self.chapter4_1TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         
+        self.hapalRescue4TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
+      
         self.chapt4_2TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.chap4_3TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.imNotAScientistPoint5TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
@@ -1241,7 +1249,8 @@ class ChapterViewController: UIViewController {
         self.hapalRescue2AgainTextBox?.layer.borderColor = myColor
         self.hapalRescue3TextBox?.layer.borderColor = myColor
         self.hapalRescueTextBox?.layer.borderColor = myColor
-        self.chap4_1TextBox?.layer.borderColor = myColor
+        self.chapter4_1TextBox?.layer.borderColor = myColor
+   
         self.chapt4_2TextBox?.layer.borderColor = myColor
         self.chap4_3TextBox?.layer.borderColor = myColor
         self.imNotAScientistPoint5TextBox?.layer.borderColor = myColor
@@ -1406,7 +1415,8 @@ class ChapterViewController: UIViewController {
         self.hapalRescue2AgainTextBox?.layer.borderWidth = borderWidth
         self.hapalRescue3TextBox?.layer.borderWidth = borderWidth
         self.hapalRescueTextBox?.layer.borderWidth = borderWidth
-        self.chap4_1TextBox?.layer.borderWidth = borderWidth
+        self.chapter4_1TextBox?.layer.borderWidth = borderWidth
+        
         self.chapt4_2TextBox?.layer.borderWidth = borderWidth
         self.chap4_3TextBox?.layer.borderWidth = borderWidth
         self.imNotAScientistPoint5TextBox?.layer.borderWidth = borderWidth
