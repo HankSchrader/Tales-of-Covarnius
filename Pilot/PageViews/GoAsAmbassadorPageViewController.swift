@@ -68,10 +68,7 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "Phase One Complete"),
                         self.newVC(viewController: "Chapter 6 3 Ambassador"),
-                        self.newVC(viewController: "Chapter 6 4 Ambassador"),
-                        self.newVC(viewController: "Chapter 6 5 Ambassador"),
-                        self.newVC(viewController: "Chapter 6 6 Ambassador"),
-                        self.newVC(viewController: "Chapter 6 7 Ambassador")]
+                        self.newVC(viewController: "Chapter 6 4 Ambassador")]
                 
             case "check door"?:
                 setImage(image: Constants.PARKING_LOT_PIC)

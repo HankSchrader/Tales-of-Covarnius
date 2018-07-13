@@ -3233,7 +3233,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBr-vK-oCW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5216" y="9469"/>
+            <point key="canvasLocation" x="-5460" y="9408"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="HDm-7L-pYG">
@@ -10580,7 +10580,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“What kind of weird growlic is that?” The ambassador yells. “Keep him away from me!” He gives a final frightened look at Luna, and hurries off.
+                                        <string key="content">“What kind of weird growlic is that?” the ambassador yells. “Keep her away from me!” He gives a final frightened look at Luna, and hurries off.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -10630,7 +10630,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Chrono smiles in agreement, “Yes, just like that. Good job Luna” Luna nuzzles Chrono and barks happily. Luna’s plan worked!
+                                        <string key="content">Chrono smiles in agreement, “Yes, just like that. Good job, Luna!” She nuzzles Chrono and barks happily. Luna’s plan worked!
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -10655,7 +10655,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">The incident seems too good to be true. Fate must be telling you to go ahead with your plan. You, Chrono and Luna, unlikely heroes save Covarnius. You can see the headlines now. 
+                                        <string key="content">The incident seems too good to be true. Fate must be telling you to go ahead with your plan. "Three unlikely heroes save Covarnius."...you can see the headlines now!
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -10795,7 +10795,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">At that moment, a Covarnian ambassador outfitted in a standard ambassador robe walks by where the three of you are standing. Suddenly, Luna barks playfully. The ambassador, clearly frightened, jumps backwards and nearly trips. Just as he does, a keycard falls out of his flowing robe.</string>
+                                        <string key="content">At that moment, a Covarnian ambassador outfitted in a standard ambassador robe walks by where the three of you are standing. Suddenly, Luna lets out a playful bark. The ambassador, clearly frightened, jumps backwards and nearly trips. Just as he does, a keycard falls out of his flowing robe.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -10841,9 +10841,9 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Everything was going according to plan...until a horrifying creature emerges from behind a stack of crates!
+                                        <string key="content">Everything's going according to plan...until a horrifying creature emerges from behind a stack of crates!
 
-It’s skin is rough and leathery and a long tail extends behind it’s back. Cold, dark eyes stare back at you as you stand frozen next to the Covarnian ship. This must be a Sinisterian. 
+It’s skin is rough and leathery, and a long tail extends behind it’s back. Cold, dark eyes stare back at you as you stand frozen next to the Covarnian ship. This must be a Sinisterian. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -10918,7 +10918,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Suddenly the Sinisterian sneezes violently. Slimy green ooze runs from his eyes and nose, dripping onto the floor below. “What is that thing?” He questions, staring intently at Luna. 
+                                        <string key="content">Suddenly the Sinisterian sneezes violently. Slimy green ooze runs from his eyes and nose, dripping onto the floor below. “What is that thing?” he questions, staring intently at Luna. 
 
 “Luna is a dog,” you manage to answer. 
 </string>
@@ -10945,7 +10945,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“I don’t know what kind of weapon a dog is,” the Sinisterian answers between sneezes, “but as far as I’m concerned you just boarded a Sinisterian ship with hostile intent.”
+                                        <string key="content">“I don’t know what a dog is,” the Sinisterian answers between sneezes, “but as far as I’m concerned, you just boarded a Sinisterian ship with hostile intent!”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14144,7 +14144,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Hours have passed by. You stare forlornly out the tiny porthole that looks out into deep, dark space. A small dot in the distance has been continuing to grow larger and larger. You conclude that must be the ship’s destination: Covarnius. 
+                                        <string key="content">Hours have passed by. You stare forlornly out the tiny porthole that looks out into deep, dark space. A small dot in the distance has been continuing to grow larger and larger. You conclude that it must be the ship’s destination: Covarnius. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14173,7 +14173,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You feel the ship rumble as it makes its landing on Covarnius. Peeking out the porthole, you see hordes of Sinisterians disembark from the ship to start their invasion. Like Vikings from the days of yore, the Sinisterians wreak havoc.
+                                        <string key="content">You feel the ship rumble as it makes its landing on Covarnius. Peeking out the porthole, you see hordes of Sinisterians disembarking from the ship to start their invasion. Like Vikings from the days of yore, the Sinisterians wreak havoc.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14304,7 +14304,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Before you have a chance to ask him about his idea, the guard screams, “I just can’t take it anymore! I need to go to the infirmary, maybe they'll have something that can help.” Green slime oozes from his nose and eyes. His sneezing and coughing are the worst you have ever heard. The guard points at Luna before making his hasty departure, “It’s all because of that...that thing!”
+                                        <string key="content">Before you have a chance to ask him about his idea, the guard screams, “I just can’t take it anymore! I need to go to the infirmary, maybe they'll have something that can help.” Green slime continues to ooze from his nose and eyes. His sneezing and coughing are the worst you have ever heard. The guard points at Luna before making his hasty departure, “It’s all because of that...that thing!”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14331,7 +14331,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“He must be allergic…” you mumble, but there’s just no time to think about that. Luna seems to be trying to get your attention.
+                                        <string key="content">“Sinisterians must be allergic to dogs…” you mumble, but there’s just no time to think about that. Luna seems to be trying to get your attention.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14477,7 +14477,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">The three of you arrive at a large lot extending behind the council chamber. Covarnian Cruisers are parked in neat rows, each one shiny and perfect. “Which one goes with our key card?” You ask worriedly as you survey the dozens and dozens of ships in the lot. 
+                                        <string key="content">The three of you arrive at a large lot extending behind the council chamber. Covarnian Cruisers are parked in neat rows, each one shiny and perfect. “Which one goes with our key card?” you ask worriedly as you survey the dozens and dozens of ships in the lot. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14665,7 +14665,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“So here’s the plan,” Chrono announces. “We’ll steer the ship into the cargo loading dock. Then, we’ll sneak on board the ship, change the destination coordinates and head back to Covarnius as heroes!
+                                        <string key="content">“So here’s the plan,” Chrono announces. “We’ll steer the ship into the cargo loading dock. Then, we’ll sneak on board the ship, change the destination coordinates and head back to Covarnius as heroes!"
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -19811,10 +19811,10 @@ Do you:
     <inferredMetricsTieBreakers>
         <segue reference="U32-uH-FzI"/>
         <segue reference="QEn-le-N99"/>
-        <segue reference="pst-IE-SND"/>
-        <segue reference="Wvi-I4-RYJ"/>
+        <segue reference="hvB-TT-ury"/>
+        <segue reference="Cpv-90-8rr"/>
         <segue reference="W4d-hl-1Gg"/>
-        <segue reference="2LS-54-2c4"/>
+        <segue reference="9nH-Db-LBT"/>
         <segue reference="7dg-rL-hhO"/>
         <segue reference="xUf-0X-2cU"/>
         <segue reference="jox-Tc-HCZ"/>
