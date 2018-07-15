@@ -63,7 +63,11 @@ class ViewController: ChapterViewController {
         self.topLabel.textColor = UIColor.black
         
         self.topLabel.font = UIFont(name: "Futura", size: 50.0)
-        self.topLabel.applyGradientWith(startColor: .red, endColor: .white)
+        if self.topLabel.applyGradientWith(startColor: .red, endColor: .white) {
+             print("Gradient successfully applied")
+        } else {
+            topLabel.textColor = .black
+        }
        
         
         self.topLabel.frame = CGRect(x: view.frame.width/2 - 100 , y: view.frame.height/10, width: 400, height: 70)
@@ -82,10 +86,19 @@ class ViewController: ChapterViewController {
         self.bottomLabel.textColor = UIColor.black
         
         self.bottomLabel.font = UIFont(name: "Futura", size: 80.0)
-        self.bottomLabel.applyGradientWith(startColor: .white, endColor: .red)
+        if self.bottomLabel.applyGradientWith(startColor: .white, endColor: .red) {
+            print("Gradient successfully applied")
+        } else{
+            print("Not successul")
+            bottomLabel.textColor = .black
+        }
         
+        if(self.view.frame.size.width < 400 ) {
+                    self.bottomLabel.frame = CGRect(x: view.frame.width/2 - 160 , y: view.frame.height/5, width: 500, height: 80)
+        } else {
+                 self.bottomLabel.frame = CGRect(x: view.frame.width/2 - 175 , y: view.frame.height/5, width: 500, height: 80)
+        }
         
-        self.bottomLabel.frame = CGRect(x: view.frame.width/2 - 175 , y: view.frame.height/5, width: 500, height: 80)
         
         
         

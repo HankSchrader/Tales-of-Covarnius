@@ -378,20 +378,10 @@ class ChapterViewController: UIViewController {
         //Buton Noise
         
         makeButtonNoise(button: self.fizzyYellowButton)
-        makeButtonNoise(button: self.theEndYellowLiquidButton)
-        makeButtonNoise(button: self.theEndBrightGreenLiquidButton)
-        makeButtonNoise(button: self.theEndYouGaveUpButton)
-        makeButtonNoise(button: self.theEndFirstOneButton)
-        makeButtonNoise(button: self.theEndRaidOnCovarniusButton)
-        
-        makeButtonNoise(button: self.theEndCelebrateButton)
+
         
         makeButtonNoise(button: self.newPlanButton)
-        makeButtonNoise(button: self.theEndWindowButton)
-        makeButtonNoise(button: self.theEndClogToiletDistractionFailed)
-        makeButtonNoise(button: self.theEndThirdBestEnding)
-        makeButtonNoise(button: self.theEndBadFoodButton)
-        makeButtonNoise(button: self.theEndBestEnding)
+
         makeButtonNoise(button: self.brightGreenButton)
     }
 

@@ -20,6 +20,7 @@ class ChapterSelectLauncher: UIViewController {
         cv.isSpringLoaded = false
         return cv
     }()
+
  
     @objc func showChapters(sender: UIButton?)  {
         
@@ -75,8 +76,4 @@ class ChapterSelectLauncher: UIViewController {
 
 }
 
-extension UIColor {
 
-    
-   
-}

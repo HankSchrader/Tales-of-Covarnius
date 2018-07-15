@@ -80,6 +80,18 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
 
     }
     
+    private func changeSlideMenuSizeByDevice(width: CGFloat) -> CGFloat {
+        switch width {
+        case 0..<375: // iPhone 4 and iPhone 5
+            return CGFloat(1.5)
+        default: // iPhone 6 Plus, iPhone 8 Plus, etc
+           return CGFloat(2)
+     
+        }
+        
+    }
+    //self.view.frame.size.width
+    
     @objc func showChapters(sender: UIButton?)  {
         MusicHelper.sharedHelper.fadeOutBackgroundMusic(resource: Constants.MAIN_MENU_SONG, fadeDuration: Constants.STANDARD_FADE_TIME)
         tableView?.dataSource = self
@@ -102,9 +114,10 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
                 
                 
             })
+            let screenSizeDividend = changeSlideMenuSizeByDevice(width: self.view.frame.size.width) as CGFloat
             
             UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations:
-                { self.tableView?.frame = CGRect(x: -10, y: 0, width: window.frame.width / 2, height: window.frame.height)},
+                { self.tableView?.frame = CGRect(x: -10, y: 0, width: window.frame.width / screenSizeDividend, height: window.frame.height)},
                            completion: nil)
             let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleDismiss(_:)))
             blackView.addGestureRecognizer(tap)

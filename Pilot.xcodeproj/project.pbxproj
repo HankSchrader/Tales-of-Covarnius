@@ -17,7 +17,6 @@
 		5336A424205D6DAA002802C7 /* Chapter4PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336A423205D6DAA002802C7 /* Chapter4PageViewController.swift */; };
 		533B40992049EA0000D61D80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B40982049EA0000D61D80 /* Constants.swift */; };
 		53492A9E20FB7D8800616C7C /* Button Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53492A9D20FB7D8800616C7C /* Button Sound.wav */; };
-		53492AA020FBA05600616C7C /* copyPaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53492A9F20FBA05600616C7C /* copyPaste.swift */; };
 		5350C77A207A755400DE771A /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5350C779207A755400DE771A /* CreditsViewController.swift */; };
 		5365E3C8205E8BA9009E481F /* BackAtTheRanchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3C7205E8BA9009E481F /* BackAtTheRanchPageViewController.swift */; };
 		5365E3CC205EB87D009E481F /* RandomHapalStancePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3CB205EB87D009E481F /* RandomHapalStancePageViewController.swift */; };
@@ -79,7 +78,6 @@
 		5336A423205D6DAA002802C7 /* Chapter4PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4PageViewController.swift; sourceTree = "<group>"; };
 		533B40982049EA0000D61D80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		53492A9D20FB7D8800616C7C /* Button Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Button Sound.wav"; sourceTree = "<group>"; };
-		53492A9F20FBA05600616C7C /* copyPaste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copyPaste.swift; sourceTree = "<group>"; };
 		5350C779207A755400DE771A /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		5365E3C7205E8BA9009E481F /* BackAtTheRanchPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackAtTheRanchPageViewController.swift; sourceTree = "<group>"; };
 		5365E3CB205EB87D009E481F /* RandomHapalStancePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomHapalStancePageViewController.swift; sourceTree = "<group>"; };
@@ -217,7 +215,6 @@
 		539841F220439F3300CCD93E = {
 			isa = PBXGroup;
 			children = (
-				53492A9F20FBA05600616C7C /* copyPaste.swift */,
 				539841FD20439F3300CCD93E /* Pilot */,
 				5398421520439F3300CCD93E /* PilotTests */,
 				5398422020439F3400CCD93E /* PilotUITests */,
@@ -421,7 +418,6 @@
 				5317FA9B2049A2AF00CC30EE /* PersistanceService.swift in Sources */,
 				5365E3E020614227009E481F /* TheTwoDiplomatsPageViewController.swift in Sources */,
 				5398420720439F3300CCD93E /* Pilot.xcdatamodeld in Sources */,
-				53492AA020FBA05600616C7C /* copyPaste.swift in Sources */,
 				5398423220446A6D00CCD93E /* IntroPageViewController.swift in Sources */,
 				538F51DB204723FA0051F1C1 /* Chapter3PageViewController.swift in Sources */,
 				53F0959D2046D47E002880D1 /* Chapter2PageViewController.swift in Sources */,

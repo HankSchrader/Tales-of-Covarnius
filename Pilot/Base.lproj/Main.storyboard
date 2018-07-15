@@ -804,7 +804,7 @@ The ship quietly descends on a planet that looks somewhat similar to Earth. More
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Who are you calling French?” You ask, looking from Chrono to the crown clad extraterrestrial.
+                                        <string key="content">“Who are you calling French?” you ask, looking from Chrono to the crown clad extraterrestrial.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -19322,8 +19322,8 @@ Do you:
         <segue reference="Cpv-90-8rr"/>
         <segue reference="W4d-hl-1Gg"/>
         <segue reference="9nH-Db-LBT"/>
-        <segue reference="6es-We-obc"/>
-        <segue reference="nvl-Th-opf"/>
+        <segue reference="7dg-rL-hhO"/>
+        <segue reference="h2w-MD-tXx"/>
         <segue reference="jox-Tc-HCZ"/>
         <segue reference="dm8-JS-0k1"/>
         <segue reference="Rlm-ND-bdU"/>
