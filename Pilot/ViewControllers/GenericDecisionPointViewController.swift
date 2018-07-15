@@ -11,6 +11,7 @@ import UIKit
 class GenericDecisionPointViewController: ChapterViewController {
     var segueID: String = ""
     var previousRID: String = ""
+
     
 
     override func viewDidLoad() {
@@ -23,6 +24,7 @@ class GenericDecisionPointViewController: ChapterViewController {
 
         // Do any additional setup after loading the view.
     }
+
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()

@@ -147,6 +147,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
     
 
     func isChapterThere(chapterName: String!) -> Bool {
+        print(chapterName)
         var isThere = false
         for chapters in self.chapters {
             if(chapterName == chapters.name) {
@@ -230,6 +231,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
         case Constants.INTRO:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chap1PVC") as!IntroPageViewController
             vcToPresent?.previousRID = Constants.INTRO
+            
             
         case Constants.ONTO_COVARNIUS:
             vcToPresent = storyboard.instantiateViewController(withIdentifier: "Chap2PVC") as! Chapter2PageViewController

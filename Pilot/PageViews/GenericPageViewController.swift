@@ -10,13 +10,14 @@ import UIKit
 
 class GenericPageViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource
  {
+
     var defaultImage: UIImage?
     @IBOutlet weak var tableView: UITableView!
     var segueID: String? = nil
     static let sharedGenericPageView = GenericPageViewController()
     let viewController = ViewController()
     var previousRID: String? = nil
-
+   
     //The array of viewControllers. Keep adding to this as I continue to add more viewControllers
     lazy var orderedViewControllers = [UIViewController]()
     

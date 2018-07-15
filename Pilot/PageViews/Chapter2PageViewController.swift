@@ -40,6 +40,7 @@ class Chapter2PageViewController: GenericPageViewController{
     }
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
+        
     }
     
 }

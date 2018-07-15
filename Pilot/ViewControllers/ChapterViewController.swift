@@ -11,14 +11,21 @@ import StoreKit
 
 class ChapterViewController: UIViewController {
 
+
     
+
+    let noiseClosue: (Bool) -> Void = { if $0 {
+        print("We've finished working, bruh")
+        MusicHelper.sharedHelper.initiateBackgroundMusic(resource: Constants.BUTTON_SOUND, numberOfLoops: 2)
+        }
+    }
     static let chapterSelectLauncher = ChapterSelectViewController()
     static let chapterVC = ChapterViewController()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.clear
+
         
         
         goToChapterSelectAction()
@@ -370,11 +377,6 @@ class ChapterViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
-   /* override func viewWillDisappear(_ animated: Bool) {
-
-        self.navigationController?.isNavigationBarHidden = true
-    } */
     
 
     
@@ -736,6 +738,17 @@ class ChapterViewController: UIViewController {
         button.addTarget(self, action: #selector(handleMore(sender:)), for:
             UIControlEvents.touchUpInside)
         
+    }
+    
+    func makeButtonNoise(button: UIButton?) {
+        print("inside make nosie")
+        handleButtonNoise(true)
+    }
+    
+    
+    @objc func handleButtonNoise(sender: UIButton?) {
+        print("Inside Handler")
+        handleButtonNoise(sender: sender)
     }
     
 
@@ -1545,8 +1558,6 @@ class ChapterViewController: UIViewController {
     }
     
     // MARK: Buttons
-    @IBOutlet weak var runAwayButton: UIButton!
-    @IBOutlet weak var stopSeeSkyButton: UIButton!
     @IBOutlet weak var fizzyYellowButton: UIButton!
     @IBOutlet weak var theEndYellowLiquidButton: UIButton!
     @IBOutlet weak var theEndBrightGreenLiquidButton: UIButton!
@@ -1577,14 +1588,12 @@ class ChapterViewController: UIViewController {
         button?.layer.shadowOpacity = 1.0
         button?.layer.shadowRadius = 0.0
         
+        
     }
     
     // MARK: Load The Decision Points Buttons
     func loadDecisionPointButtons(){
-        loadDecisionPointButton(button: self.runAwayButton)
-        loadDecisionPointButton(button: self.stopSeeSkyButton)
- 
-        loadDecisionPointButton(button: self.stopSeeSkyButton)
+      
         loadDecisionPointButton(button: self.fizzyYellowButton)
         loadDecisionPointButton(button: self.brightGreenButton)
         loadDecisionPointButton(button: self.newPlanButton)

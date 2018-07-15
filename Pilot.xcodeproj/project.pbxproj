@@ -16,6 +16,7 @@
 		5336A422205D2DB4002802C7 /* NavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336A421205D2DB3002802C7 /* NavButton.swift */; };
 		5336A424205D6DAA002802C7 /* Chapter4PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336A423205D6DAA002802C7 /* Chapter4PageViewController.swift */; };
 		533B40992049EA0000D61D80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B40982049EA0000D61D80 /* Constants.swift */; };
+		53492A9E20FB7D8800616C7C /* Button Sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53492A9D20FB7D8800616C7C /* Button Sound.wav */; };
 		5350C77A207A755400DE771A /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5350C779207A755400DE771A /* CreditsViewController.swift */; };
 		5365E3C8205E8BA9009E481F /* BackAtTheRanchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3C7205E8BA9009E481F /* BackAtTheRanchPageViewController.swift */; };
 		5365E3CC205EB87D009E481F /* RandomHapalStancePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5365E3CB205EB87D009E481F /* RandomHapalStancePageViewController.swift */; };
@@ -76,6 +77,7 @@
 		5336A421205D2DB3002802C7 /* NavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButton.swift; sourceTree = "<group>"; };
 		5336A423205D6DAA002802C7 /* Chapter4PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4PageViewController.swift; sourceTree = "<group>"; };
 		533B40982049EA0000D61D80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		53492A9D20FB7D8800616C7C /* Button Sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Button Sound.wav"; sourceTree = "<group>"; };
 		5350C779207A755400DE771A /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		5365E3C7205E8BA9009E481F /* BackAtTheRanchPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackAtTheRanchPageViewController.swift; sourceTree = "<group>"; };
 		5365E3CB205EB87D009E481F /* RandomHapalStancePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomHapalStancePageViewController.swift; sourceTree = "<group>"; };
@@ -140,17 +142,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5341A0E22065353800B31CF4 /* Image ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Image ViewControllers";
-			sourceTree = "<group>";
-		};
 		5365E3C3205E8A0D009E481F /* FX */ = {
 			isa = PBXGroup;
 			children = (
 				53A973732044A65D00ED4D9D /* MainMenuSong.wav */,
+				53492A9D20FB7D8800616C7C /* Button Sound.wav */,
 				5317724F20555C860005F3DB /* New Chapter Sound.wav */,
 			);
 			name = FX;
@@ -240,7 +236,6 @@
 		539841FD20439F3300CCD93E /* Pilot */ = {
 			isa = PBXGroup;
 			children = (
-				5341A0E22065353800B31CF4 /* Image ViewControllers */,
 				539841FE20439F3300CCD93E /* AppDelegate.swift */,
 				5365E3C6205E8AA6009E481F /* Utilities */,
 				5365E3C5205E8A61009E481F /* ViewControllers */,
@@ -388,6 +383,7 @@
 				5398420C20439F3300CCD93E /* LaunchScreen.storyboard in Resources */,
 				5317725020555C870005F3DB /* New Chapter Sound.wav in Resources */,
 				53A973742044A65D00ED4D9D /* MainMenuSong.wav in Resources */,
+				53492A9E20FB7D8800616C7C /* Button Sound.wav in Resources */,
 				5398420920439F3300CCD93E /* Assets.xcassets in Resources */,
 				5398420420439F3300CCD93E /* Main.storyboard in Resources */,
 			);

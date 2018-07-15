@@ -82,6 +82,7 @@ struct Constants {
     
     //Music
     static let MAIN_MENU_SONG = "MainMenuSong"
+    static let BUTTON_SOUND = "Button Sound"
     static let THROUGHOUT_STORY_SONG = "Throughout story"
     static let NEW_CHAPTER_SOUND = "New Chapter Sound"
     static let STANDARD_FADE_TIME: TimeInterval! = 4
