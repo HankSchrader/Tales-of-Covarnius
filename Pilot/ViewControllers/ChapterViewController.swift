@@ -14,9 +14,9 @@ class ChapterViewController: UIViewController {
 
     
 
-    let noiseClosue: (Bool) -> Void = { if $0 {
-        print("We've finished working, bruh")
-        MusicHelper.sharedHelper.initiateBackgroundMusic(resource: Constants.BUTTON_SOUND, numberOfLoops: 2)
+    let noiseClosure: (Bool) -> Void = { if $0 {
+      
+        MusicHelper.sharedHelper.initiateBackgroundMusic(resource: Constants.BUTTON_SOUND, numberOfLoops: 0)
         }
     }
     static let chapterSelectLauncher = ChapterSelectViewController()
@@ -29,6 +29,7 @@ class ChapterViewController: UIViewController {
         
         
         goToChapterSelectAction()
+        
         let width = self.view.frame.size.width
         loadBorderColor()
         loadBorderWidth(borderWidth: 3.0)
@@ -374,7 +375,24 @@ class ChapterViewController: UIViewController {
         self.IntroductionTextBox?.setContentOffset(CGPoint.zero, animated: true)
         
         self.phaseOneCompleteTextBox?.setContentOffset(CGPoint.zero, animated: true)
-        // Do any additional setup after loading the view.
+        //Buton Noise
+        
+        makeButtonNoise(button: self.fizzyYellowButton)
+        makeButtonNoise(button: self.theEndYellowLiquidButton)
+        makeButtonNoise(button: self.theEndBrightGreenLiquidButton)
+        makeButtonNoise(button: self.theEndYouGaveUpButton)
+        makeButtonNoise(button: self.theEndFirstOneButton)
+        makeButtonNoise(button: self.theEndRaidOnCovarniusButton)
+        
+        makeButtonNoise(button: self.theEndCelebrateButton)
+        
+        makeButtonNoise(button: self.newPlanButton)
+        makeButtonNoise(button: self.theEndWindowButton)
+        makeButtonNoise(button: self.theEndClogToiletDistractionFailed)
+        makeButtonNoise(button: self.theEndThirdBestEnding)
+        makeButtonNoise(button: self.theEndBadFoodButton)
+        makeButtonNoise(button: self.theEndBestEnding)
+        makeButtonNoise(button: self.brightGreenButton)
     }
 
     
@@ -741,14 +759,15 @@ class ChapterViewController: UIViewController {
     }
     
     func makeButtonNoise(button: UIButton?) {
-        print("inside make nosie")
-        handleButtonNoise(true)
+       
+        button?.addTarget(self, action: #selector(handleButtonNoise(sender:)), for:
+            UIControlEvents.touchUpInside)
     }
     
     
     @objc func handleButtonNoise(sender: UIButton?) {
-        print("Inside Handler")
-        handleButtonNoise(sender: sender)
+       
+        noiseClosure(true)
     }
     
 

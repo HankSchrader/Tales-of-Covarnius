@@ -21,46 +21,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cover Art" translatesAutoresizingMaskIntoConstraints="NO" id="Qod-vC-UoE">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DH5-4b-1cb">
-                                <rect key="frame" x="16" y="53" width="288" height="20"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="TALES FROM">
-                                        <attributes>
-                                            <font key="NSFont" size="17" name="Luminari-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXB-1E-p2b">
-                                <rect key="frame" x="16" y="89" width="288" height="49"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="49" id="35e-bV-da6"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Covarnius">
-                                        <attributes>
-                                            <font key="NSFont" size="36" name="Luminari-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <size key="shadowOffset" width="4" height="-1"/>
-                            </label>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Qod-vC-UoE" secondAttribute="bottom" id="6Wa-jE-Nvh"/>
-                            <constraint firstItem="sXB-1E-p2b" firstAttribute="trailing" secondItem="DH5-4b-1cb" secondAttribute="trailing" id="9vh-nz-T8a"/>
-                            <constraint firstItem="sXB-1E-p2b" firstAttribute="leading" secondItem="DH5-4b-1cb" secondAttribute="leading" id="HIg-Yh-IY9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DH5-4b-1cb" secondAttribute="trailing" constant="16" id="LhW-3z-eHN"/>
-                            <constraint firstItem="sXB-1E-p2b" firstAttribute="top" secondItem="DH5-4b-1cb" secondAttribute="bottom" constant="16" id="MBw-bv-dfX"/>
-                            <constraint firstItem="DH5-4b-1cb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="NbJ-ki-vUf"/>
                             <constraint firstItem="Qod-vC-UoE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UmA-lk-txZ"/>
                             <constraint firstItem="Qod-vC-UoE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Umn-pe-7oA"/>
-                            <constraint firstItem="DH5-4b-1cb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WSl-p9-ya9"/>
                             <constraint firstItem="Qod-vC-UoE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="d6Q-SO-RIn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -70,8 +35,6 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="Duw-uU-zfV"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="bottomLabel" destination="sXB-1E-p2b" id="VnE-RO-oE3"/>
-                        <outlet property="topLabel" destination="DH5-4b-1cb" id="E8h-OW-PXn"/>
                         <segue destination="GYB-hd-9Im" kind="show" identifier="Start From The Beginning!" id="ijG-Ma-eQD"/>
                         <segue destination="cx7-q2-roP" kind="show" identifier="toCredits" id="hw1-xZ-B8C"/>
                     </connections>
@@ -19364,7 +19327,7 @@ Do you:
         <segue reference="jox-Tc-HCZ"/>
         <segue reference="dm8-JS-0k1"/>
         <segue reference="Rlm-ND-bdU"/>
-        <segue reference="UT2-He-dFh"/>
+        <segue reference="KYf-bL-oLj"/>
         <segue reference="ijG-Ma-eQD"/>
         <segue reference="PTd-wR-twb"/>
     </inferredMetricsTieBreakers>

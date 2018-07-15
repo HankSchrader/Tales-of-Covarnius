@@ -14,17 +14,91 @@ class GenericDecisionPointViewController: ChapterViewController {
 
     
 
+
     override func viewDidLoad() {
-       
-            super.viewDidLoad()
-            loadBorderColor()
-            loadBorderWidth(borderWidth: 4.0)
-            loadCornerRadius(cornerRadius: 15.0)
-            loadTextBoxColor()
-
+        
+        super.viewDidLoad()
+        loadBorderColor()
+        loadBorderWidth(borderWidth: 4.0)
+        loadCornerRadius(cornerRadius: 15.0)
+        loadTextBoxColor()
+        makeButtonNoise(button: self.seeTheSkyButton) //check
+        makeButtonNoise(button: self.runAwayFromSpaceshipButton) //check
+        makeButtonNoise(button: self.nextChapterRaidOnCovarniusButton)
+        makeButtonNoise(button: self.nextChapterRamShipButton)
+        makeButtonNoise(button: self.noTimeForQuestionsButton) //check
+        makeButtonNoise(button: self.CCCButton) //CHECK
+        makeButtonNoise(button: self.sneakIntoCouncilChamberButton) //CHECK
+        makeButtonNoise(button: self.borrowFromCovarnianAmbassadorButton) //CHECK
+        makeButtonNoise(button: self.breakInButton) //CHECK
+        makeButtonNoise(button: self.thisIsGettingTooShadyButton) //CHECK
+        makeButtonNoise(button: self.theyAreViciousButton) //CHECK
+        makeButtonNoise(button: self.theyLookHungryButton)
+        makeButtonNoise(button: self.stinkyMeatButton)
+        makeButtonNoise(button: self.grossScalyFoodButton)
+        makeButtonNoise(button: self.dessertButton)
+        makeButtonNoise(button: self.userKeyCardToCreateDistractionButton)
+        makeButtonNoise(button: self.korgleIsDistrctedEnoughButton)
+        makeButtonNoise(button: self.stickToPlanButton)
+        makeButtonNoise(button: self.betterClogTheToiletButton)
+        makeButtonNoise(button: self.hyperSleepButton)
+        makeButtonNoise(button: self.clogToiletButton)
+        makeButtonNoise(button: self.antiGravityGunButton)
+        makeButtonNoise(button: self.iceRayButton)
+        makeButtonNoise(button: self.brokerForPeaceButton)
+        makeButtonNoise(button: self.weHaveASecretWeaponButton)
+        makeButtonNoise(button: self.takeKeyButton)
+        makeButtonNoise(button: self.takeKeyTooRiskyButton)
+        makeButtonNoise(button: self.callTheBluffMistakeButton)
+        makeButtonNoise(button: self.heSeemsVerySeriousButton)
+        makeButtonNoise(button: self.notWithoutMyLunaButton)
+        makeButtonNoise(button: self.sensitiveMissionButton)
+        makeButtonNoise(button: self.lookOutWindowButton)
+        makeButtonNoise(button: self.checkUnderDoorButton)
+        makeButtonNoise(button: self.hardSinisterianSteelButton)
+        makeButtonNoise(button: self.haveLunaFetchTheKey)
+        makeButtonNoise(button: self.wingItButton)
+        makeButtonNoise(button: self.jigIsUpButton)
+        makeButtonNoise(button: self.iAmAScientistButton)
+        makeButtonNoise(button: self.notAScientistButton)
+        makeButtonNoise(button: self.helpKayoWithHapalButton)
+        makeButtonNoise(button: self.notYourProblemButton)
+        makeButtonNoise(button: self.dontTrustSpaceCowboyButton)
+        makeButtonNoise(button: self.trustSpaceCowboyButton)
+        makeButtonNoise(button: self.takeMeBackToEarthButton)
+        makeButtonNoise(button: self.onlyYouCanHelpButton)
+        makeButtonNoise(button: self.goHomeFirstTimeButton)
+        makeButtonNoise(button: self.warmongerButton)
+        makeButtonNoise(button: self.weNeedToDoSomethingButton)
+        makeButtonNoise(button: self.turnBackFirstTimeButton)
+        makeButtonNoise(button: self.iJustWantToGoHomeButton)
+        makeButtonNoise(button: self.neverGiveUpButton)
+        makeButtonNoise(button: self.sureIllHelp)
+        makeButtonNoise(button: self.noWayDissectMyBrains)
+        makeButtonNoise(button: self.kayoIsSuspicious)
+        makeButtonNoise(button: self.kayoOfferToRelax)
+        makeButtonNoise(button: self.iGiveUpSecondTimeButton)
+        makeButtonNoise(button: self.itsAGreatPlanButton)
+        makeButtonNoise(button: self.disguiseOurselvesButton)
+        makeButtonNoise(button: self.sneakOntoSinisterianShipButton)
+        makeButtonNoise(button: self.ramShipButton)
+        makeButtonNoise(button: self.changeMyMindButton)
+        makeButtonNoise(button: self.continueAsPlannedButton)
+        makeButtonNoise(button: self.keepThinkingButton)
+        makeButtonNoise(button: self.notImportantButton)
+        makeButtonNoise(button: self.runQuickButton)
+        makeButtonNoise(button: self.sneakThereButton)
+        makeButtonNoise(button: self.murkblurButton)
+        makeButtonNoise(button: self.skipTestButton)
+        makeButtonNoise(button: self.goodNewsKingButton)
+        makeButtonNoise(button: self.homeSweetHomeButton)
+        makeButtonNoise(button: self.noTellKingButton)
+        makeButtonNoise(button: self.celebrateButton)
+        
+        
         // Do any additional setup after loading the view.
+        
     }
-
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -572,19 +646,20 @@ class GenericDecisionPointViewController: ChapterViewController {
 
     }
     
+  
 
     
-    @IBOutlet weak var seeTheSkyButton: UIButton!
-    @IBOutlet weak var runAwayFromSpaceshipButton: UIButton!
+    @IBOutlet weak var seeTheSkyButton: UIButton! //check
+    @IBOutlet weak var runAwayFromSpaceshipButton: UIButton! //check
     @IBOutlet weak var nextChapterRaidOnCovarniusButton: UIButton!
     @IBOutlet weak var nextChapterRamShipButton: UIButton!
-    @IBOutlet weak var noTimeForQuestionsButton: UIButton!
-    @IBOutlet weak var CCCButton: UIButton!
-    @IBOutlet weak var sneakIntoCouncilChamberButton: UIButton!
-    @IBOutlet weak var borrowFromCovarnianAmbassadorButton: UIButton!
-    @IBOutlet weak var breakInButton: UIButton!
-    @IBOutlet weak var thisIsGettingTooShadyButton: UIButton!
-    @IBOutlet weak var theyAreViciousButton: UIButton!
+    @IBOutlet weak var noTimeForQuestionsButton: UIButton! //check
+    @IBOutlet weak var CCCButton: UIButton! //CHECK
+    @IBOutlet weak var sneakIntoCouncilChamberButton: UIButton! //CHECK
+    @IBOutlet weak var borrowFromCovarnianAmbassadorButton: UIButton! //CHECK
+    @IBOutlet weak var breakInButton: UIButton! //CHECK
+    @IBOutlet weak var thisIsGettingTooShadyButton: UIButton! //CHECK
+    @IBOutlet weak var theyAreViciousButton: UIButton! //CHECK
     @IBOutlet weak var theyLookHungryButton: UIButton!
     @IBOutlet weak var stinkyMeatButton: UIButton!
     @IBOutlet weak var grossScalyFoodButton: UIButton!

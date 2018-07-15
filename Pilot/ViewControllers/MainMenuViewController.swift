@@ -15,14 +15,19 @@ class ViewController: ChapterViewController {
     static let sharedHelper = ViewController()
    // weak var delegate: DisplayViewIDDelegate?
     
-    @IBOutlet weak var topLabel: UILabel!
-    @IBOutlet weak var bottomLabel: UILabel!
+    var topLabel = UILabel()
+    var bottomLabel = UILabel()
+    
     override func viewDidLoad() {
         navigationItem.hidesBackButton = true
         super.viewDidLoad()
         createBeginButton()
         createDeleteButton()
         createCreditsButton()
+        createTopLabel()
+        createBottomLabel()
+    
+        
 
         
         MusicHelper.sharedHelper.initiateBackgroundMusic(resource: Constants.MAIN_MENU_SONG, numberOfLoops: 3)
@@ -34,10 +39,11 @@ class ViewController: ChapterViewController {
     //MARK: viewWillAppear is always used for animation.
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.isNavigationBarHidden = false
+      
         // Set the top label's animation alpha
         self.topLabel.alpha = 0
         self.bottomLabel.alpha = 0
+      
         
         animateLabelTransition()
         MusicHelper.sharedHelper.fadeInBackgroundMusic(resource: Constants.MAIN_MENU_SONG,fadeDuration: Constants.STANDARD_FADE_TIME)
@@ -47,20 +53,69 @@ class ViewController: ChapterViewController {
     override func viewWillDisappear(_ animated: Bool) {
         
         if(ChapterSelectViewController.chapterSelect.isChapterThere(chapterName: Constants.MAIN_MENU) == false) {
-            print("This happens")
             ChapterSelectViewController.chapterSelect.saveChapter(ChapterName: Constants.MAIN_MENU, order: -1)
         }
+    }
+    func createTopLabel() {
+      
+        self.topLabel.backgroundColor = UIColor.clear
+        self.topLabel.text = "Tales Of"
+        self.topLabel.textColor = UIColor.black
+        
+        self.topLabel.font = UIFont(name: "Futura", size: 50.0)
+        self.topLabel.applyGradientWith(startColor: .red, endColor: .white)
+       
+        
+        self.topLabel.frame = CGRect(x: view.frame.width/2 - 100 , y: view.frame.height/10, width: 400, height: 70)
+        
+     
+        
+        view.addSubview(self.topLabel)
+        view.bringSubview(toFront: self.topLabel)
+      
+    }
+    
+    func createBottomLabel() {
+      
+        self.bottomLabel.backgroundColor = UIColor.clear
+        self.bottomLabel.text = "Covarnius"
+        self.bottomLabel.textColor = UIColor.black
+        
+        self.bottomLabel.font = UIFont(name: "Futura", size: 80.0)
+        self.bottomLabel.applyGradientWith(startColor: .white, endColor: .red)
+        
+        
+        self.bottomLabel.frame = CGRect(x: view.frame.width/2 - 175 , y: view.frame.height/5, width: 500, height: 80)
+        
+        
+        
+        view.addSubview(self.bottomLabel)
+        view.bringSubview(toFront: self.bottomLabel)
+        
     }
    
     
     func animateLabelTransition() {
         // animate the alpha
-        UIView.animate(withDuration: 4, animations: {self.topLabel.alpha = 1;
-            self.bottomLabel.alpha = 1
-        })
+        UIView.animate(withDuration: 2.0, delay: 0.0, options:[], animations: {
+           self.topLabel.alpha = 1
+            
+          
+        },  completion: { finished in
+            if finished {
+              self.animateBottomLabelTransition()
+            }
+        } )
        
     }
-   
+    func animateBottomLabelTransition() {
+        // animate the alpha
+        UIView.animate(withDuration: 2.0, delay: 0.0, options:[], animations: {
+             self.bottomLabel.alpha = 1
+            
+        }, completion: nil)
+        
+    }
     //MARK: Begin button
     //Start from beginning button. This will trigger entry to the last view
     func createBeginButton() {
@@ -170,6 +225,70 @@ class ViewController: ChapterViewController {
 protocol DisplayViewIDDelegate: class {
     func displayPageViewID(_ name : String?)
     
+}
+
+extension UILabel {
+    
+    func applyGradientWith(startColor: UIColor, endColor: UIColor) -> Bool {
+        
+        var startColorRed:CGFloat = 0
+        var startColorGreen:CGFloat = 0
+        var startColorBlue:CGFloat = 0
+        var startAlpha:CGFloat = 0
+        
+        if !startColor.getRed(&startColorRed, green: &startColorGreen, blue: &startColorBlue, alpha: &startAlpha) {
+            return false
+        }
+        
+        var endColorRed:CGFloat = 0
+        var endColorGreen:CGFloat = 0
+        var endColorBlue:CGFloat = 0
+        var endAlpha:CGFloat = 0
+        
+        if !endColor.getRed(&endColorRed, green: &endColorGreen, blue: &endColorBlue, alpha: &endAlpha) {
+            return false
+        }
+        
+        let gradientText = self.text ?? ""
+        
+        let name:String = kCTFontAttributeName as String
+        let textSize: CGSize = gradientText.size(withAttributes: [NSAttributedStringKey(rawValue: name):self.font])
+        let width:CGFloat = textSize.width
+        let height:CGFloat = textSize.height
+        
+        UIGraphicsBeginImageContext(CGSize(width: width, height: height))
+        
+        guard let context = UIGraphicsGetCurrentContext() else {
+            UIGraphicsEndImageContext()
+            return false
+        }
+        
+        UIGraphicsPushContext(context)
+        
+        let glossGradient:CGGradient?
+        let rgbColorspace:CGColorSpace?
+        let num_locations:size_t = 2
+        let locations:[CGFloat] = [ 0.0, 1.0 ]
+        let components:[CGFloat] = [startColorRed, startColorGreen, startColorBlue, startAlpha, endColorRed, endColorGreen, endColorBlue, endAlpha]
+        rgbColorspace = CGColorSpaceCreateDeviceRGB()
+        glossGradient = CGGradient(colorSpace: rgbColorspace!, colorComponents: components, locations: locations, count: num_locations)
+        let topCenter = CGPoint.zero
+        let bottomCenter = CGPoint(x: 0, y: textSize.height)
+        context.drawLinearGradient(glossGradient!, start: topCenter, end: bottomCenter, options: CGGradientDrawingOptions.drawsBeforeStartLocation)
+        
+        UIGraphicsPopContext()
+        
+        guard let gradientImage = UIGraphicsGetImageFromCurrentImageContext() else {
+            UIGraphicsEndImageContext()
+            return false
+        }
+        
+        UIGraphicsEndImageContext()
+        
+        self.textColor = UIColor(patternImage: gradientImage)
+        
+        return true
+}
 }
 
 
