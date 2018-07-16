@@ -369,11 +369,11 @@ The alien stares at you as if you are completely crazy.
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You put your hands on your hip and gaze at him suspiciously, hoping to find a sign that he’s not being entirely truthful.
+                                        <mutableString key="content">You put your hands on your hip and gaze at him suspiciously, hoping to find a sign that he’s not being entirely truthful.
 
-“Then why do I need to go with you?” You question him. A sound starts to emanate from the spacecraft a few yards away. It sounds like a cross between a wind chime and a howling dog. 
+“Then why do I need to go with you?” you question him. A sound starts to emanate from the spacecraft a few yards away. It sounds like a cross between a wind chime and a howling dog. 
 
-The sound clearly distresses the alien who looks back at his ship with impatience. “Covarnius—my home planet—is in trouble. Hurry the ship is ready to take off! And you’re the only person in the universe who can help."</string>
+The sound clearly distresses the alien who looks back at his ship with impatience. “Covarnius—my home planet—is in trouble. Hurry, the ship is ready to take off! And you’re the only person in the universe who can help."</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
@@ -413,32 +413,152 @@ The sound clearly distresses the alien who looks back at his ship with impatienc
                                 <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="-1" maxY="0.0"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">After careful consideration, you decide the alien is probably not going to dissect your brain. The pleaful look in his eyes and frightened demeanor give the impression that he does indeed need help.
-
-At the very least you’ll get out of all the math homework your teacher assigned today. You cautiously approach the green hued creature. Before you know it, he is insisting you enter the spaceship.
-
-“Quickly, quickly,” the alien commands. “Covarnius can’t hold out much longer.” He jumps back into the ship and you stumble into the seat next to his. 
-
-Luna is on your heels and follows you into the spaceship. At least you’re not going alone! She finds a cozy corner to lay down in. 
-
-</string>
+                                        <string key="content">After careful consideration, you decide the alien is probably not going to dissect your brain. The pleading look in his eyes and frightened demeanor give the impression that he </string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="does">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Baskerville-Italic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">After taking a quick peek at your surroundings, you notice that switches, dials and knobs encompass the entire vessel.
-</string>
+                                        <mutableString key="content"> need help.
+
+At the very least, you’ll get out of all the math homework your teacher assigned today. You cautiously approach the green hued creature. Before you know it, he is insisting you enter the spaceship.
+
+“Quickly, quickly,” the alien commands. “Covarnius can’t hold out much longer.” 
+
+He jumps back into the ship and you stumble into the seat next to his. 
+
+Luna follows you into the spaceship. At least you’re not going alone! She finds a cozy corner to lay down in. 
+
+After taking a quick peek at your surroundings, you notice that switches, dials and knobs encompass the entire vessel.
+
+You stare at the alien defiantly, “If I’m going back to Covarnius with you, at least tell me your name first.” </mutableString>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">
-You stare at him defiantly, “If I’m going back to Covarnius with you, at least tell me your name first,” </string>
-                                        <attributes>
-                                            <font key="NSFont" size="16" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -477,6 +597,46 @@ You stare at him defiantly, “If I’m going back to Covarnius with you, at lea
                                     <fragment content="“">
                                         <attributes>
                                             <font key="NSFont" size="15" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                     <fragment content="As I said before—although I guess it was in French—">
@@ -484,15 +644,96 @@ You stare at him defiantly, “If I’m going back to Covarnius with you, at lea
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="15" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">my name is Chrono, and my home planet Covarnius is in trouble.” Chrono pulls a lever on the blinking console in front of him and a ping sound emanates through the small ship. His attention seems to be dedicated to the operation of the ship, rather than the answering of your questions.
+                                        <mutableString key="content">my name is Chrono, and my home planet Covarnius is in trouble.”
 
-“And what does any of this have to do with me?” You question skeptically. You watch out the window as the spacecraft ascends upwards leaving the Earth behind. The houses below quickly become tiny dots. This is becoming too real.</string>
+Chrono pulls a lever on the blinking console in front of him and a ping sound emanates through the small ship. His attention seems to be dedicated to the operation of the ship, rather than the answering of your questions.
+
+“And what does any of this have to do with me?” you question skeptically. You watch out the window as the spacecraft ascends upwards leaving Earth behind. The houses below quickly become tiny dots...this is becoming too real.</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="15" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -528,15 +769,151 @@ You stare at him defiantly, “If I’m going back to Covarnius with you, at lea
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Your groundbreaking research,” Chrono starts as he continues flipping switches and dials on the control panel. “It’s absolutely brilliant. You are the only one who can save Covarnius now.”
+                                        <string key="content">“Your groundbreaking research,” Chrono starts as he continues flipping switches and dials on the control panel, “it’s absolutely brilliant. You are the only one who can save Covarnius now.”
 
-Leaning back in your seat you mull over what Chrono just told you. Your research for the recent science fair had definitely been A+ material, but you didn’t see how it could save an alien planet. 
+Leaning back in your seat, you mull over what Chrono just told you. Your research for the science fair had definitely been A+ material, but you didn’t see how it could save an alien planet. 
 
-And where is Covarnius located anyway? If it was close to Earth, wouldn’t we know of it existence? And if it was far… You seem to recall your science teacher informing your class that it would take thousands of years just to travel one light year. 
 </string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="And where ">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="is">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Baskerville-Italic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> Covarnius anyway? If it was close to Earth, wouldn’t we know of it existence? And if it was far…you recall your science teacher informing your class that it would take thousands of years just to travel one light year. 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -574,15 +951,75 @@ And where is Covarnius located anyway? If it was close to Earth, wouldn’t we k
                                     <fragment>
                                         <string key="content">“So how far away is this Covarnius?” you inquire with skepticism, afraid of what the answer may be.
 
-The gravity of the situation is beginning to sink in.
+“Is it going to take us thousands of years to get there?” you question with growing panic. “I change my mind, I want to go back to Earth!” you shout, pressing your nose to the glass window. 
 
-“Is it going to take us thousands of years to get there?” You question with growing panic. “I change my mind, I want to go back to Earth!” You shout, pressing your nose to the glass window. 
-
-Chrono turns to you with a look of confusion, “Covarnius is located in the next star system, approximately five light years away or about seven earthling days.” Then the alien turns to you with one eyebrow raised sternly, “Besides, you can’t back out now. You already agreed to help.”
-
-Just seven days? That’s not too bad. You breath a small sigh of relief. A week was bad enough but at least it wasn’t going to be thousands of years. But still, you start to wonder if you made the right decision to travel to Covarnius. Your parents and your room back at home… it’s all back on Earth. You start to feel a little homesick. What should you do?</string>
+</string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Chrono turns to you with a look of confusion. “Covarnius is located in the next star system, approximately five light years away or about seven earthling days.”
+
+The alien turns to you with one eyebrow raised sternly. “Besides, you can’t back out now. You already agreed to help.”
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Baskerville"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">"Just seven days? That’s not too bad." you breath a sigh of relief. A week was bad enough, but at least it wasn’t going to be thousands of year! But still, you start to wonder if you made the right decision to travel to Covarnius. Your parents and your room back at home… it’s all on Earth. You feel a little homesick. What should you do?</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -659,7 +1096,7 @@ Just seven days? That’s not too bad. You breath a small sigh of relief. A week
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YrL-gO-6g9">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Chrono grins at you, brimming with hope. A weight appears to have been lifted off his shoulders.
+                                <mutableString key="text">Chrono grins at you, brimming with hope. A weight appears to have been lifted off his shoulders.
 
 “You’ll help me? That’s great! So if you have no further questions, I will engage hypersleep now.” Chrono says glancing in your direction. 
 
@@ -667,11 +1104,13 @@ Just seven days? That’s not too bad. You breath a small sigh of relief. A week
 
 “Hypersleep,” Chrono repeats. “The only way to pass a five light year journey such as this.” 
 
-“But if we’re both sleeping, who is going to pilot this ship?” You ask with trepidation.
+“But if we’re both sleeping, who is going to pilot this ship?” you ask with trepidation.
 
 Chrono looks down dejectedly. “The ship has been pre-programmed to take us back to Covarnius. I’m not allowed to pilot the ships by myself anymore.” Manual piloting must be a privilege where he is from, you think to yourself.
 
-“Why not?” you ask Chrono. “Did you crash one or something? Just how superior are these aliens anyhow? You begin to wonder. After all, they’re relying on you to save their planet.</string>
+“Why not?” you ask Chrono. “Did you crash one or something?"
+
+ Just how superior are these aliens anyhow? You begin to wonder. After all, they’re relying on you to save their planet.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -706,16 +1145,16 @@ Chrono looks down dejectedly. “The ship has been pre-programmed to take us bac
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“There may have been a slight...incident,” Chrono says shifting in his seat, eyes cast downward. Suddenly, his mood shifts. He snaps his head up and looks at you brightly. “But once I get Earth’s greatest scientist back to Covarnius, they’ll all see I’m smarter than they think. Now if you’re ready, I’m going to engage hypersleep.” 
+                                        <mutableString key="content">“There may have been a slight...incident,” Chrono says shifting in his seat, eyes cast downward. Suddenly, his mood shifts. He snaps his head up and looks at you brightly. “But once I get Earth’s greatest scientist back to Covarnius, they’ll all see I’m smarter than they think. Now if you’re ready, I’m going to engage hypersleep.” 
 
 Earth’s greatest scientist? I sure hope he’s not talking about me, you think worriedly. 
 
-Chrono leads you to what appears to be one of two large comfy sofas at the back of the tiny spaceship. It looks like the kind of couch that would be found in a psychologist’s office. You hesitantly lay down and instantly sink into the warm, cushiony lining.
+Chrono leads you to one of two large comfy sofas at the back of the tiny spaceship. It looks like the kind of couch that would be found in a psychologist’s office. You hesitantly lay down and instantly sink into the warm, cushiony lining.
 
 “These couches impart a sleeping agent into your skin upon contact,” Chrono explains. “That’s why you’re getting so tired. Do me a favor and count to ten.”
 
 “Sure,” you reply groggily. “One...two…”
-</string>
+</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="17" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -755,16 +1194,64 @@ Chrono leads you to what appears to be one of two large comfy sofas at the back 
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">The next thing you know, you wake up with a loud yawn. A strange dream occupied your mind while you slept, something about an alien and a spaceship… You glance frantically at your surroundings and it all starts coming back.
+                                        <string key="content">The next thing you know, you wake up with a loud yawn. A strange dream occupied your mind while you slept, something about an alien and a spaceship…
 
-Chrono, your alien companion, is waking up as well. “Ah, we’re finally here!” he announces, stretching out his long tentacle arms. 
+You glance frantically at your surroundings and it all comes back to you.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">
+Chrono, your alien companion, is waking up as well. “Ah, we’re finally here!” he announces, stretching out his long slender arms. 
 
-The ship quietly descends on a planet that looks somewhat similar to Earth. More aliens that look like Chrono surround the ship as the top opens and the air lock’s decompression sequence fills the air once again. 
+The ship quietly descends on a planet that looks similar to Earth. Aliens that look like Chrono surround the ship as you land. The ship's top opens and the air lock’s decompression sequence fills the air once again. 
 
 “Bonjour!” One of the aliens bellows as he steps closer to the ship. He seems to be the one in charge. Or at least, that’s what you assume based on the large crown worn atop his head. 
 
-“You’re going to need to adjust your translators,” Chrono says with a yawn. “This Frenchman doesn’t speak French.” 
-</string>
+“You’re going to need to adjust your translators,” Chrono says with a yawn. “This French citizen doesn’t speak French.” 
+</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="17" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -833,7 +1320,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Why, you of course,” the regal alien states with certainty. “Welcome! I am the King of Covarnius. You may call me Zanarq.”
+                                        <string key="content">“Why, you of course,” the regal alien states with certainty. “Welcome! I am the King of Covarnius. You may call me King Zanarq.”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -862,7 +1349,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Feelings of anxiety bloom in the pit of your stomach. If these aliens think you’re French, then clearly they have the wrong person. If you tell them the truth now, who knows how they’ll react? 
+                                        <string key="content">Anxiety blooms in the pit of your stomach. If these aliens think you’re French, then clearly they have the wrong person. If you tell them the truth now, who knows how they’ll react? 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -949,7 +1436,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Several tall Covarnians in official garb usher you out of the ship. “My guards will now take you to your new lab and brief you on your mission.” Zanarq informs you. You swallow hard and tell him: 
+                                        <string key="content">Several tall Covarnians in official garb usher you out of the ship. “My guards will now take you to your new lab and brief you on your mission.” King Zanarq informs you. You swallow hard and tell him: 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1041,7 +1528,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You squint into the direction that Kayo shot off in. There’s nothing you could have done anyway. He’s a professional after all, Kayo and his family can handle the distressed Hapal. Who knows? Maybe it just stubbed its toe. (Or hoof, or paw...or whatever.)
+                                        <string key="content">You squint into the direction that Kayo shot off in. There’s nothing you could have done anyway. Kayo's a professional after all, he and his family can handle the distressed Hapal. Who knows? Maybe it just stubbed its toe. (Or hoof, or paw...or whatever.)
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1162,7 +1649,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You think about Kayo and Kina and how helpful they had been while you were stranded on their planet. Maybe you should have helped with the baby hapal after all? A feeling of sadness wells up in you, the problem seemed a lot more serious than a stubbed Hapal toe.
+                                        <string key="content">You think about Kayo and Kina, and how helpful they had been while you were stranded on their planet. Maybe you should have helped with the baby hapal after all? A feeling of sadness wells up in you, the problem seemed a lot more serious than a stubbed Hapal toe.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1189,7 +1676,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">No use thinking about it now, at least you can try and help the Covarnians. 
+                                        <string key="content">No use thinking about it now, at least you can try to help the Covarnians. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14651,15 +15138,15 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">A faint glimmer of hope crosses Chrono’s face but quickly disappears. “What could we possibly do to help?” he questions. Chrono looks at the ground sadly and shakes his head.
+                                        <mutableString key="content">A faint glimmer of hope crosses Chrono’s face but quickly disappears. “What could we possibly do to help?” he questions. Chrono looks at the ground sadly and shakes his head.
 
 “I’m just a screw up. I crashed my first ship and now I’m not allowed to pilot one manually anymore. I can’t even get my latest invention, the Hyper Growth Ray, to work! And to top it all off, I brought back the wrong earthling! Now Covarnius will fall to the Sinisterians and it will be all my fault.”
 
 You have to admit, the situation looks grim, but you don’t tell Chrono that. There has to be some sort of solution that could help the Covarnians. “Don’t you have an army? Can’t you just fight the Sinisterians?”
 
-"Covarnians are not fighters, we’re builders." Chrono says while kicking a strange looking object laying on the ground. It looks like a pinecone except it’s orange and fuzzy. “Once the Sinisterians land, it’s all over. We're done for.”
+"Covarnians are not fighters, we’re builders," Chrono says while kicking a strange looking object laying on the ground. It looks like a pinecone except it’s orange and fuzzy. “Once the Sinisterians land, it’s all over. We're done for.”
 
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
@@ -14711,7 +15198,7 @@ You have to admit, the situation looks grim, but you don’t tell Chrono that. T
                                     <fragment>
                                         <string key="content">The two of you (with Luna) hurry to tell King Zanarq about your genius plan to stop the Sinisterians once and for all! Upon arriving, you are escorted to a large room. The area is nearly empty, save a table surrounded by a dozen comfy looking chairs. 
 
-King Zanarq sits at the head of the table, his shiny crown perched atop his head. More Covarnians sit in the seats around the alien king, weary looks on their faces. This must be the war room. The wise councilmen surround the king on all sides.
+King Zanarq sits at the head of the table, his shiny crown perched atop his head. More Covarnians sit in the seats around the alien king, weary looks on their faces. This must be the war room. The wise councilmen flank each side of the king.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14736,7 +15223,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“This better be important.” King Zanarq says in that booming voice of his. “And I see you didn’t send the earthlings back either.” he adds as he notices you and Luna’s presence.
+                                        <string key="content">“This better be important.” King Zanarq says in that booming voice of his. “And I see you didn’t send the earthlings back either.” he adds, noticing you and Luna.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14811,8 +15298,51 @@ Cg
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
+                                    <fragment content="Chrono stops in his tracks. “That ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="Baskerville"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="could">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="Baskerville-Italic"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
                                     <fragment>
-                                        <string key="content">Chrono stops in his tracks. “That could work,” he says thoughtfully. Then he shakes his head, clearly dismissing the idea. “But it’s way too dangerous.” Then tilting his head to the side, he says thoughtfully, “It is a good idea though.” 
+                                        <string key="content"> work,” he says thoughtfully. Then he shakes his head, clearly dismissing the idea. “But it’s way too dangerous.” He tilts his head to the side and says, “It </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="Baskerville"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="is">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="Baskerville-Italic"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> a good idea though.” 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15714,7 +16244,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">King Zanarq regains his composure, takes a deep breath and shifts his piercing towards Chrono.
+                                        <string key="content">King Zanarq regains his composure, takes a deep breath and shifts his piercing eyes towards Chrono.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15820,7 +16350,9 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Enough,” Zanarq says quietly, cutting off Chrono. “This was your last chance and you failed. The invasion is imminent and there is absolutely nothing we can do about it.” A grave look crosses Zanarq’s face. “Take the earthling to the shipping chamber for the next flight back to Earth.” Zanarq storms away followed by his Covarnian entourage. They leave you and Chrono standing forlornly at the base of the spaceship that you had arrived on. 
+                                        <string key="content">“Enough,” King Zanarq says quietly, cutting off Chrono. “This was your last chance and you failed. The invasion is imminent and there is absolutely nothing we can do about it.” A grave look crosses King Zanarq’s face. “Take the earthling to the shipping chamber for the next flight back to Earth.” 
+
+King Zanarq storms away followed by his Covarnian entourage. They leave you and Chrono standing forlornly at the base of the spaceship that you had arrived on. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15829,7 +16361,6 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -15843,11 +16374,11 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">You look at Chrono, who looks more miserable than ever. “What did he mean by invasion?” you question.
+
 “It’s the Sinisterians,” Chrono says pitifully. “They are on their way to Covarnius as we speak.”</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15856,7 +16387,6 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -15893,7 +16423,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You look around at the lab and know there is no way you can help the Covarnians. Not like this anyway. Pushing the thoughts of Covarnian torture chambers out of your mind, you tell the scientist that they have the wrong person.
+                                        <string key="content">You look around at the lab and realize that there's no way you can help the Covarnians. Not like this anyway. Pushing the thoughts of Covarnian torture chambers out of your mind, you tell the scientist that they have the wrong person.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15922,7 +16452,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">A look of consternation crosses the Covarnian scientist’s face. “That is troubling news to be sure,” he says forlornly. “Your research in the field of cloaking technology was Covarnius’ last hope. So your name isn’t Clyde DuBois?”
+                                        <string key="content">A look of consternation crosses the scientist’s face. “That is troubling news to be sure,” he says forlornly. “Your research in the field of cloaking technology was Covarnius’ last hope. So your name isn’t Clyde DuBois?”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16009,8 +16539,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">The guard that escorted you to the lab overheard everything and motions you to the door. “I’ll take you back to King Zanarq now,” he says. Before you know it, the scientist is reviewing charts, acting as if you did not even exist.
-</string>
+                                        <string key="content">The guard that escorted you to the lab overheard everything and motions you to the door. “I’ll take you back to King Zanarq now,” he says. Before you know it, the scientist is reviewing charts, acting as if you did not even exist.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
@@ -16596,7 +17125,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Kayo helped you, now you’re going to help him. Or at least you’re going to try…
+                                        <mutableString key="content">Kayo helped you, now you’re going to help him! Or at least you’re going to try…
 
 You take off in the direction that Kayo went. Luna follows close behind with her tongue hanging out the side. 
 
@@ -16604,12 +17133,12 @@ You take off in the direction that Kayo went. Luna follows close behind with her
 
 You shake your head. “Kayo helped us when we needed it. Now we need to help him… and whatever a baby hapal is.”
 
-As you round the corner of the ranch house, you see Kayo and Kina crouching near a small opening of a cave.
+As you round the corner of the ranch house, you see Kayo and Kina crouching near the small opening of a cave.
 
 “What’s the matter?” You ask as you approach the couple. 
 
 Kayo and Kina stand up and you can see the worried looks on their faces. “The baby hapal wandered into this cave and now he’s too afraid to come out,” Kayo explains. “The problem is, we’re all too big to get through this opening to retrieve him.”
-</string>
+</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="17" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
@@ -16657,7 +17186,7 @@ Kayo and Kina stand up and you can see the worried looks on their faces. “The 
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“That’s ok,” you tell Kayo, declining his offer. “I think we’ll come out with you and see if we can help.”  Who knows? This could all be a trap!
+                                        <string key="content">“That’s ok,” you tell Kayo, declining his offer. “I think we’ll come out with you and see if we can help.” Who knows? This could all be a trap!
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16744,7 +17273,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">After Kayo explains your situation, the four of you walk back to the ship. Kayo and Kebo set to work immediately. You and Chrono, unsure how to help, mostly watch. </string>
+                                        <string key="content">After Kayo explains your situation, the four of you walk back to the ship. Kayo and Kebo set to work immediately. You and Chrono just watch, unsure how to help.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="13" name="Baskerville"/>
@@ -16789,7 +17318,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You watch them working for what seems like an eternity. Eventually you sit down on the barren earth and watch the sun dip down into the sky, setting over the strange horizon. 
+                                        <string key="content">You watch them working for what seems like an eternity. You sit down on the barren earth and watch the sun dip down into the sky, setting over the strange horizon. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16816,7 +17345,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">The soft couch and roaring fire seem awfully inviting but at least you know your ship isn’t being stolen. 
+                                        <string key="content">The soft couch and roaring fire seemed awfully inviting, but at least you they're not stealing your only means back to Earth. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16843,7 +17372,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">After a while, the sound of Kayo’s voice awakens you. “Your ship should be all set now partner.”
+                                        <string key="content">The sound of Kayo’s voice awakens you. “Your ship is all set now, partner.”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16870,7 +17399,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Apparently you dozed off on the cold hard ground. You jump up and brush the dust from your clothes. You’re cold and tired and ready to go home. 
+                                        <string key="content">Apparently you dozed off on the cold hard ground. You jump up and brush the dust from your clothes. You’re cold and tired and ready to go home. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16944,7 +17473,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Kayo leaves the house in search of Kebo. You and Chrono plop down on the couch in front of the roaring fire, and Luna stretches out nearby on a fluffy rug. Kina brings you a tray of something called “Mekop”. It tastes like a unique sugar cookie. 
+                                        <string key="content">Kayo leaves the house in search of Kebo. You and Chrono plop down on the couch in front of the roaring fire, and Luna stretches out nearby on a fluffy rug. Kina brings you a tray of something called “Mekop”. It tastes like a citrusy sugar cookie. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16973,7 +17502,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">After eating until your stomach is full to bursting, you quickly fall asleep. The next thing you know, the sound of Kayo’s voice awakens you from your slumber. 
+                                        <string key="content">After eating until your stomach is about to burst, you quickly fall asleep. The next thing you know, the sound of Kayo’s voice awakens you from your slumber. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -17086,7 +17615,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Thank you so much, Kayo!” you say gratefully. Getting the ship fixed means your at least one step closer to getting home...or at least getting off this planet.
+                                        <string key="content">“Thank you so much, Kayo!” you say gratefully. Getting the ship fixed means you're one step closer to getting home...or at least getting off this planet.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -17139,7 +17668,7 @@ Cg
                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Kayo laughs heartily. “No problem guys. Let me lead you back to your ship. It’s not too far from here.”">
+                                    <fragment content="Kayo laughs heartily. “No problem! Let me lead you back to your ship. It’s not too far from here.”">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -17184,7 +17713,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">The fresh mountain air is invigorating after your nice nap. You hope that all aliens are as friendly as these rural amigos.
+                                        <string key="content">The fresh mountain air is invigorating after your nice nap. You hope that all aliens are as friendly as Kayo.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -17213,7 +17742,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Well, here is your spaceship,” Kayo bellows proudly. “Good as new!”
+                                        <string key="content">“Well, here's your spaceship,” Kayo bellows proudly. “Good as new!”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -17242,7 +17771,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Just as you are about to jump in, a distressed cry sounds from behind the ranch house. It’s a sad cry, a mix between a baby elephant and a baby lamb. 
+                                        <string key="content">Just as you are about to jump in, a distressed cry is heard from behind the ranch house. It’s a sad cry, a mix between a baby elephant and a baby lamb. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -17316,18 +17845,36 @@ Cg
                                 <rect key="frame" x="25" y="70" width="270" height="295"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
+                                    <fragment content="You ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="16" name="Baskerville"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="still">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="16" name="Baskerville-Italic"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
                                     <fragment>
-                                        <string key="content">You don’t know what a hapal is but it sounds like it needs help.
+                                        <string key="content"> don’t know what a hapal is but it sounds like it needs help.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -17338,54 +17885,23 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Kayo takes off in the direction of the sound. You feel like you should follow him, in case he needs help. But how could you be any help to a baby hapal? You don’t even know what a “hapal” is! 
+                                        <string key="content">Kayo takes off in the direction of the sound. You feel like you should follow him, in case he needs help. But how could you be any help to a baby hapal? 
+
+You’re desperate to get on the newly fixed ship and fly off this planet. You begin to board the Covarnian ship but then stop. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Baskerville"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">You’re desperate to get on the newly fixed ship and fly off this planet. You begin to board the Covarnian ship but then stop. 
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Baskerville"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -17396,25 +17912,21 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Kayo has been so good to you. He helped you when you needed it. Fixing your ship, offering you food and a place to relax… You feel a pang of guilt not returning the favor.
+                                        <string key="content">Kayo has been so good to you. He helped you when you needed it. Fixing your ship, offering you food and a place to relax… You feel a pang of guilt for not returning the favor.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -17425,11 +17937,9 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -17439,11 +17949,9 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -17668,7 +18176,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">The cowboy smiles. “Well then you crash landed on the right planet. One of my ranch hands, Kebo, is an excellent mechanic. He’ll get you fixed up in no time.”
+                                        <string key="content">The cowboy smiles. “Well then, you crash landed on the right planet. One of my ranch hands, Kebo, is an excellent mechanic. He’ll get you fixed up in no time.”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -17920,7 +18428,7 @@ The message on the monitor changes and you read it aloud, “Making emergency la
                                     <fragment>
                                         <string key="content">This is just too much, too soon. The vastness of space is terrifying, and feelings of homesickness weigh heavily upon you.
 
-“Take me back to earth!” you shout panicked at Chrono.
+“Take me back to Earth!” you shout panicked at Chrono.
 
 “I’m afraid that’s not possible,” he replies, sighing. “You see, the course has already been set for Covarnius. I can’t undo it.” 
 
@@ -18082,7 +18590,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“How are we going to get out of here?” You ask, your own panic matching Chrono’s. 
+                                        <string key="content">“How are we going to get out of here?” you ask, your own panic matching Chrono’s. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18143,7 +18651,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Don’t ask me,” Chrono says as he opens the ship and hops out. “You’re the one that made the ship malfunction.”
+                                        <string key="content">“Don’t ask me,” Chrono says. He opens the ship's hatch and climbs out. “You’re the one that made the ship malfunction.”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18170,7 +18678,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You hop out of the ship and Luna follows. “Yeah but it’s your ship. Don’t you know how to reset it or something?” 
+                                        <string key="content">You hop out after him and Luna follows. “Yeah but it’s your ship. Don’t you know how to reset it or something?” 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18197,7 +18705,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Markloo Gurble Gur?” you hear a friendly sounding voice say from behind you.
+                                        <string key="content">“Markloo Gurble Gur?” You hear a friendly voice say behind you.
 
 </string>
                                         <attributes>
@@ -18211,7 +18719,28 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You whip around and see a large muscular alien standing before you. In fact, he looks a bit like Chrono. Unlike Chrono though, this being has pale orange skin and an extra eye in the middle of his forehead. He seems friendly but you know that could all just be a ploy. Maybe he is the one who will dissect your brain!</string>
+                                        <string key="content">You whip around and see a large muscular alien standing before you. In fact, he looks a bit like Chrono. Unlike Chrono though, this being has pale orange skin and an extra eye in the middle of his forehead. He seems friendly but you know that could all just be a ploy. Maybe </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Baskerville"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="he">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Baskerville-Italic"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="'s the one who will dissect your brain!">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -18355,17 +18884,17 @@ With a broken down ship, you don’t have many options. The way you see it, you 
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You look around at the vast landscape stretching out in all directions. Where could you run? There was nowhere to go. No water. No anything. You decide to trust the space cowboy. 
+                                        <mutableString key="content">You look around at the vast landscape stretching out in all directions. Where could you run? There was nowhere to go. No water. No anything. You decide to trust the space cowboy. 
 
 “Our ship broke down,” you say with hesitation. “We need help repairing it.”
 
 The cowboy smiles. “Well then you crash landed on the right planet. One of my ranch hands, Kebo, is an excellent mechanic. He’ll get you fixed up in no time.”
 
-You exchange a look with Chrono, still uncertain whether or not to trust him. 
+You exchange a look with Chrono, still uncertain whether or not to trust the space cowboy. 
 
-“My name is Kayo, by the way,” he continues. You can stay in the ranch house while we get your ship good as new. My wife, Kina, will be fixing dinner. I’m sure you all must be starving.”
+“My name is Kayo,” he continues, "You can stay in the ranch house while we get your ship good as new. My wife, Kina, will be fixing dinner. I’m sure you all must be starving.”
 
-</string>
+</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="14" name="Baskerville"/>
                                         </attributes>
@@ -18411,7 +18940,7 @@ You exchange a look with Chrono, still uncertain whether or not to trust him.
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You follow Kayo back to the ranch where Kina is just putting dinner on the table. You’re not sure what kind of food they eat on this planet but you figure beggars can’t be choosers. 
+                                        <string key="content">You follow Kayo back to the ranch where Kina is putting dinner on the table. You’re not sure what kind of food they eat on this planet, but beggars can’t be choosers. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18469,7 +18998,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Right as rain,” Kayo says taking a large bite of stew. “Kina and I run this ranch with the help of our ranch hands, Kebo, Kula, Karu, Kila, Kuro, Kana and Frank. We do all the roping, wrangling and keeping everything the most spick and span you’ll ever see this side of the galaxy.”</string>
+                                        <string key="content">“Right as rain,” Kayo says, taking a bite of stew. “Kina and I run this ranch with the help of our ranch hands, Kebo, Kula, Karu, Kila, Kuro, Kana and Frank. We do all the roping, wrangling and keeping everything the most spick and span you’ll ever see this side of the galaxy.”</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -18541,7 +19070,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“And that’s saying a lot,” Kayo continues as he eats his stew. “You’ve never seen a mess until you’ve owned a hapal. I guess I don’t have to tell you though,” Kayo says gesturing to Luna who is busy lapping up a bowl of the alien stew. “You know what it’s like to own a baby hapal. 
+                                        <string key="content">“And that’s saying a lot,” Kayo continues as he eats his stew. “You’ve never seen a mess until you’ve owned a hapal. I guess I don’t have to tell you though,” Kayo says gesturing to Luna who is busy lapping up a bowl of the alien stew. “You know what it’s like to own a baby hapal."
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18615,7 +19144,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Kayo wipes his mouth on a napkin. “Oh, well I just assumed. That’s good though. I thought it was awful unfortunate the poor thing was so deformed… missing an eye, antenna on the wrong side of its body…”
+                                        <string key="content">Kayo wipes his mouth on a napkin. “Oh, well I just assumed. That’s good though. I thought it was awfully unfortunate that the poor thing was so deformed… missing an eye, antenna on the wrong side of its body…”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18749,7 +19278,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Now y’all go on and relax,” Kayo says, standing up from the table. “I’ll get Kebo and we’ll fix your ship in no time!”
+                                        <string key="content">“Now y’all go on and relax,” Kayo says, standing up from the table. “I’ll get Kebo and we’ll get your ship fixed in no time!”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18835,7 +19364,7 @@ Cg
                                             <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="The couch and the fire do look inviting though. But the ship is your only hope to get off the planet. ">
+                                    <fragment content="The couch and the fire do look inviting. But the ship is your only hope to get off the planet. ">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -18911,13 +19440,144 @@ Cg
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Luna’s head tilts to the left, she is staring at the object in puzzlement as well. Could the two of you be staring at a UFO? It doesn’t seem possible, you don’t even believe in aliens. But the oddly shaped green creature makes you start to think otherwise. You hear a loud hissing sound like the decompressing of air. The top of what appears to be an alien spaceship opens. 
-
-Yup, definitely an alien!
-</string>
+                                    <fragment content="Luna’s head tilts to the left, she is staring at the object in puzzlement as well. Could the two of you ">
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="really ">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Baskerville-Italic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">be staring at a UFO? It doesn’t seem possible, you don’t even believe in aliens. 
+
+But the odd green creature makes you start to think otherwise. You hear a loud hissing sound like the decompressing of air. The top of what appears to be an alien spaceship opens. 
+
+Yup, definitely an alien!</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -18955,10 +19615,9 @@ Yup, definitely an alien!
                                     <fragment>
                                         <string key="content">The creature inside hops out of the aircraft. His body is long and slender; he appears frantic and in a great hurry.
 
-The creature looks directly at you with his large bulbous eyes. He scans you head to toe, silent for a moment, like a boxer sizing up an opponent. The alien is about your height. Maybe you could take him on?
+The creature looks at you with his large bulbous eyes. He scans you head to toe, silent for a moment, like a boxer sizing up an opponent. The alien is about your height. Maybe you could take him on?
 
-All the scary alien movies you’ve ever watched come flooding back to you. What if he wants to dissect your brain? Or worse! The alien moves closer to you. Luna lets out a bark as a warning to the strange being. 
-</string>
+All the scary alien movies you’ve ever watched flood into memory. What if he wants to dissect your brain? Or worse! The alien moves closer to you. Luna lets out a bark as a warning bark</string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                         </attributes>
@@ -19016,17 +19675,119 @@ All the scary alien movies you’ve ever watched come flooding back to you. What
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Bonjour,” the alien says slowly, waving his long slender arm. You look at him slackjawed with confusion. The alien speaks French? 
+                                        <string key="content">“Bonjour,” the alien says slowly, waving his long slender arm. You look at him slack jawed with confusion. The alien speaks French? 
 
 “Je m’appelle Chrono,” he continues with a bow. His eyes never leave your face. 
 
-You shake your head. “Do you speak English by chance?” you ask the alien hesitantly.
+You shake your head. “Do you speak English, by chance?” you ask hesitantly.
 
 The creature hits a button located on his belt and says, “Sorry for the confusion. I just assumed…”
 
-You can’t imagine why he would assume you speak French, but it doesn’t matter anyway. “What do you want?” you ask him, hoping the answer is not world domination. 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="15" name="Baskerville"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">You can’t imagine why he assumed you spoke French, but it doesn’t matter anyway.
 
-“I need you to come with me right away!” The alien declares with alarm in his voice. You hesitate for a moment, and reply...</string>
+“What do you want?” you ask him, hoping the answer isn't world domination. 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="15" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+“I need you to come with me right away!” the alien declares with alarm in his voice. You hesitate for a moment, and reply...</string>
                                         <attributes>
                                             <font key="NSFont" size="15" name="Baskerville"/>
                                         </attributes>
@@ -19085,14 +19846,14 @@ You can’t imagine why he would assume you speak French, but it doesn’t matte
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You decided to keep going home. Let the aliens abduct someone else for their experiments. After catching your breath, you jog the rest of the way home with Luna. Bursting through the front door, you turn on the news to see if there is any update on an alien invasion. The man on the tv is reporting about a kitten that was just rescued from a tree. Nothing about an invasion. 
+                                        <mutableString key="content">You decide to keep going home. Let the aliens abduct someone else for their experiments. After catching your breath, you jog the rest of the way home with Luna. Bursting through the front door, you turn on the news to see if there is any update on an alien invasion. The man on the T.V is reporting on a story about a kitten that was just rescued from a tree. Nothing about an invasion. 
 
-You make a snack for you and Luna and keep watching but nothing ever happens. Eventually you switch the channel over to cartoons and begin to wonder if you even really saw a spaceship. 
+You make a snack and keep watching, but nothing ever happens. Eventually, you switch the channel over to cartoons and begin to wonder if you even really saw a spaceship. 
 
-You know what you saw though and can’t help but wonder what the aliens wanted. As you head up to bed you wonder if you should have headed back after all. 
+You know what you saw though, and can’t help but wonder what the aliens wanted. As you head to bed, you wonder if you should have investigated after all. 
 
 You can’t help but think perhaps you missed out on the opportunity of a lifetime...
-</string>
+</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="15" name="Baskerville"/>
                                         </attributes>
@@ -19180,18 +19941,53 @@ You can’t help but think perhaps you missed out on the opportunity of a lifeti
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You started to run away as fast as you could. You don’t need a closer look to know that aliens have just invaded Earth!
-
-Veering off the sidewalk, you cut through Mrs. Hill’s garden and run as fast as you can for home. Luna seems to be enjoying the run. The wind blows her golden fur back and her tongue hangs out to one side. 
-
-You keep running, faster than you’ve ever ran before. You run past the big white house with three german shepherds and continue on past the garden gnomes in Mrs. Burn’s yard. 
+                                        <mutableString key="content">You keep running, faster than you’ve ever ran before. You run past the big white house with three german shepherds and continue on past the garden gnomes in Mrs. Burn’s yard. 
 
 Slowing down to catch your breath, you turn around and see the ship in the distance. You can’t believe aliens are really landing on Earth! You wonder what they want. Are they friendly? 
 
-Maybe you should go back. You can’t help but be curious. You’re probably the first person to have ever seen an alien spaceship! On the other hand, they could be hostile. Maybe you should just keep heading home. 
-</string>
+Maybe you should go back. You can’t help but be curious. You’re probably the first person to have ever seen an alien spaceship! On the other hand, they could be hostile. Maybe you should just keep heading home. </mutableString>
                                         <attributes>
                                             <font key="NSFont" size="14" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -19222,6 +20018,41 @@ Maybe you should go back. You can’t help but be curious. You’re probably the
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pEu-W2-8D0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-11.25" y="1297.1830985915492"/>
+        </scene>
+        <!--Chapter View Controller-->
+        <scene sceneID="22B-77-wDm">
+            <objects>
+                <viewController storyboardIdentifier="run away1.5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ER7-OA-AQs" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gWO-sA-GNE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xfr-Sy-oX6">
+                                <rect key="frame" x="25" y="70" width="270" height="301"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">You run away as fast as you can. You don’t need a closer look to know that aliens have just invaded Earth!
+
+Veering off the sidewalk, you cut through Mrs. Hill’s garden and run as fast as you can for home. Luna seems to be enjoying the run. The wind blows her golden fur back and her tongue hangs out to one side. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CJS-iv-POh" firstAttribute="trailing" secondItem="xfr-Sy-oX6" secondAttribute="trailing" constant="25" id="UYD-He-VNg"/>
+                            <constraint firstItem="xfr-Sy-oX6" firstAttribute="top" secondItem="CJS-iv-POh" secondAttribute="top" constant="50" id="jsx-eU-MOR"/>
+                            <constraint firstItem="xfr-Sy-oX6" firstAttribute="leading" secondItem="CJS-iv-POh" secondAttribute="leading" constant="25" id="qhP-Vq-7fe"/>
+                            <constraint firstItem="CJS-iv-POh" firstAttribute="bottom" secondItem="xfr-Sy-oX6" secondAttribute="bottom" constant="197" id="vXO-Jm-Bjx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CJS-iv-POh"/>
+                    </view>
+                    <connections>
+                        <outlet property="runAway2TextBox" destination="xfr-Sy-oX6" id="uq0-cH-hBi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zem-sG-OUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778" y="1297"/>
         </scene>
         <!--Generic Decision Point View Controller-->
         <scene sceneID="cGq-fh-97v">
@@ -19259,14 +20090,12 @@ Maybe you should go back. You can’t help but be curious. You’re probably the
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
-                                <string key="text">Bright red and yellow leaves—the hallmark of autumn–crunch underneath your sneakers. You walk your dog Luna down a neighborhood street, without a care in the world. The wind whips against your face and the streets are eerily empty. As much as you enjoy walking Luna, you’re still looking forward to getting back home, making a snack and watching T.V. 
-
-The only sounds to be heard are the rustling of leaves on the concrete and Luna’s overly enthusiastic sniffing.
+                                <mutableString key="text">Bright red and yellow leaves—the hallmark of autumn–crunch underneath your sneakers. You walk your dog Luna down a neighborhood street, without a care in the world. The wind whips against your face and the streets are eerily empty. As much as you enjoy walking Luna, you’re still looking forward to getting back home, making a snack and watching T.V. 
 
 Just as you are about to circle back home, a strange shape emerges from the sky. It’s large and shaped like a saucer. Bulbous multi-colored lights blink rapidly all over the aircraft, making it look like a strangely shaped Christmas tree. Your first instinct is to run away, but you also want to see what the strange object is. 
 
 Do you:
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -19327,8 +20156,8 @@ Do you:
         <segue reference="jox-Tc-HCZ"/>
         <segue reference="dm8-JS-0k1"/>
         <segue reference="Rlm-ND-bdU"/>
-        <segue reference="KYf-bL-oLj"/>
-        <segue reference="ijG-Ma-eQD"/>
-        <segue reference="PTd-wR-twb"/>
+        <segue reference="UT2-He-dFh"/>
+        <segue reference="h7j-ZC-5Tj"/>
+        <segue reference="uuZ-rN-ipF"/>
     </inferredMetricsTieBreakers>
 </document>

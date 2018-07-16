@@ -19,11 +19,12 @@ class IntroPageViewController: GenericPageViewController {
             
                 return
                     [   self.newVC(viewController: "Arrow Image"),
+                        self.newVC(viewController: "run away1.5"),
                         self.newVC(viewController: "run_as_fast_as_you_can_1")]
         } else {
             setImage(image: Constants.EMPTY_SIDEWALK_PIC)
             return [
-                self.newVC(viewController: "Arrow Image"),
+                self.newVC(viewController: Constants.LAWN_GNOME_PIC),
                 self.newVC(viewController: "Intro_1")]
             }
         }()
