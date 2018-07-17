@@ -45,6 +45,9 @@ class ChapterViewController: UIViewController {
         self.yetAnotherDistraction3TextBox?.changeFontSizeByDevice(width: width)
         self.runForItTheEnd?.changeFontSizeByDevice(width: width)
         self.chap2_0TextBox?.changeFontSizeByDevice(width: width)
+        
+        self.dessertMistakeTextBox?.changeFontSizeByDevice(width: width)
+        
         self.runAway1point5TextBox?.changeFontSizeByDevice(width: width)
         
         self.chap2_3TextBox?.changeFontSizeByDevice(width: width)
@@ -235,6 +238,8 @@ class ChapterViewController: UIViewController {
         self.yetAnotherDistraction3TextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.runForItTheEnd?.setContentOffset(CGPoint.zero, animated: true)
         self.chap2_0TextBox?.setContentOffset(CGPoint.zero, animated: true)
+    self.dessertMistakeTextBox?.setContentOffset(CGPoint.zero, animated: true)
+        
         self.runAway1point5TextBox?.setContentOffset(CGPoint.zero, animated: true)
         
         self.chap2_3TextBox?.setContentOffset(CGPoint.zero, animated: true)
@@ -408,6 +413,8 @@ class ChapterViewController: UIViewController {
         self.yetAnotherDistraction3TextBox?.changeFontSizeByDevice(width: width)
         self.runForItTheEnd?.changeFontSizeByDevice(width: width)
         self.chap2_0TextBox?.changeFontSizeByDevice(width: width)
+        self.dessertMistakeTextBox?.changeFontSizeByDevice(width: width)
+        
         self.runAway1point5TextBox?.changeFontSizeByDevice(width: width)
         
         self.chap2_3TextBox?.changeFontSizeByDevice(width: width)
@@ -598,6 +605,10 @@ class ChapterViewController: UIViewController {
         self.celebrateTextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.theEndKatoniaHelpTextBox?.setContentOffset(CGPoint.zero, animated: true)
         self.chap2_0TextBox?.setContentOffset(CGPoint.zero, animated: true)
+        
+        self.dessertMistakeTextBox?.setContentOffset(CGPoint.zero, animated: true)
+        
+        
         self.runAway1point5TextBox?.setContentOffset(CGPoint.zero, animated: true)
         
         self.chap2_3TextBox?.setContentOffset(CGPoint.zero, animated: true)
@@ -772,6 +783,7 @@ class ChapterViewController: UIViewController {
     }
     
     
+    @IBOutlet weak var dessertMistakeTextBox: UITextView!
     @IBOutlet weak var runAway1point5TextBox: UITextView!
     @IBOutlet weak var chap2_0TextBox: UITextView!
     @IBOutlet weak var chap2_1TextBox: UITextView!
@@ -928,6 +940,8 @@ class ChapterViewController: UIViewController {
         self.yetAnotherDistraction3TextBox?.layer.cornerRadius = cornerRadius
         self.runForItTheEnd?.layer.cornerRadius = cornerRadius
         self.chap2_0TextBox?.layer.cornerRadius = cornerRadius
+        self.dessertMistakeTextBox?.layer.cornerRadius = cornerRadius
+        
         self.runAway1point5TextBox?.layer.cornerRadius = cornerRadius
         
         self.chap2_3TextBox?.layer.cornerRadius = cornerRadius
@@ -1089,6 +1103,9 @@ class ChapterViewController: UIViewController {
         self.celebrateTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
           self.theEndKatoniaHelpTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         self.chap2_0TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
+                self.dessertMistakeTextBox?.layer.backgroundColor = UIColor.lightText.cgColor
+        
+    
         self.runAway1point5TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
         
         self.chap2_3TextBox?.layer.backgroundColor = UIColor.lightText.cgColor
@@ -1241,6 +1258,8 @@ class ChapterViewController: UIViewController {
         let Color = UIColor.lightGray
         let myColor = Color.cgColor
         self.chap2_0TextBox?.layer.borderColor = myColor
+         self.dessertMistakeTextBox?.layer.borderColor = myColor
+        
         self.runAway1point5TextBox?.layer.borderColor = myColor
         
         self.yetAnotherDistraction1TextBox?.layer.borderColor = myColor
@@ -1416,6 +1435,8 @@ class ChapterViewController: UIViewController {
         self.yetAnotherDistraction3TextBox?.layer.borderWidth = borderWidth
         self.runForItTheEnd?.layer.borderWidth = borderWidth
         self.chap2_0TextBox?.layer.borderWidth = borderWidth
+        self.dessertMistakeTextBox?.layer.borderWidth = borderWidth
+        
         self.runAway1point5TextBox?.layer.borderWidth = borderWidth
         
         self.chap2_3TextBox?.layer.borderWidth = borderWidth

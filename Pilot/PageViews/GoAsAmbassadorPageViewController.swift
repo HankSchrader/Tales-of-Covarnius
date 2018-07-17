@@ -60,7 +60,7 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                 
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "dessert"),
-                        self.newVC(viewController: "council chamber sneak"),
+                        self.newVC(viewController: "dessert mistake"),
                         self.newVC(viewController: "council chamber sneak 1.5"),
                         self.newVC(viewController: "Chrono knows the layout")]
             case "stinky meat"?:
