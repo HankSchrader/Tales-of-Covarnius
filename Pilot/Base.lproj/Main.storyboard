@@ -2602,12 +2602,12 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">The growlics look at the food and give it a quick sniff. The scent makes them even angrier. (And here you thought it was scentless!) 
+                                        <string key="content">The growlics look at the food and give it a quick sniff. The scent makes them even angrier. (And here you thought it was scentless!) 
 
 The growlics are closing in on you. You search around the kitchen, looking for any means of escape. As luck would have it, you notice a door directly behind you! The three of you hurriedly make your way inside.
 
 Slamming the door shut, you hear the growlics pound against the other side. You made it in, just in time! looking at your surroundings, you realize that you’re in a pantry. Various types of strange looking food line the shelves and hang from the ceiling. 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="24" name="Baskerville"/>
@@ -5663,15 +5663,11 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Luna_In_Ship_to_Earth" translatesAutoresizingMaskIntoConstraints="NO" id="v2M-oB-nLj">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2RM-7g-Ief">
                                 <rect key="frame" x="16" y="478" width="288" height="30"/>
                                 <state key="normal" title="THE END (BEST ENDING)"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="7r4-c5-k5O"/>
+                                    <segue destination="cx7-q2-roP" kind="show" id="3rd-jJ-Mjs"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3r5-cg-CCk">
@@ -5762,7 +5758,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eUv-Q1-Qsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-22353.75" y="12295.774647887323"/>
+            <point key="canvasLocation" x="-22723" y="12076"/>
         </scene>
         <!--Generic Decision Point View Controller-->
         <scene sceneID="D1y-bZ-M6B">
@@ -5868,7 +5864,7 @@ A celebration </string>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bw5-l0-oik">
                                 <rect key="frame" x="30" y="488" width="274" height="30"/>
-                                <state key="normal" title="Home sweet home!"/>
+                                <state key="normal" title="Home sweet home."/>
                                 <connections>
                                     <segue destination="tnv-J0-xgn" kind="show" identifier="home sweet home" id="W4d-hl-1Gg"/>
                                 </connections>
@@ -5899,7 +5895,7 @@ A celebration </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SOO-vI-dLK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-21631.875" y="12286.267605633802"/>
+            <point key="canvasLocation" x="-21703" y="12286"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="9AO-mE-zM2">
@@ -5977,20 +5973,20 @@ Cg
             </objects>
             <point key="canvasLocation" x="-20886" y="12287"/>
         </scene>
-        <!--Chapter Select View Controller-->
+        <!--Chapter View Controller-->
         <scene sceneID="CXy-K5-NOZ">
             <objects>
-                <viewController storyboardIdentifier="celebrate" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ep9-Yq-028" customClass="ChapterSelectViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="celebrate" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ep9-Yq-028" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="euX-W1-2z4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chrono Statue" translatesAutoresizingMaskIntoConstraints="NO" id="zNK-Qa-uHD">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50D-Wk-uWY">
                                 <rect key="frame" x="16" y="478" width="288" height="30"/>
                                 <state key="normal" title="THE END (BEST ENDING)"/>
+                                <connections>
+                                    <segue destination="cx7-q2-roP" kind="show" id="xvi-zf-Se8"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wk1-UW-rFQ">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
@@ -6044,15 +6040,11 @@ Cg
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="zNK-Qa-uHD" firstAttribute="leading" secondItem="N6F-t3-aeb" secondAttribute="leading" id="Art-8a-eL1"/>
-                            <constraint firstItem="zNK-Qa-uHD" firstAttribute="bottom" secondItem="N6F-t3-aeb" secondAttribute="bottom" id="GMx-sn-ECV"/>
-                            <constraint firstItem="zNK-Qa-uHD" firstAttribute="top" secondItem="euX-W1-2z4" secondAttribute="top" id="H3o-ps-usK"/>
                             <constraint firstItem="N6F-t3-aeb" firstAttribute="trailing" secondItem="wk1-UW-rFQ" secondAttribute="trailing" constant="25" id="L2u-Ss-L2d"/>
                             <constraint firstItem="wk1-UW-rFQ" firstAttribute="leading" secondItem="N6F-t3-aeb" secondAttribute="leading" constant="25" id="Wa7-uh-kTB"/>
                             <constraint firstItem="N6F-t3-aeb" firstAttribute="trailing" secondItem="50D-Wk-uWY" secondAttribute="trailing" constant="16" id="XDm-V9-UiO"/>
                             <constraint firstItem="50D-Wk-uWY" firstAttribute="top" secondItem="wk1-UW-rFQ" secondAttribute="bottom" constant="107" id="hG8-p5-jmQ"/>
                             <constraint firstItem="N6F-t3-aeb" firstAttribute="bottom" secondItem="wk1-UW-rFQ" secondAttribute="bottom" constant="197" id="nLJ-oJ-J0H"/>
-                            <constraint firstItem="zNK-Qa-uHD" firstAttribute="trailing" secondItem="N6F-t3-aeb" secondAttribute="trailing" id="omU-qu-YjS"/>
                             <constraint firstItem="N6F-t3-aeb" firstAttribute="bottom" secondItem="50D-Wk-uWY" secondAttribute="bottom" constant="60" id="vQZ-V7-6e8"/>
                             <constraint firstItem="50D-Wk-uWY" firstAttribute="leading" secondItem="N6F-t3-aeb" secondAttribute="leading" constant="16" id="y2j-ed-bfq"/>
                             <constraint firstItem="wk1-UW-rFQ" firstAttribute="top" secondItem="N6F-t3-aeb" secondAttribute="top" constant="50" id="yKp-Ut-bFA"/>
@@ -6061,8 +6053,7 @@ Cg
                     </view>
                     <connections>
                         <outlet property="celebrateTextBox" destination="wk1-UW-rFQ" id="FNl-rm-FXi"/>
-                        <outlet property="theEndCelebrate" destination="50D-Wk-uWY" id="PVC-hC-OEJ"/>
-                        <outlet property="theEndCelebrateButton" destination="50D-Wk-uWY" id="GrN-Z9-oih"/>
+                        <outlet property="theEndCelebrateButton" destination="50D-Wk-uWY" id="5QA-9t-y71"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QgF-oX-7sL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -9938,14 +9929,14 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">This is no time to be indecisive, you need to follow through with your plan. Carefully opening the door, you step into a small hallway. 
+                                        <string key="content">This is no time to be indecisive, you need to follow through with your plan. Carefully opening the door, you step into a small hallway. 
 
 You go through the door to the right and find yourself in a cozy little kitchen. A table and chairs sits in one corner next to a fuzzy, crimson colored plant. There is a sink, refrigerator and all the other amenities of an Earth kitchen with several gadgets you’ve never seen before.
 
 The uniforms wouldn’t be kept in the kitchen, you surmise. As you turn to leave the room, something stops you dead in your tracks. 
 
 Two creatures stand before you, baring their sharp fangs! The creatures are covered in a thick shaggy fur about the same color as Luna’s. These must be some sort of Covarnian dogs, you think as you stand frozen in place. 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -10037,7 +10028,7 @@ Cg
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UlP-AP-ZDS">
                                 <rect key="frame" x="26" y="70" width="269" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">“There’s no way we’d be able to sneak past all those guards. Our best bet is to borrow what we need from your neighbor.”
+                                <string key="text">“There’s no way we’d be able to sneak past all those guards. Our best bet is to borrow what we need from your neighbor.”
 
 Chrono nods in agreement. “Ok, then let’s get going.”
 
@@ -10052,7 +10043,7 @@ As you approach the door, you wonder whether or not you made the right decision.
 It’s not too late to turn back and get the uniforms from the council chamber. But who knows if that is the right decision either. 
 
 
-</mutableString>
+</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -10109,7 +10100,7 @@ It’s not too late to turn back and get the uniforms from the council chamber. 
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aaN-Sw-OZq">
                                 <rect key="frame" x="25" y="45" width="270" height="326"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">You grab the plate with the strange looking dessert and throw it to the growlics. They sniff at it with interest. “That’s it,” you urge them, “eat the food.” The canines lick the dessert but seem disinterested. 
+                                <string key="text">You grab the plate with the strange looking dessert and throw it to the growlics. They sniff at it with interest. “That’s it,” you urge them, “eat the food.” The canines lick the dessert but seem disinterested. 
 
 Your plan isn’t going the way you wanted…time for a new plan! 
 
@@ -10118,7 +10109,7 @@ Your plan isn’t going the way you wanted…time for a new plan!
 You make it out with your lives but unfortunately, you didn’t procure the items necessary.
 
 “I guess we’ll have to get everything we need from the council chamber,” Chrono says matter of factly. “And we need to hurry, we’re running out of time!”
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -12314,7 +12305,7 @@ If you sprint there, you could get to his abode just in time to lock the door an
                                 <rect key="frame" x="25" y="404" width="270" height="30"/>
                                 <state key="normal" title="Make a run for it."/>
                                 <connections>
-                                    <segue destination="ZrK-Bf-Ad4" kind="show" id="C40-Ny-w9I"/>
+                                    <segue destination="amq-0H-d2h" kind="show" identifier="run mistake" id="YBr-Ky-PrL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCk-B9-hM0">
@@ -12355,7 +12346,7 @@ If you sprint there, you could get to his abode just in time to lock the door an
         <!--Chapter View Controller-->
         <scene sceneID="QRv-t1-6YN">
             <objects>
-                <viewController storyboardIdentifier="Run For It The End" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZrK-Bf-Ad4" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Run The End" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZrK-Bf-Ad4" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WJP-7Q-GMg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19197,9 +19188,6 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Luna_And_TV" translatesAutoresizingMaskIntoConstraints="NO" id="rm6-Xa-RDc">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bC-pQ-A6m">
                                 <rect key="frame" x="60" y="478" width="200" height="30"/>
                                 <state key="normal" title="THE END "/>
@@ -19229,17 +19217,13 @@ You can’t help but think perhaps you missed out on the opportunity of a lifeti
                             </textView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="rm6-Xa-RDc" firstAttribute="trailing" secondItem="m9O-t6-yk6" secondAttribute="trailing" id="5md-eZ-Mmi"/>
                             <constraint firstItem="m9O-t6-yk6" firstAttribute="bottom" secondItem="9bC-pQ-A6m" secondAttribute="bottom" constant="60" id="7OG-XS-OJ3"/>
                             <constraint firstItem="m9O-t6-yk6" firstAttribute="trailing" secondItem="xZW-bu-DNB" secondAttribute="trailing" constant="25" id="7X6-PK-hd2"/>
                             <constraint firstItem="xZW-bu-DNB" firstAttribute="top" secondItem="m9O-t6-yk6" secondAttribute="top" constant="50" id="RTh-Nf-G0u"/>
                             <constraint firstItem="9bC-pQ-A6m" firstAttribute="top" secondItem="xZW-bu-DNB" secondAttribute="bottom" constant="89" id="fVG-uW-Gzj"/>
-                            <constraint firstItem="rm6-Xa-RDc" firstAttribute="top" secondItem="97i-9b-ZzH" secondAttribute="top" id="gZ5-7k-nIg"/>
-                            <constraint firstItem="rm6-Xa-RDc" firstAttribute="leading" secondItem="m9O-t6-yk6" secondAttribute="leading" id="gft-eI-bgI"/>
                             <constraint firstItem="9bC-pQ-A6m" firstAttribute="leading" secondItem="m9O-t6-yk6" secondAttribute="leading" constant="60" id="iBf-jT-Mvj"/>
                             <constraint firstItem="m9O-t6-yk6" firstAttribute="trailing" secondItem="9bC-pQ-A6m" secondAttribute="trailing" constant="60" id="iHp-vK-670"/>
                             <constraint firstItem="xZW-bu-DNB" firstAttribute="leading" secondItem="m9O-t6-yk6" secondAttribute="leading" constant="25" id="lYF-yJ-GNf"/>
-                            <constraint firstItem="rm6-Xa-RDc" firstAttribute="bottom" secondItem="m9O-t6-yk6" secondAttribute="bottom" id="wd1-uj-LxZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="m9O-t6-yk6"/>
                     </view>
@@ -19251,32 +19235,6 @@ You can’t help but think perhaps you missed out on the opportunity of a lifeti
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gta-Sb-zNM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1738.125" y="1298.2394366197184"/>
-        </scene>
-        <!--Chapter View Controller-->
-        <scene sceneID="dFy-gw-LEv">
-            <objects>
-                <viewController storyboardIdentifier="Luna and TV" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TNU-CK-Gw0" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="R4t-C7-yee">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Luna and TV" image="Luna_And_TV" translatesAutoresizingMaskIntoConstraints="NO" id="gF4-HC-vwj">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="gF4-HC-vwj" firstAttribute="top" secondItem="R4t-C7-yee" secondAttribute="top" id="2Ns-Fs-AUg"/>
-                            <constraint firstItem="gF4-HC-vwj" firstAttribute="bottom" secondItem="xHM-U0-f7N" secondAttribute="bottom" id="IEi-pc-8HK"/>
-                            <constraint firstItem="gF4-HC-vwj" firstAttribute="trailing" secondItem="xHM-U0-f7N" secondAttribute="trailing" id="MNx-at-xte"/>
-                            <constraint firstItem="gF4-HC-vwj" firstAttribute="leading" secondItem="xHM-U0-f7N" secondAttribute="leading" id="pzL-CO-E3v"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="xHM-U0-f7N"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1uk-Zv-zfc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-913.125" y="1298.2394366197184"/>
         </scene>
         <!--Run Away!-->
         <scene sceneID="I4i-xz-e7Y">
@@ -19299,7 +19257,7 @@ You can’t help but think perhaps you missed out on the opportunity of a lifeti
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Go Home"/>
                                 <connections>
-                                    <segue destination="aiZ-Oh-mhX" kind="show" id="gMW-Td-Em0"/>
+                                    <segue destination="GYB-hd-9Im" kind="show" identifier="just go home" id="w4t-kW-FBM"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBd-Os-aiw">
@@ -19344,7 +19302,7 @@ Maybe you should go back. You can’t help but be curious. You’re probably the
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pEu-W2-8D0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11.25" y="1297.1830985915492"/>
+            <point key="canvasLocation" x="-73" y="1408"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="22B-77-wDm">
@@ -19374,7 +19332,7 @@ Veering off the sidewalk, you cut through Mrs. Hill’s garden and run as fast a
                         <viewLayoutGuide key="safeArea" id="CJS-iv-POh"/>
                     </view>
                     <connections>
-                        <outlet property="runAway2TextBox" destination="xfr-Sy-oX6" id="uq0-cH-hBi"/>
+                        <outlet property="runAway1point5TextBox" destination="xfr-Sy-oX6" id="9Ix-Yy-KG8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zem-sG-OUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -19457,15 +19415,12 @@ Do you:
         </scene>
     </scenes>
     <resources>
-        <image name="Chrono Statue" width="834" height="1112"/>
         <image name="Chrono_And_Ship" width="834" height="1112"/>
         <image name="Cover Art" width="834" height="1112"/>
         <image name="Earth" width="834" height="1112"/>
         <image name="GreenFizzTheEnd" width="834" height="1112"/>
         <image name="Hypersleep Control Panel" width="250" height="333"/>
         <image name="KayoEnding" width="834" height="1112"/>
-        <image name="Luna_And_TV" width="500" height="667"/>
-        <image name="Luna_In_Ship_to_Earth" width="834" height="1112"/>
         <image name="Sinisterian Gang" width="834" height="1112"/>
         <image name="Sneezing Sinisterian" width="834" height="1112"/>
         <image name="frog" width="834" height="1112"/>
@@ -19473,7 +19428,7 @@ Do you:
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="U32-uH-FzI"/>
-        <segue reference="OdE-ov-LoJ"/>
+        <segue reference="YBr-Ky-PrL"/>
         <segue reference="FFv-aN-znV"/>
         <segue reference="Cpv-90-8rr"/>
         <segue reference="W4d-hl-1Gg"/>
@@ -19484,7 +19439,8 @@ Do you:
         <segue reference="dm8-JS-0k1"/>
         <segue reference="Rlm-ND-bdU"/>
         <segue reference="UT2-He-dFh"/>
-        <segue reference="h7j-ZC-5Tj"/>
-        <segue reference="693-ya-JrE"/>
+        <segue reference="w4t-kW-FBM"/>
+        <segue reference="3rd-jJ-Mjs"/>
+        <segue reference="uuZ-rN-ipF"/>
     </inferredMetricsTieBreakers>
 </document>

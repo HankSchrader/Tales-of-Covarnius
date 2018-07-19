@@ -29,6 +29,7 @@ class ChapterViewController: UIViewController {
         
         
         goToChapterSelectAction()
+        loadTheEndButtons()
         
         let width = self.view.frame.size.width
         loadBorderColor()
@@ -1617,6 +1618,7 @@ class ChapterViewController: UIViewController {
     @IBOutlet weak var theEndBestEnding: UIButton!
     @IBOutlet weak var brightGreenButton: UIButton!
     
+   
     @IBOutlet weak var theEndKatonianButton: UIButton!
     
     func loadDecisionPointButton(button: UIButton?) {
@@ -1645,7 +1647,17 @@ class ChapterViewController: UIViewController {
     func loadTheEndButton(button: UIButton?) {
         button?.layer.borderWidth = 4
         button?.layer.cornerRadius = 18
+        if(button == self.theEndBestEnding || button == self.theEndCelebrateButton) {
+            button?.layer.backgroundColor = UIColor.green.cgColor
+        } else if(button == self.theEndThirdBestEnding) {
+             button?.layer.backgroundColor = UIColor.yellow.cgColor
+        } else if(button == self.theEndKatonianButton) {
+            button?.layer.backgroundColor = UIColor.purple.cgColor
+        }
+        else
+        {
         button?.layer.backgroundColor = UIColor.red.cgColor
+        }
         button?.layer.borderColor = UIColor.lightGray.cgColor
         button?.setTitleColor(UIColor.black, for: .normal)
         button?.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
@@ -1658,7 +1670,10 @@ class ChapterViewController: UIViewController {
     // MARK: Load The End Buttons
     func loadTheEndButtons() {
         loadTheEndButton(button: self.theEndYellowLiquidButton)
-        loadTheEndButton(button: self.theEndYellowLiquidButton)
+        loadTheEndButton(button: self.theEndThirdBestEnding)
+        loadTheEndButton(button: self.theEndYouGaveUpButton)
+     
+       
         loadTheEndButton(button: self.theEndYouGaveUpButton)
         loadTheEndButton(button: self.theEndFirstOneButton)
         loadTheEndButton(button: self.theEndRaidOnCovarniusButton)
@@ -1667,6 +1682,7 @@ class ChapterViewController: UIViewController {
         loadTheEndButton(button: self.theEndCelebrateButton)
         loadTheEndButton(button: self.theEndBadFoodButton)
         loadTheEndButton(button: self.theEndKatonianButton)
+        loadTheEndButton(button: self.theEndBestEnding)
         
         
     }

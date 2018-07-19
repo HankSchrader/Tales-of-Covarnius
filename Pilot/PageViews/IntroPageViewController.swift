@@ -14,17 +14,21 @@ class IntroPageViewController: GenericPageViewController {
     override lazy var orderedViewControllers: [UIViewController] =
         {
         if(self.segueID == "Run Far Away" ) {
-                
                 setImage(image: Constants.LAWN_GNOME_PIC)
-            
                 return
                     [   self.newVC(viewController: "Arrow Image"),
                         self.newVC(viewController: "run away1.5"),
                         self.newVC(viewController: "run_as_fast_as_you_can_1")]
-        } else {
+        } else if(self.segueID == "just go home") {
+            setImage(image: Constants.LUNA_AND_TV)
+            return [self.newVC(viewController: "Image"),
+            self.newVC(viewController: "Turn Back (The End)")]
+        }
+        
+        else {
             setImage(image: Constants.EMPTY_SIDEWALK_PIC)
             return [
-                self.newVC(viewController: Constants.LAWN_GNOME_PIC),
+                self.newVC(viewController: "Arrow Image"),
                 self.newVC(viewController: "Intro_1")]
             }
         }()

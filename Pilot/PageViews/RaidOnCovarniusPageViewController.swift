@@ -100,7 +100,12 @@ class RaidOnCovarniusPageViewController: GenericPageViewController {
                     self.newVC(viewController: "raid on covarnius 2"),
                     self.newVC(viewController: "raid on covarnius 3"),
                     self.newVC(viewController: "raid on covarnius 3.5")]
-        }
+            } else if self.segueID == "run mistake"{
+                setImage(image: Constants.SINISTERIAN_GANG_PIC)
+                return  [self.newVC(viewController: "Image"),
+                          self.newVC(viewController: "Run The End")]
+                
+            }
   
         else {
                 setImage(image: Constants.KORGLE_ATTACKS_PIC)
