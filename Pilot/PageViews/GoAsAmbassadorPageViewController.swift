@@ -103,6 +103,10 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                         self.newVC(viewController: "Chapter 6 6 Ambassador"),
                         self.newVC(viewController: "Chapter 6 7 Ambassador")]
                 
+            case "will eat anything"?:
+                setImage(image: Constants.PANTRY_PIC)
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "eatAnythingTheEnd")]
 
             case "CCC"?:
                 setImage(image: Constants.DOOR_OR_WINDOW_PIC)

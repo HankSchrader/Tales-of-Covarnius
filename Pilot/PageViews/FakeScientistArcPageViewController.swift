@@ -12,21 +12,36 @@ class FakeScientistArcPageViewController: GenericPageViewController {
 
     
     override func viewDidLoad() {
-        setImage(image: Constants.COVARNIAN_LAB_PIC)
+       
         self.orderedViewControllers =  {
             if self.segueID == "I'm A Scientist" || self.previousRID == Constants.FAKE_IT_TIL_YOU_MAKE_IT{
-                
+                setImage(image: Constants.COVARNIAN_LAB_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "I'm Not A Scientist 0.5"),
                         self.newVC(viewController: "I'm Not A Scientist")]
-            } else if self.segueID == "Fake Scientist" {
+            } else if(self.segueID == "yellow liquid") {
+                
+                setImage(image: Constants.FROG_PIC)
+                return [self.newVC(viewController: "Image"),
+                self.newVC(viewController: "yellow liquid")]
+                
+            } else if(self.segueID == "green liquid") {
+                
+                setImage(image: Constants.GREEN_FIZZ_THE_END_PIC)
+                return [self.newVC(viewController: "Image"),
+                self.newVC(viewController: "green liquid")]
+            }
+                
+                else if self.segueID == "Fake Scientist" {
+                
+                setImage(image: Constants.COVARNIAN_LAB_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "The Jig Is Up"),
                         self.newVC(viewController: "The Jig Is Up 1.5") ]
             } else
             {
-                return [self.newVC(viewController: "Image"),
-                        self.newVC(viewController: "You Goofed 0.5"),
+                setImage(image: Constants.COVARNIAN_LAB_PIC)
+                return [self.newVC(viewController: "You Goofed 0.5"),
                         self.newVC(viewController: "You Goofed")]
             }
         }()

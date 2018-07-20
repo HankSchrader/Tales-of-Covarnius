@@ -9,57 +9,102 @@
 import UIKit
 
 class ArrowViewController: ChapterViewController {
-    let arrow = UIBezierPath()
+   /* let arrow = UIBezierPath()
     let arrowLayer = CAShapeLayer()
-    let color = UIColor.black.cgColor
+    let color = UIColor.black.cgColor */
+    var tapRecognizer: UITapGestureRecognizer!
+    @IBOutlet weak var cantGoBackLabel: UILabel!
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        self.arrow.addArrow(start: CGPoint(x: 200, y: view.frame.height - 200), end: CGPoint(x: 200, y: view.frame.height - 100 ), pointerLineLength: 30, arrowAngle: CGFloat(Double.pi / 4))
-        
+    @IBOutlet weak var goodLuckLabel: UILabel!
+    @IBOutlet weak var swipeDownLabel: UILabel!
+    @IBOutlet weak var chooseWiselyLabel: UILabel!
 
-        self.arrowLayer.lineWidth = 8
-        self.arrowLayer.path = arrow.cgPath
-        self.arrowLayer.fillColor = UIColor.clear.cgColor
-        self.arrowLayer.lineJoin = kCALineJoinRound
-        self.arrowLayer.lineCap = kCALineCapRound
-        self.arrowLayer.strokeColor = color
-        self.view.layer.addSublayer(self.arrowLayer)
-        let shapeLayer = self.arrow
-       
-       
- 
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        swipeDownLabel.alpha = 0
+        cantGoBackLabel.alpha = 0
+        chooseWiselyLabel.alpha = 0
+        goodLuckLabel.alpha = 0
+        goodLuckLabel.font = UIFont(name: "Futura", size: 25.0)
+        swipeDownLabel.font = UIFont(name: "Futura", size: 20.0)
+        chooseWiselyLabel.font = UIFont(name: "Futura", size: 20.0)
+        cantGoBackLabel.font = UIFont(name: "Futura", size: 20.0)
+        if self.goodLuckLabel.applyGradientWith(startColor: .red, endColor: .black) {
+            print("Gradient successfully applied")
+        } else {
+            goodLuckLabel.textColor = .black
+        }
+        self.tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(gestureRecognizer))
+        self.view.addGestureRecognizer(self.tapRecognizer)
 
         // Do any additional setup after loading the view.
     }
 
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        swipeDownLabel.alpha = 0
+        cantGoBackLabel.alpha = 0
+        chooseWiselyLabel.alpha = 0
+        goodLuckLabel.alpha = 0
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    func animateArrowUp(){
-
-        UIView.animate(withDuration: 2.0, delay: 2.0, options:[], animations: {
-          self.arrowLayer.strokeColor = UIColor.blue.cgColor
-         
-           
+    func animateSwipeDownLabel()
+    {
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [], animations: {
+            self.swipeDownLabel.alpha = 1
         }, completion: { finished in
             if finished {
-               self.arrowLayer.strokeColor = UIColor.black.cgColor
+                self.animateWiseLabel()
             }
         })
     }
 
+    
+    func animateWiseLabel()
+    {
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [], animations: {
+            self.chooseWiselyLabel.alpha = 1
+        },  completion: { finished in
+            if finished {
+                self.animateCantGoBackLabel()
+                
+            }
+        })
+    }
+    
+    func animateCantGoBackLabel() {
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [], animations: {
+            self.cantGoBackLabel.alpha = 1
+        },   completion: { finished in
+            if finished {
+                self.animateGoodLuck()
+                
+            }
+        })
+    }
+    
+    func animateGoodLuck() {
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [], animations: {
+            self.goodLuckLabel.alpha = 1
+        },  completion: nil)
+    }
+    
+
+    @objc func gestureRecognizer(sender: Any?) {
+        animateSwipeDownLabel()
+
+    }
+    
+
 }
 
 
-extension UIBezierPath {
+/*extension UIBezierPath {
     func addArrow(start: CGPoint, end: CGPoint, pointerLineLength: CGFloat, arrowAngle: CGFloat) {
        
 
@@ -76,4 +121,4 @@ extension UIBezierPath {
         self.addLine(to: arrowLine2)
 
     }
-}
+} */

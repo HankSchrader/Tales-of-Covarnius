@@ -32,6 +32,7 @@ struct Constants {
     
     //Images
     static let KATONIAN_DESERT_PIC = "Desert.png"
+    static let PANTRY_PIC = "Pantry.png"
     static let SHOOTING_STAR_PIC =  "Shooting Star.png"
     static let WOODEN_BACKGROUND_PIC = "WoodBackground.png"
     static let EMPTY_SIDEWALK_PIC = "Empty_Sidewalk.png"
@@ -42,6 +43,9 @@ struct Constants {
     static let AMBASSADOR_FRIDGE_PIC = "Ambassador_Fridge.png"
     static let GROWLICS_PIC = "Growlics.png"
     static let FRONT_DOOR_PIC =  "Front Door.png"
+    static let FROG_PIC = "frog.png"
+    static let EARTH_PIC = "Earth.png"
+    static let GREEN_FIZZ_THE_END_PIC = "GreenFizzTheEnd.png"
     static let LAWN_GNOME_PIC = "Lawn Gnome.png"
     static let KORGLE_PIC = "Sinisterian.png"
     static let ICERAY_PIC = "iceray.png"

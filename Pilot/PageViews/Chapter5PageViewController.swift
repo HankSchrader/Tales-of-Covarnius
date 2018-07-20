@@ -44,13 +44,16 @@ class Chapter5PageViewController: GenericPageViewController {
                     self.newVC(viewController: "almost give up"),
                     self.newVC(viewController: "Chapter 5 6"),
                     self.newVC(viewController: "Chapter 5 before7"),
-                    self.newVC(viewController: "Chapter 5 7")
-                    
-                ]
+                    self.newVC(viewController: "Chapter 5 7")]
+    
+            case "just go home"?:
+                setImage(image: Constants.EARTH_PIC)
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "never know the end")]
             case "great plan"?:
 
               setImage(image: Constants.AMBASSADOR_OR_SNEAK)
-                return [self.newVC(viewController: "Image"),
+              return [self.newVC(viewController: "Image"),
                     self.newVC(viewController: "Chapter 5 6"),
                     self.newVC(viewController: "Chapter 5 before7"),
                     self.newVC(viewController: "Chapter 5 7")
