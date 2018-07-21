@@ -23,7 +23,14 @@ class RiseAndShinePageViewController: GenericPageViewController {
                     self.newVC(viewController: "rise and shine 6"),
                     self.newVC(viewController: "rise and shine 7")
                      ]
-        } else if(self.segueID == "home sweet home") {
+        } else if(self.segueID == "hyper sleep release chamber") {
+              setImage(image: Constants.HYPERSLEEP_CONTROL_PANEL)
+                return [
+                self.newVC(viewController: "Image"),
+                self.newVC(viewController: "hyper sleep 0")]
+        }
+        
+        else if(self.segueID == "home sweet home") {
              setImage(image: Constants.LUNA_IN_SHIP_PIC)
             return [
                     self.newVC(viewController: "Image"),
@@ -54,27 +61,15 @@ class RiseAndShinePageViewController: GenericPageViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
-        super.checkNewChapter(chapterName: Constants.RISE_AND_SHINE, order: 11)
-        ChapterSelectViewController.chapterSelect.deleteById(id: Constants.RAID_ON_COVARNIUS)
+        //They have made it to the view controller, but I don't want the chapter unlocked if it
+        //was via the segue below
+        if(self.segueID != "hyper sleep release chamber") {
+            super.checkNewChapter(chapterName: Constants.RISE_AND_SHINE, order: 11)
+            ChapterSelectViewController.chapterSelect.deleteById(id: Constants.RAID_ON_COVARNIUS)
+        }
+      
     }
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

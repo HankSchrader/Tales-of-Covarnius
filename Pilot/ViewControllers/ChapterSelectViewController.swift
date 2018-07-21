@@ -160,7 +160,7 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
     
 
     func isChapterThere(chapterName: String!) -> Bool {
-        print(chapterName)
+     
         var isThere = false
         for chapters in self.chapters {
             if(chapterName == chapters.name) {

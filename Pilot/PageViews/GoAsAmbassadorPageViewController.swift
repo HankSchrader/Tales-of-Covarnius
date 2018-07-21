@@ -95,7 +95,10 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                     self.newVC(viewController: "notImportant"),
                     self.newVC(viewController: "Chapter 6 6 Ambassador"),
                     self.newVC(viewController: "Chapter 6 7 Ambassador")]
-                
+            case "check window"?:
+                setImage(image: Constants.EARTH_PIC)
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "check window")]
             case "keep thinking"?:
                setImage(image: Constants.LUNA_IN_SPACESHIP_PIC)
                 return [self.newVC(viewController: "Image"),

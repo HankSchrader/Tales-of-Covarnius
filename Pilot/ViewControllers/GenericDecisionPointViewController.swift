@@ -22,6 +22,7 @@ class GenericDecisionPointViewController: ChapterViewController {
         loadBorderWidth(borderWidth: 4.0)
         loadCornerRadius(cornerRadius: 15.0)
         loadTextBoxColor()
+        loadDecisionPointButtons()
         makeButtonNoise(button: self.seeTheSkyButton) //check
         makeButtonNoise(button: self.runAwayFromSpaceshipButton) //check
         makeButtonNoise(button: self.nextChapterRaidOnCovarniusButton)
@@ -554,6 +555,10 @@ class GenericDecisionPointViewController: ChapterViewController {
         loadDecisionPointButton(button: self.skipTestButton)
         loadDecisionPointButton(button: self.noTellKingButton)
         loadDecisionPointButton(button: self.goodNewsKingButton)
+         loadDecisionPointButton(button: self.goodNewsKingButton)
+         loadDecisionPointButton(button: self.fizzyYellowButton)
+        loadDecisionPointButton(button: self.brightGreenButton)
+        
         
         loadDecisionPointButton(button: self.sneakIntoCouncilChamberButton)
         loadDecisionPointButton(button: self.borrowFromCovarnianAmbassadorButton)

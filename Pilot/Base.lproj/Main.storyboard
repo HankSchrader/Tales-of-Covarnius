@@ -2727,7 +2727,6 @@ Cg
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.089814075160000006" blue="0.13611368779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="X3g-FC-XEU" firstAttribute="trailing" secondItem="hpp-uA-lhO" secondAttribute="trailing" constant="50" id="5Uh-Kl-ZjO"/>
                             <constraint firstItem="gm9-qw-nPF" firstAttribute="leading" secondItem="X3g-FC-XEU" secondAttribute="leading" constant="25" id="D4g-pf-hZy"/>
@@ -3984,7 +3983,7 @@ Cg
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Look out the door's window."/>
                                 <connections>
-                                    <segue destination="99v-66-37y" kind="show" id="sBt-sp-IyB"/>
+                                    <segue destination="HMa-9y-sc6" kind="show" identifier="check window" id="MqN-Mj-29S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JC5-42-DhL">
@@ -4312,7 +4311,7 @@ Cg
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="I'm not leaving Luna behind."/>
                                 <connections>
-                                    <segue destination="Ecj-7k-1la" kind="show" identifier="not without Luna" id="Hv1-eg-cA4"/>
+                                    <segue destination="VR6-TB-rp0" kind="show" identifier="not without Luna" id="Rn9-Sm-4qA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Crs-0J-edD">
@@ -4491,9 +4490,6 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Earth" translatesAutoresizingMaskIntoConstraints="NO" id="nfY-19-dcM">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNZ-rV-xfD">
                                 <rect key="frame" x="30" y="468" width="260" height="70"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -4542,11 +4538,7 @@ I guess you should have peeked under the door!</string>
                         </subviews>
                         <constraints>
                             <constraint firstItem="4R4-sl-fwQ" firstAttribute="trailing" secondItem="ihp-dN-hnW" secondAttribute="trailing" constant="25" id="4c4-16-PWF"/>
-                            <constraint firstItem="nfY-19-dcM" firstAttribute="bottom" secondItem="4R4-sl-fwQ" secondAttribute="bottom" id="8Vy-xl-HcO"/>
-                            <constraint firstItem="nfY-19-dcM" firstAttribute="trailing" secondItem="4R4-sl-fwQ" secondAttribute="trailing" id="GzR-t8-wF7"/>
-                            <constraint firstItem="nfY-19-dcM" firstAttribute="top" secondItem="7rD-Je-yOW" secondAttribute="top" id="S3E-b3-lnu"/>
                             <constraint firstItem="ihp-dN-hnW" firstAttribute="leading" secondItem="4R4-sl-fwQ" secondAttribute="leading" constant="25" id="VWO-la-2CE"/>
-                            <constraint firstItem="nfY-19-dcM" firstAttribute="leading" secondItem="4R4-sl-fwQ" secondAttribute="leading" id="Yi4-ii-Gyd"/>
                             <constraint firstItem="4R4-sl-fwQ" firstAttribute="bottom" secondItem="ihp-dN-hnW" secondAttribute="bottom" constant="197" id="fQD-aj-zW7"/>
                             <constraint firstItem="4R4-sl-fwQ" firstAttribute="trailing" secondItem="dNZ-rV-xfD" secondAttribute="trailing" constant="30" id="gIN-K1-Kv4"/>
                             <constraint firstItem="ihp-dN-hnW" firstAttribute="top" secondItem="4R4-sl-fwQ" secondAttribute="top" constant="50" id="mOE-q5-46O"/>
@@ -5673,7 +5665,7 @@ Cg
                                 <rect key="frame" x="25" y="440" width="279" height="30"/>
                                 <state key="normal" title="Hypersleep Release Chamber."/>
                                 <connections>
-                                    <segue destination="WET-Cx-MW4" kind="show" id="b2c-ui-T37"/>
+                                    <segue destination="tnv-J0-xgn" kind="show" identifier="hyper sleep release chamber" id="Ud3-6J-iyS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -6726,14 +6718,11 @@ Cg
         <!--Generic Decision Point View Controller-->
         <scene sceneID="q5i-s2-wbT">
             <objects>
-                <viewController storyboardIdentifier="hypersleep 0" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WET-Cx-MW4" customClass="GenericDecisionPointViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="hyper sleep 0" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WET-Cx-MW4" customClass="GenericDecisionPointViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CuN-8N-lEf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hypersleep Control Panel" translatesAutoresizingMaskIntoConstraints="NO" id="dbX-Qa-It9">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gLF-iE-Rgy">
                                 <rect key="frame" x="40" y="437" width="264" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -6864,15 +6853,11 @@ Cg
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="dbX-Qa-It9" firstAttribute="leading" secondItem="Jzt-qo-RIP" secondAttribute="leading" id="1HQ-5K-XFm"/>
                             <constraint firstItem="YRg-vz-GWS" firstAttribute="leading" secondItem="Jzt-qo-RIP" secondAttribute="leading" constant="25" id="3ff-7a-iQy"/>
                             <constraint firstItem="TzH-cb-eVh" firstAttribute="top" secondItem="gLF-iE-Rgy" secondAttribute="bottom" constant="8" id="4eZ-W2-6al"/>
-                            <constraint firstItem="dbX-Qa-It9" firstAttribute="trailing" secondItem="Jzt-qo-RIP" secondAttribute="trailing" id="Edl-cC-KL3"/>
-                            <constraint firstItem="dbX-Qa-It9" firstAttribute="top" secondItem="CuN-8N-lEf" secondAttribute="top" id="HiX-Rh-YF3"/>
                             <constraint firstItem="Jzt-qo-RIP" firstAttribute="trailing" secondItem="gLF-iE-Rgy" secondAttribute="trailing" constant="16" id="JxY-rb-9hT"/>
                             <constraint firstItem="TzH-cb-eVh" firstAttribute="leading" secondItem="Jzt-qo-RIP" secondAttribute="leading" constant="40" id="NZl-eu-Xio"/>
                             <constraint firstItem="Jzt-qo-RIP" firstAttribute="trailing" secondItem="YRg-vz-GWS" secondAttribute="trailing" constant="25" id="S2q-J1-44H"/>
-                            <constraint firstItem="dbX-Qa-It9" firstAttribute="bottom" secondItem="Jzt-qo-RIP" secondAttribute="bottom" id="Vre-SQ-Fjz"/>
                             <constraint firstItem="gLF-iE-Rgy" firstAttribute="top" secondItem="YRg-vz-GWS" secondAttribute="bottom" constant="69" id="XGa-f9-UVi"/>
                             <constraint firstItem="YRg-vz-GWS" firstAttribute="top" secondItem="Jzt-qo-RIP" secondAttribute="top" constant="50" id="buC-dD-weF"/>
                             <constraint firstItem="gLF-iE-Rgy" firstAttribute="leading" secondItem="Jzt-qo-RIP" secondAttribute="leading" constant="40" id="dUd-7s-xLc"/>
@@ -7715,9 +7700,6 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iceray" translatesAutoresizingMaskIntoConstraints="NO" id="IaU-Hz-tng">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="var-st-C6b">
                                 <rect key="frame" x="40" y="478" width="264" height="30"/>
                                 <constraints>
@@ -7875,20 +7857,16 @@ Cg
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="IaU-Hz-tng" firstAttribute="top" secondItem="np8-uM-jkb" secondAttribute="top" id="0ZJ-pG-uRM"/>
                             <constraint firstItem="gYp-N8-NTc" firstAttribute="top" secondItem="EPJ-yj-e2K" secondAttribute="bottom" constant="69" id="0i4-ho-Exl"/>
                             <constraint firstItem="5hB-to-cJX" firstAttribute="trailing" secondItem="var-st-C6b" secondAttribute="trailing" constant="16" id="54w-D3-XTh"/>
                             <constraint firstItem="var-st-C6b" firstAttribute="leading" secondItem="5hB-to-cJX" secondAttribute="leading" constant="40" id="7GS-SJ-fMJ"/>
                             <constraint firstItem="var-st-C6b" firstAttribute="top" secondItem="gYp-N8-NTc" secondAttribute="bottom" constant="8" id="Ige-xk-ekv"/>
                             <constraint firstItem="5hB-to-cJX" firstAttribute="bottom" secondItem="var-st-C6b" secondAttribute="bottom" constant="60" id="M7d-ZP-hmN"/>
-                            <constraint firstItem="IaU-Hz-tng" firstAttribute="bottom" secondItem="5hB-to-cJX" secondAttribute="bottom" id="Mvu-bh-ybu"/>
                             <constraint firstItem="5hB-to-cJX" firstAttribute="trailing" secondItem="EPJ-yj-e2K" secondAttribute="trailing" constant="25" id="RBv-7C-IYt"/>
-                            <constraint firstItem="IaU-Hz-tng" firstAttribute="trailing" secondItem="5hB-to-cJX" secondAttribute="trailing" id="RHy-40-MMF"/>
                             <constraint firstItem="gYp-N8-NTc" firstAttribute="leading" secondItem="5hB-to-cJX" secondAttribute="leading" constant="40" id="Rc9-kE-zLu"/>
                             <constraint firstItem="gYp-N8-NTc" firstAttribute="top" secondItem="EPJ-yj-e2K" secondAttribute="bottom" constant="69" id="c0d-va-VQK"/>
                             <constraint firstItem="EPJ-yj-e2K" firstAttribute="top" secondItem="5hB-to-cJX" secondAttribute="top" constant="50" id="dv7-UY-zHo"/>
                             <constraint firstItem="EPJ-yj-e2K" firstAttribute="leading" secondItem="5hB-to-cJX" secondAttribute="leading" constant="25" id="nVl-3n-pyJ"/>
-                            <constraint firstItem="IaU-Hz-tng" firstAttribute="leading" secondItem="5hB-to-cJX" secondAttribute="leading" id="qCw-fC-N8g"/>
                             <constraint firstItem="5hB-to-cJX" firstAttribute="trailing" secondItem="gYp-N8-NTc" secondAttribute="trailing" constant="16" id="u3U-yi-90E"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5hB-to-cJX"/>
@@ -8024,7 +8002,7 @@ Cg
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="We have a secret weapon!"/>
                                 <connections>
-                                    <segue destination="1Ye-wA-ejl" kind="show" identifier="secret weapon" id="Lzj-fU-JHF"/>
+                                    <segue destination="VR6-TB-rp0" kind="show" identifier="secret weapon" id="o6I-tF-UuQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="kmi-re-NDf">
@@ -9092,14 +9070,11 @@ Cg
         <!--Generic Decision Point View Controller-->
         <scene sceneID="8eE-Dk-TPO">
             <objects>
-                <viewController id="Ecj-7k-1la" customClass="GenericDecisionPointViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="not without Luna" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ecj-7k-1la" customClass="GenericDecisionPointViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqI-jb-xBI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sneezing Sinisterian" translatesAutoresizingMaskIntoConstraints="NO" id="Biq-TZ-0kh">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zSA-Bn-gcw">
                                 <rect key="frame" x="16" y="468" width="288" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -9232,16 +9207,12 @@ Cg
                             <constraint firstItem="vgX-Ju-zTQ" firstAttribute="leading" secondItem="cDL-xT-bBH" secondAttribute="leading" constant="16" id="8TO-89-lvd"/>
                             <constraint firstItem="zSA-Bn-gcw" firstAttribute="top" secondItem="vgX-Ju-zTQ" secondAttribute="bottom" constant="25" id="IKV-fv-8nQ"/>
                             <constraint firstItem="cDL-xT-bBH" firstAttribute="trailing" secondItem="vgX-Ju-zTQ" secondAttribute="trailing" constant="16" id="RRp-9z-uZg"/>
-                            <constraint firstItem="Biq-TZ-0kh" firstAttribute="bottom" secondItem="cDL-xT-bBH" secondAttribute="bottom" id="TZ3-dG-9QW"/>
                             <constraint firstItem="cDL-xT-bBH" firstAttribute="trailing" secondItem="zSA-Bn-gcw" secondAttribute="trailing" constant="16" id="VU6-vg-Cds"/>
                             <constraint firstItem="cDL-xT-bBH" firstAttribute="bottom" secondItem="zSA-Bn-gcw" secondAttribute="bottom" constant="67" id="WeW-6W-aJ8"/>
                             <constraint firstItem="vgX-Ju-zTQ" firstAttribute="top" secondItem="qqe-yr-9SB" secondAttribute="bottom" constant="42" id="aiL-sJ-wag"/>
                             <constraint firstItem="qqe-yr-9SB" firstAttribute="leading" secondItem="cDL-xT-bBH" secondAttribute="leading" constant="25" id="c2n-nC-kCQ"/>
                             <constraint firstItem="qqe-yr-9SB" firstAttribute="top" secondItem="cDL-xT-bBH" secondAttribute="top" constant="50" id="fa9-Eh-Vhb"/>
-                            <constraint firstItem="Biq-TZ-0kh" firstAttribute="top" secondItem="xqI-jb-xBI" secondAttribute="top" id="ghP-UX-h01"/>
                             <constraint firstItem="cDL-xT-bBH" firstAttribute="trailing" secondItem="qqe-yr-9SB" secondAttribute="trailing" constant="25" id="mMa-bj-RT1"/>
-                            <constraint firstItem="Biq-TZ-0kh" firstAttribute="leading" secondItem="cDL-xT-bBH" secondAttribute="leading" id="mTs-Tw-SCy"/>
-                            <constraint firstItem="cDL-xT-bBH" firstAttribute="trailing" secondItem="Biq-TZ-0kh" secondAttribute="trailing" id="plq-Ta-PfK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cDL-xT-bBH"/>
                     </view>
@@ -9253,7 +9224,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gz7-l5-jq1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5428.125" y="12231.338028169013"/>
+            <point key="canvasLocation" x="-5460" y="12285"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="41A-KA-0JG">
@@ -16239,10 +16210,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="7559" y="7253"/>
         </scene>
-        <!--Chapter View Controller-->
+        <!--Generic Decision Point View Controller-->
         <scene sceneID="ohp-DK-HM5">
             <objects>
-                <viewController storyboardIdentifier="You Goofed" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mca-Zv-yVT" customClass="ChapterViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="You Goofed" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mca-Zv-yVT" customClass="GenericDecisionPointViewController" customModule="Pilot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u74-Gt-XhN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19445,21 +19416,17 @@ Do you:
     <resources>
         <image name="Chrono_And_Ship" width="834" height="1112"/>
         <image name="Cover Art" width="834" height="1112"/>
-        <image name="Earth" width="834" height="1112"/>
-        <image name="Hypersleep Control Panel" width="250" height="333"/>
         <image name="KayoEnding" width="834" height="1112"/>
         <image name="Sinisterian Gang" width="834" height="1112"/>
-        <image name="Sneezing Sinisterian" width="834" height="1112"/>
-        <image name="iceray" width="834" height="1112"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="U32-uH-FzI"/>
-        <segue reference="YBr-Ky-PrL"/>
-        <segue reference="FFv-aN-znV"/>
+        <segue reference="QEn-le-N99"/>
+        <segue reference="pst-IE-SND"/>
         <segue reference="Cpv-90-8rr"/>
-        <segue reference="W4d-hl-1Gg"/>
-        <segue reference="7FU-oq-6py"/>
-        <segue reference="NCT-Py-sNz"/>
+        <segue reference="pZ2-f4-yno"/>
+        <segue reference="MqN-Mj-29S"/>
+        <segue reference="edL-fS-Lym"/>
         <segue reference="eAf-3k-Vpu"/>
         <segue reference="jox-Tc-HCZ"/>
         <segue reference="dm8-JS-0k1"/>
@@ -19467,6 +19434,6 @@ Do you:
         <segue reference="UT2-He-dFh"/>
         <segue reference="w4t-kW-FBM"/>
         <segue reference="3rd-jJ-Mjs"/>
-        <segue reference="pFh-bf-6LF"/>
+        <segue reference="pW4-6f-NYF"/>
     </inferredMetricsTieBreakers>
 </document>

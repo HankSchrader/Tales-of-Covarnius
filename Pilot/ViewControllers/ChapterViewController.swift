@@ -1683,6 +1683,7 @@ class ChapterViewController: UIViewController {
         loadTheEndButton(button: self.theEndBadFoodButton)
         loadTheEndButton(button: self.theEndKatonianButton)
         loadTheEndButton(button: self.theEndBestEnding)
+        loadTheEndButton(button: self.theEndBrightGreenLiquidButton)
         
         
     }

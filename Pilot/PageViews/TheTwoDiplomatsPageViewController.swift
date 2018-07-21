@@ -64,7 +64,15 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
                         self.newVC(viewController: "clog 2"),
                         self.newVC(viewController: "clog 3"),
                         self.newVC(viewController: "clog 4")]
-                
+            case "not without Luna"?:
+                setImage(image: Constants.SNEEZING_SINISTERIAN_PIC)
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "not without Luna")]
+            case "secret weapon"?:
+                setImage(image: Constants.ICERAY_PIC)
+                return [self.newVC(viewController: "Image"),
+                           self.newVC(viewController: "two diplomats 5")]
+              
             case "go back to toilet"?:
                 removeImage(image:  Constants.KORGLE_PIC)
                 setImage(image: Constants.CLOG_TOILET_PIC)
@@ -92,7 +100,11 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
     }
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
-        super.checkNewChapter(chapterName: Constants.THE_TWO_DIPLOMATS, order: 10)
+        //They have made it to the view controller, but I don't want the chapter unlocked if it
+        //was via the segue below
+        if(self.segueID != "not without Luna") {
+            super.checkNewChapter(chapterName: Constants.THE_TWO_DIPLOMATS, order: 10)
+        }
     }
     
 
