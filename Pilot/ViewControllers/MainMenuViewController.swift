@@ -40,6 +40,7 @@ class ViewController: ChapterViewController {
         // Set the top label's animation alpha
         self.topLabel.alpha = 0
         self.bottomLabel.alpha = 0
+        self.difficultyLabel.alpha = 1
       
         let fetchRequest: NSFetchRequest<Difficulty> = Difficulty.fetchRequest()
         do {
@@ -55,11 +56,15 @@ class ViewController: ChapterViewController {
         createTopLabel()
         createBottomLabel()
         createUISwitch()
-        createDifficultyLabel(contextLabel: difficultySetting?.last?.label)
+        
+        //When the app installs for the first time, difficult settings will be nil.
         if(self.difficultySetting != nil) {
+            createDifficultyLabel(contextLabel: difficultySetting?.last?.label)
             switchGradient(isEasyOn:  self.difficultySetting?.last?.isEasyMode, label: self.bottomLabel)
             switchGradient(isEasyOn:  self.difficultySetting?.last?.isEasyMode, label: self.topLabel)
             switchGradient(isEasyOn:  self.difficultySetting?.last?.isEasyMode, label: self.difficultyLabel)
+        } else {
+            createDifficultyLabel(contextLabel: "Regular Mode")
         }
         self.toggleDifficulty.tintColor = UIColor.red
        
@@ -82,20 +87,27 @@ class ViewController: ChapterViewController {
 
     @IBAction func callDifficultySwitch(_ sender: UISwitch) {
         let difficulty = Difficulty(context: PersistanceService.context)
-
+        
         if(self.toggleDifficulty.isOn) {
+            animateDifficultyTransition(label: self.difficultyLabel)
+            animateDifficultyTransition(label: self.topLabel)
+            animateDifficultyTransition(label: self.bottomLabel)
             difficulty.label = "Regular Mode"
             self.difficultyLabel.text = "Regular Mode"
+            self.difficultyLabel.textAlignment = .center
             difficulty.isEasyMode = true
             switchGradient(isEasyOn: true, label: self.bottomLabel)
             switchGradient(isEasyOn: true, label: self.topLabel)
             switchGradient(isEasyOn: true, label: self.difficultyLabel)
             PersistanceService.saveContext()
         } else {
-     
+            animateDifficultyTransition(label: self.difficultyLabel)
+            animateDifficultyTransition(label: self.topLabel)
+            animateDifficultyTransition(label: self.bottomLabel)
             difficulty.isEasyMode = false
             difficulty.label = "Hard Mode"
             self.difficultyLabel.text = "Hard Mode"
+            self.difficultyLabel.textAlignment = .center
             switchGradient(isEasyOn:  false, label: self.bottomLabel)
             switchGradient(isEasyOn: false, label: self.topLabel)
               switchGradient(isEasyOn: false, label: self.difficultyLabel)
@@ -142,8 +154,17 @@ class ViewController: ChapterViewController {
         self.topLabel.backgroundColor = UIColor.clear
         self.topLabel.text = "Tales of"
         self.topLabel.textColor = UIColor.black
-        self.topLabel.font = UIFont(name: "Futura", size: 50.0)
-        self.topLabel.frame = CGRect(x: view.frame.width/2 - 100 , y: view.frame.height/10, width: 400, height: 70)
+        if(self.view.frame.size.width > 600 ) {
+            self.topLabel.font = UIFont(name: "Futura", size: 65.0)
+            self.topLabel.frame = CGRect(x: view.frame.width/2 - 120 , y: view.frame.height/10, width: 400, height: 70)
+        }
+         else {
+
+            self.topLabel.font = UIFont(name: "Futura", size: 50.0)
+            self.topLabel.frame = CGRect(x: view.frame.width/2 - 100 , y: view.frame.height/10, width: 400, height: 70)
+        }
+        
+
         view.addSubview(self.topLabel)
         view.bringSubview(toFront: self.topLabel)
       
@@ -156,16 +177,27 @@ class ViewController: ChapterViewController {
         self.bottomLabel.textColor = UIColor.black
         
         
-        if(self.view.frame.size.width < 400 ) {
-                self.bottomLabel.font = UIFont(name: "Futura", size: 65.0)
-                    self.bottomLabel.frame = CGRect(x: view.frame.width/2 - 150 , y: view.frame.height/5, width: 500, height: 80)
+        if(self.view.frame.size.width > 600 ) {
+            self.bottomLabel.font = UIFont(name: "Futura", size: 90.0)
+            self.bottomLabel.frame = CGRect(x: view.frame.width/2 - 200 , y: view.frame.height/5, width: 500, height: 80)
         } else {
-                self.bottomLabel.font = UIFont(name: "Futura", size: 80.0)
-                 self.bottomLabel.frame = CGRect(x: view.frame.width/2 - 175 , y: view.frame.height/5, width: 500, height: 80)
+            self.bottomLabel.font = UIFont(name: "Futura", size: 65.0)
+            self.bottomLabel.frame = CGRect(x: view.frame.width/2 - 150 , y: view.frame.height/5, width: 500, height: 80)
+            
         }
 
         view.addSubview(self.bottomLabel)
         view.bringSubview(toFront: self.bottomLabel)
+        
+    }
+    
+    func animateDifficultyTransition(label: UILabel!) {
+        label.alpha = 0
+        UIView.animate(withDuration: 1.0, delay: 0.0, options:[], animations: {
+           label.alpha = 1
+            
+            
+        },  completion:nil )
         
     }
    
@@ -199,10 +231,18 @@ class ViewController: ChapterViewController {
         button.setTitle("Start From The Beginning!", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .blue
-        button.frame = CGRect(x: view.frame.width/2 - 150, y: view.frame.height/3, width: 300, height: 36)
+        let width = self.view.frame.size.width
+        if(width > 600) {
+            button.frame = CGRect(x: view.frame.width/2 - 200, y: view.frame.height/3, width: 400, height: 45)
+            button.layer.borderWidth = 3
+            button.layer.cornerRadius = 23
+        } else {
+            button.frame = CGRect(x: view.frame.width/2 - 150, y: view.frame.height/3, width: 300, height: 36)
+            button.layer.borderWidth = 2
+            button.layer.cornerRadius = 18
+        }
         
-        button.layer.borderWidth = 2
-        button.layer.cornerRadius = 18
+
         
         view.addSubview(button)
         view.bringSubview(toFront: button)
@@ -216,10 +256,16 @@ class ViewController: ChapterViewController {
         button.setTitle("Credits", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .blue
-        button.frame = CGRect(x: view.frame.width/2 - 150, y: view.frame.height/1.5, width: 300, height: 36)
-        
-        button.layer.borderWidth = 2
-        button.layer.cornerRadius = 18
+        let width = self.view.frame.size.width
+        if(width > 600) {
+            button.frame = CGRect(x: view.frame.width/2 - 200, y: view.frame.height/1.5, width: 400, height: 45)
+            button.layer.borderWidth = 3
+            button.layer.cornerRadius = 23
+        } else {
+            button.frame = CGRect(x: view.frame.width/2 - 150, y: view.frame.height/1.5, width: 300, height: 36)
+            button.layer.borderWidth = 2
+            button.layer.cornerRadius = 18
+        }
         
         view.addSubview(button)
         view.bringSubview(toFront: button)
@@ -233,10 +279,16 @@ class ViewController: ChapterViewController {
         button.setTitle("Delete Data", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .red
-        button.frame = CGRect(x: view.frame.width/2 - 150, y: view.frame.height/1.35, width: 300, height: 36)
-        
-        button.layer.borderWidth = 2
-        button.layer.cornerRadius = 18
+        let width = self.view.frame.size.width
+        if(width > 600) {
+            button.frame = CGRect(x: view.frame.width/2 - 200, y: view.frame.height/1.35, width: 400, height: 45)
+            button.layer.borderWidth = 3
+            button.layer.cornerRadius = 23
+        } else {
+            button.frame = CGRect(x: view.frame.width/2 - 150, y: view.frame.height/1.35, width: 300, height: 36)
+            button.layer.borderWidth = 2
+            button.layer.cornerRadius = 18
+        }
         
         view.addSubview(button)
         view.bringSubview(toFront: button)
@@ -249,14 +301,16 @@ class ViewController: ChapterViewController {
         let label = self.difficultyLabel
         label.text = contextLabel
         label.backgroundColor = .clear
-        self.difficultyLabel.font = UIFont(name: "Futura", size: 20.0)
-        label.frame = CGRect(x:  view.frame.width/2 - 75, y: view.frame.height/1.20, width: 300, height: 36)
+        label.textAlignment = .center
+        let width = self.view.frame.size.width
+        self.difficultyLabel.changeFontSizeByDevice(width: width)
+        label.frame = CGRect(x:  view.frame.width/2 - 150, y: view.frame.height/1.20, width: 300, height: 50)
         view.addSubview(label)
         view.bringSubview(toFront: label)
     }
 
     func createUISwitch() {
-        self.toggleDifficulty.frame = CGRect(x: view.frame.width/2 - 50 , y: view.frame.height/1.10, width: 400, height: 70)
+        self.toggleDifficulty.frame = CGRect(x: view.frame.width/2 - 25.0 , y: view.frame.height/1.10, width: 400, height: 70)
         view.addSubview(self.toggleDifficulty)
         view.bringSubview(toFront: self.toggleDifficulty)
         self.toggleDifficulty.addTarget(self, action: #selector(ViewController.callDifficultySwitch(_:)), for: UIControlEvents.touchUpInside)

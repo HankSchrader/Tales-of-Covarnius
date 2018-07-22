@@ -32,7 +32,6 @@
 		536D8E1C20F25FDF00EFF639 /* LauncherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536D8E1B20F25FDF00EFF639 /* LauncherViewController.swift */; };
 		53796AFA205B28F500C6B7F8 /* GenericPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53796AF9205B28F500C6B7F8 /* GenericPageViewController.swift */; };
 		53796AFC205B331B00C6B7F8 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53796AFB205B331B00C6B7F8 /* ChapterViewController.swift */; };
-		5387E8A620EEB2D300C9AC41 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5387E8A520EEB2D300C9AC41 /* IAPHelper.swift */; };
 		538F51DB204723FA0051F1C1 /* Chapter3PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F51DA204723FA0051F1C1 /* Chapter3PageViewController.swift */; };
 		539841FF20439F3300CCD93E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539841FE20439F3300CCD93E /* AppDelegate.swift */; };
 		5398420420439F3300CCD93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5398420220439F3300CCD93E /* Main.storyboard */; };
@@ -95,7 +94,6 @@
 		536D8E1B20F25FDF00EFF639 /* LauncherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauncherViewController.swift; sourceTree = "<group>"; };
 		53796AF9205B28F500C6B7F8 /* GenericPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPageViewController.swift; sourceTree = "<group>"; };
 		53796AFB205B331B00C6B7F8 /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
-		5387E8A520EEB2D300C9AC41 /* IAPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
 		538F51DA204723FA0051F1C1 /* Chapter3PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3PageViewController.swift; sourceTree = "<group>"; };
 		539841FB20439F3300CCD93E /* Pilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		539841FE20439F3300CCD93E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 				53A5FAE720692050008304F9 /* GenericButton.swift */,
 				53176F8820D687AA0026A456 /* ChapterSelectLauncher.swift */,
 				53B3C6B120D8618700E4BAE7 /* ChapterViewControllerDelegate.swift */,
-				5387E8A520EEB2D300C9AC41 /* IAPHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -434,7 +431,6 @@
 				53B3C6B220D8618700E4BAE7 /* ChapterViewControllerDelegate.swift in Sources */,
 				5365E3D8205EFF5C009E481F /* FakeScientistArcPageViewController.swift in Sources */,
 				53796AFC205B331B00C6B7F8 /* ChapterViewController.swift in Sources */,
-				5387E8A620EEB2D300C9AC41 /* IAPHelper.swift in Sources */,
 				5365E3E420628DC8009E481F /* RaidOnCovarniusPageViewController.swift in Sources */,
 				533B40992049EA0000D61D80 /* Constants.swift in Sources */,
 				5336A424205D6DAA002802C7 /* Chapter4PageViewController.swift in Sources */,

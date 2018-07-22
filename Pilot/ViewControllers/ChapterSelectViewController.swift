@@ -80,11 +80,12 @@ class ChapterSelectViewController: GenericDecisionPointViewController {
 
     }
     
+    
     private func changeSlideMenuSizeByDevice(width: CGFloat) -> CGFloat {
         switch width {
-        case 0..<375: // iPhone 4 and iPhone 5
+        case 0..<500: // iPhone 4 and iPhone 5, iPhone 6 Plus, iPhone 8 Plus,
             return CGFloat(1.5)
-        default: // iPhone 6 Plus, iPhone 8 Plus, etc
+        default: //  etc
            return CGFloat(2)
      
         }

@@ -1714,12 +1714,14 @@ extension UITextView {
             self.font = UIFont(name: "Avenir-Book", size: 20)
         case 768: // iPad
             self.font = UIFont(name: "Avenir-Book", size: 25)
-        default: // iPad Pro
-            self.font = UIFont(name: "Avenir-Book", size: 25)
-        }
+        case 769..<2000: // iPad Pro
+            self.font = UIFont(name: "Avenir-Book", size: 26)
+        default:
+            self.font = UIFont(name: "Avenir-Book", size: 16)
         
-    }
+        }
     
+    }
 }
 
 
