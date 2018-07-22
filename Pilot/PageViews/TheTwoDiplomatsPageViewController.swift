@@ -31,14 +31,13 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
                         self.newVC(viewController: "two diplomats 1"),
                         self.newVC(viewController: "two diplomats 2")]
             case "take key"?:
-                removeImage(image:  Constants.TAKE_KEY_PIC)
+            
                 setImage(image: Constants.KORGLE_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "took the key"),
                         self.newVC(viewController: "two diplomats 3"),
                         self.newVC(viewController: "two diplomats 4")]
             case "too risky"?:
-                removeImage(image:  Constants.TAKE_KEY_PIC)
                 setImage(image: Constants.KORGLE_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "no key taken"),
@@ -57,7 +56,6 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
                         self.newVC(viewController: "two diplomats 13"),
                         self.newVC(viewController: "two diplomats 14")]
             case "clog"?:
-                removeImage(image:  Constants.KORGLE_PIC)
                 setImage(image: Constants.CLOG_TOILET_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "clog 1"),
@@ -74,7 +72,6 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
                            self.newVC(viewController: "two diplomats 5")]
               
             case "go back to toilet"?:
-                removeImage(image:  Constants.KORGLE_PIC)
                 setImage(image: Constants.CLOG_TOILET_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "clog 1"),
@@ -82,10 +79,11 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
                         self.newVC(viewController: "clog 3"),
                         self.newVC(viewController: "clog 4")]
             case "failed diversion"?:
+                enableHardModeEffect()
                 setImage(image: Constants.SINISTERIAN_GUARDS_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "failed distraction 1"),
-                        self.newVC(viewController: "failed distraction 2")]
+                        self.newVC(viewController: "failed distraction 2 The End")]
             default:
                 setImage(image: Constants.TAKE_KEY_PIC)
                 return [self.newVC(viewController: "Image"),
@@ -102,7 +100,7 @@ class TheTwoDiplomatsPageViewController: GenericPageViewController {
         super.viewDidAppear(animated)
         //They have made it to the view controller, but I don't want the chapter unlocked if it
         //was via the segue below
-        if(self.segueID != "not without Luna") {
+        if(self.segueID != "not without Luna" && self.segueID != "failed diversion") {
             super.checkNewChapter(chapterName: Constants.THE_TWO_DIPLOMATS, order: 10)
         }
     }

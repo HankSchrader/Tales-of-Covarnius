@@ -36,7 +36,7 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "break and enter?")]
             case "break in"?:
-                removeImage(image: Constants.FRONT_DOOR_PIC)
+             
                 setImage(image: Constants.GROWLICS_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "good growlics"),
@@ -51,7 +51,7 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                         self.newVC(viewController: "They're Vicious. Run! 2.5"),
                         self.newVC(viewController: "Chrono knows the layout")]
             case "snack time"?:
-                removeImage(image: Constants.GROWLICS_PIC)
+              
                 setImage(image: Constants.AMBASSADOR_FRIDGE_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "what should they eat?")]
@@ -77,7 +77,7 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                         self.newVC(viewController: "Chapter 6 3 Ambassador"),
                         self.newVC(viewController: "Chapter 6 4 Ambassador")]
             case "shady turn back"?:
-                removeImage(image: Constants.AMBASSADOR_FRIDGE_PIC)
+           
                 setImage(image: Constants.CHRONO_AND_LUNA_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "council chamber sneak"),
@@ -87,7 +87,6 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                 setImage(image: Constants.DOOR_OR_WINDOW_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "do not ask")]
-                
             case "not important"?:
                  setImage(image: Constants.LUNA_IN_SPACESHIP_PIC)
                 return [
@@ -96,6 +95,7 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                     self.newVC(viewController: "Chapter 6 6 Ambassador"),
                     self.newVC(viewController: "Chapter 6 7 Ambassador")]
             case "check window"?:
+                enableHardModeEffect()
                 setImage(image: Constants.EARTH_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "check window")]
@@ -107,6 +107,7 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
                         self.newVC(viewController: "Chapter 6 7 Ambassador")]
                 
             case "will eat anything"?:
+                enableHardModeEffect()
                 setImage(image: Constants.PANTRY_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "eatAnythingTheEnd")]
@@ -132,7 +133,9 @@ class GoAsAmbassadorPageViewController: GenericPageViewController {
     }
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
-        super.checkNewChapter(chapterName: Constants.AMBASSADOR_ARC,order: 8)
+        if(self.segueID != "check window" && self.segueID != "will eat anything") {
+            super.checkNewChapter(chapterName: Constants.AMBASSADOR_ARC,order: 8)
+        }
         
     }
 

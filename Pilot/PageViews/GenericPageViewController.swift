@@ -7,11 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
 class GenericPageViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource
  {
 
-    var defaultImage: UIImage?
     @IBOutlet weak var tableView: UITableView!
     var segueID: String? = nil
     static let sharedGenericPageView = GenericPageViewController()
@@ -31,6 +31,7 @@ class GenericPageViewController: UIPageViewController, UIPageViewControllerDeleg
             setViewControllers([firstViewController], direction: .forward, animated: false, completion: nil)
             //completion: nil. If I wanted code to be executed upon completion of swiping, I'd set it here.
         }
+        
         self.delegate = self
         
         configurePageControl()
@@ -38,7 +39,7 @@ class GenericPageViewController: UIPageViewController, UIPageViewControllerDeleg
         
         // Do any additional setup after loading the view.
     }
-    override func viewDidAppear(_ animated: Bool){
+ /*   override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
         ChapterSelectViewController.chapterSelect.tableView?.reloadData()
         if(ChapterSelectViewController.chapterSelect.isChapterThere(chapterName: Constants.INTRO ) == false) {
@@ -51,7 +52,7 @@ class GenericPageViewController: UIPageViewController, UIPageViewControllerDeleg
             
         }
         
-    }
+    } */
     
     
     func configurePageControl() {
@@ -65,9 +66,6 @@ class GenericPageViewController: UIPageViewController, UIPageViewControllerDeleg
     }
     
     func newVC(viewController : String, previousImage: String? = nil, newImage: String? = nil) -> UIViewController {
-        if(previousImage != nil) {
-            removeImage(image: previousImage)
-        }
         setImage(image: newImage)
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: viewController)
     }
@@ -153,10 +151,19 @@ class GenericPageViewController: UIPageViewController, UIPageViewControllerDeleg
         }
     }
     
-    func removeImage(image: String?){
-        let imageName = image
-        let image = UIImage(named: imageName!)
-        let imageView = UIImageView(image: image)
-        imageView.removeFromSuperview()
+    func enableHardModeEffect() {
+        var difficultySetting: [Difficulty] = []
+        let difficultyModeFetchRequest: NSFetchRequest<Difficulty> = Difficulty.fetchRequest()
+        do {
+            difficultySetting = try PersistanceService.context.fetch(difficultyModeFetchRequest)
+        } catch
+        {
+            print("fetch failed!")
+        }
+        if(difficultySetting.last?.isEasyMode == false) {
+           
+            ChapterViewController.chapterVC.navButton.isEnabled = false
+            ChapterSelectViewController.chapterSelect.deleteAllData()
+        }
     }
 }

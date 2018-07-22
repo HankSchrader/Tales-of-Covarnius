@@ -20,13 +20,13 @@ class FakeScientistArcPageViewController: GenericPageViewController {
                         self.newVC(viewController: "I'm Not A Scientist 0.5"),
                         self.newVC(viewController: "I'm Not A Scientist")]
             } else if(self.segueID == "yellow liquid") {
-                
+                enableHardModeEffect()
                 setImage(image: Constants.FROG_PIC)
                 return [self.newVC(viewController: "Image"),
                 self.newVC(viewController: "yellow liquid")]
                 
             } else if(self.segueID == "green liquid") {
-                
+                enableHardModeEffect()
                 setImage(image: Constants.GREEN_FIZZ_THE_END_PIC)
                 return [self.newVC(viewController: "Image"),
                 self.newVC(viewController: "green liquid")]
@@ -50,6 +50,8 @@ class FakeScientistArcPageViewController: GenericPageViewController {
     }
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
-        super.checkNewChapter(chapterName: Constants.FAKE_IT_TIL_YOU_MAKE_IT, order: 7)
+        if(self.segueID != "green liquid" &&  self.segueID != "yellow liquid") {
+            super.checkNewChapter(chapterName: Constants.FAKE_IT_TIL_YOU_MAKE_IT, order: 7)
+        }
     }
 }

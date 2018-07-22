@@ -23,18 +23,18 @@ class RaidOnCovarniusPageViewController: GenericPageViewController {
                     self.newVC(viewController: "raid on covarnius 2"),
                     self.newVC(viewController: "raid on covarnius 3"),
                     self.newVC(viewController: "raid on covarnius 3.5")] }
-        else if self.segueID == "ice ray" {
-                setImage(image: Constants.KORGLE_ATTACKS_PIC)
-            return [self.newVC(viewController: "Image"),
-                    self.newVC(viewController: "ice ray"),
-                    self.newVC(viewController: "no peace 2"),
-                    self.newVC(viewController: "raid on covarnius 1"),
-                    self.newVC(viewController: "raid on covarnius 2"),
-                    self.newVC(viewController: "raid on covarnius 3"),
-                    self.newVC(viewController: "raid on covarnius 3.5")
-                   ]
-            
-            }
+            else if self.segueID == "ice ray" {
+                    setImage(image: Constants.KORGLE_ATTACKS_PIC)
+                return [self.newVC(viewController: "Image"),
+                        self.newVC(viewController: "ice ray"),
+                        self.newVC(viewController: "no peace 2"),
+                        self.newVC(viewController: "raid on covarnius 1"),
+                        self.newVC(viewController: "raid on covarnius 2"),
+                        self.newVC(viewController: "raid on covarnius 3"),
+                        self.newVC(viewController: "raid on covarnius 3.5")
+                       ]
+                
+                }
             else if self.segueID == "stealth" {
                 setImage(image: Constants.HYPER_GROTH_RAY_PIC)
                 return [self.newVC(viewController: "Image"),
@@ -101,6 +101,7 @@ class RaidOnCovarniusPageViewController: GenericPageViewController {
                     self.newVC(viewController: "raid on covarnius 3"),
                     self.newVC(viewController: "raid on covarnius 3.5")]
             } else if self.segueID == "run mistake"{
+                enableHardModeEffect()
                 setImage(image: Constants.SINISTERIAN_GANG_PIC)
                 return  [self.newVC(viewController: "Image"),
                           self.newVC(viewController: "Run The End")]
@@ -122,8 +123,10 @@ class RaidOnCovarniusPageViewController: GenericPageViewController {
     }
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
-        super.checkNewChapter(chapterName: Constants.RAID_ON_COVARNIUS, order: 11)
-        ChapterSelectViewController.chapterSelect.deleteById(id: Constants.RISE_AND_SHINE)
+        if(self.segueID != "run mistake") {
+            super.checkNewChapter(chapterName: Constants.RAID_ON_COVARNIUS, order: 11)
+            ChapterSelectViewController.chapterSelect.deleteById(id: Constants.RISE_AND_SHINE)
+        }
         
     }
 

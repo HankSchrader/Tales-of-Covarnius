@@ -14,84 +14,147 @@ class ViewController: ChapterViewController {
     var menuShowing = false
     static let sharedHelper = ViewController()
    // weak var delegate: DisplayViewIDDelegate?
-    
+    var difficultySetting: [Difficulty]?
+    var isOnEasyMode: Bool?
     var topLabel = UILabel()
     var bottomLabel = UILabel()
+    var toggleDifficulty = UISwitch()
     
+    var difficultyLabel = UILabel()
+ 
     override func viewDidLoad() {
-        navigationItem.hidesBackButton = true
-        super.viewDidLoad()
-        createBeginButton()
-        createDeleteButton()
-        createCreditsButton()
-        createTopLabel()
-        createBottomLabel()
-    
         
-
         
         MusicHelper.sharedHelper.initiateBackgroundMusic(resource: Constants.MAIN_MENU_SONG, numberOfLoops: 3)
-       
-        
-        
+
     }
+    
+
     
     //MARK: viewWillAppear is always used for animation.
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        
       
         // Set the top label's animation alpha
         self.topLabel.alpha = 0
         self.bottomLabel.alpha = 0
       
-        
+        let fetchRequest: NSFetchRequest<Difficulty> = Difficulty.fetchRequest()
+        do {
+            self.difficultySetting = try PersistanceService.context.fetch(fetchRequest)
+        } catch
+        {
+            print("fetch failed!")
+        }
+      
+        createBeginButton()
+        createDeleteButton()
+        createCreditsButton()
+        createTopLabel()
+        createBottomLabel()
+        createUISwitch()
+        createDifficultyLabel(contextLabel: difficultySetting?.last?.label)
+        if(self.difficultySetting != nil) {
+            switchGradient(isEasyOn:  self.difficultySetting?.last?.isEasyMode, label: self.bottomLabel)
+            switchGradient(isEasyOn:  self.difficultySetting?.last?.isEasyMode, label: self.topLabel)
+            switchGradient(isEasyOn:  self.difficultySetting?.last?.isEasyMode, label: self.difficultyLabel)
+        }
+        self.toggleDifficulty.tintColor = UIColor.red
+       
         animateLabelTransition()
+     
+        if( difficultySetting?.last?.isEasyMode == true || difficultySetting?.last?.isEasyMode == nil ) {
+            self.toggleDifficulty.setOn(true, animated: false)
+        } else {
+            self.toggleDifficulty.setOn(false, animated: false)
+        }
+        if((difficultySetting?.count)! > 1) {
+            print("Puging...")
+            purgeDifficultyData()
+        }
+        
         MusicHelper.sharedHelper.fadeInBackgroundMusic(resource: Constants.MAIN_MENU_SONG,fadeDuration: Constants.STANDARD_FADE_TIME)
 
     }
     
+
+    @IBAction func callDifficultySwitch(_ sender: UISwitch) {
+        let difficulty = Difficulty(context: PersistanceService.context)
+
+        if(self.toggleDifficulty.isOn) {
+            difficulty.label = "Regular Mode"
+            self.difficultyLabel.text = "Regular Mode"
+            difficulty.isEasyMode = true
+            switchGradient(isEasyOn: true, label: self.bottomLabel)
+            switchGradient(isEasyOn: true, label: self.topLabel)
+            switchGradient(isEasyOn: true, label: self.difficultyLabel)
+            PersistanceService.saveContext()
+        } else {
+     
+            difficulty.isEasyMode = false
+            difficulty.label = "Hard Mode"
+            self.difficultyLabel.text = "Hard Mode"
+            switchGradient(isEasyOn:  false, label: self.bottomLabel)
+            switchGradient(isEasyOn: false, label: self.topLabel)
+              switchGradient(isEasyOn: false, label: self.difficultyLabel)
+            PersistanceService.saveContext()
+        }
+    }
+    
+    
+    
+
     override func viewWillDisappear(_ animated: Bool) {
         
         if(ChapterSelectViewController.chapterSelect.isChapterThere(chapterName: Constants.MAIN_MENU) == false) {
             ChapterSelectViewController.chapterSelect.saveChapter(ChapterName: Constants.MAIN_MENU, order: -1)
         }
     }
+    
+    func switchGradient(isEasyOn: Bool?, label: UILabel) {
+        if(isEasyOn != nil) {
+            var startColor:UIColor = .black
+            if(isEasyOn!) {
+                startColor = .green
+            } else {
+                startColor = .red
+            }
+            if label.applyGradientWith(startColor: startColor, endColor: .white) {
+                print("Gradient successfully applied")
+            } else {
+                label.textColor = .black
+                
+            }
+        } else {
+            if label.applyGradientWith(startColor: .green , endColor: .white) {
+                print("Gradient successfully applied")
+            } else {
+                label.textColor = .black
+                
+            }
+        }
+    }
     func createTopLabel() {
-      
+
+
         self.topLabel.backgroundColor = UIColor.clear
         self.topLabel.text = "Tales of"
         self.topLabel.textColor = UIColor.black
-        
         self.topLabel.font = UIFont(name: "Futura", size: 50.0)
-        if self.topLabel.applyGradientWith(startColor: .red, endColor: .white) {
-             print("Gradient successfully applied")
-        } else {
-            topLabel.textColor = .black
-        }
-       
-        
         self.topLabel.frame = CGRect(x: view.frame.width/2 - 100 , y: view.frame.height/10, width: 400, height: 70)
-        
-     
-        
         view.addSubview(self.topLabel)
         view.bringSubview(toFront: self.topLabel)
       
     }
-    
+
     func createBottomLabel() {
       
         self.bottomLabel.backgroundColor = UIColor.clear
         self.bottomLabel.text = "Covarnius"
         self.bottomLabel.textColor = UIColor.black
         
-        
-        if self.bottomLabel.applyGradientWith(startColor: .white, endColor: .red) {
-            print("Gradient successfully applied")
-        } else{
-            print("Not successul")
-            bottomLabel.textColor = .black
-        }
         
         if(self.view.frame.size.width < 400 ) {
                 self.bottomLabel.font = UIFont(name: "Futura", size: 65.0)
@@ -100,10 +163,7 @@ class ViewController: ChapterViewController {
                 self.bottomLabel.font = UIFont(name: "Futura", size: 80.0)
                  self.bottomLabel.frame = CGRect(x: view.frame.width/2 - 175 , y: view.frame.height/5, width: 500, height: 80)
         }
-        
-        
-        
-        
+
         view.addSubview(self.bottomLabel)
         view.bringSubview(toFront: self.bottomLabel)
         
@@ -131,7 +191,8 @@ class ViewController: ChapterViewController {
         }, completion: nil)
         
     }
-    //MARK: Begin button
+    
+    //MARK: Begin button ALL BUTTONS AFTER THIS
     //Start from beginning button. This will trigger entry to the last view
     func createBeginButton() {
         let button = UIButton()
@@ -139,7 +200,7 @@ class ViewController: ChapterViewController {
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .blue
         button.frame = CGRect(x: view.frame.width/2 - 150, y: view.frame.height/3, width: 300, height: 36)
-    
+        
         button.layer.borderWidth = 2
         button.layer.cornerRadius = 18
         
@@ -147,22 +208,6 @@ class ViewController: ChapterViewController {
         view.bringSubview(toFront: button)
         button.addTarget(self, action: #selector(ViewController.goToChapter1(_:)), for: UIControlEvents.touchUpInside)
         
-    }
-    
-    //MARK: Delete button
-    func createDeleteButton() {
-        let button = UIButton()
-        button.setTitle("Delete Data", for: .normal)
-        button.setTitleColor(.white, for: .normal)
-        button.backgroundColor = .red
-        button.frame = CGRect(x: view.frame.width/2 - 150, y: view.frame.height/1.25, width: 300, height: 36)
-        
-        button.layer.borderWidth = 2
-        button.layer.cornerRadius = 18
-        
-        view.addSubview(button)
-        view.bringSubview(toFront: button)
-        button.addTarget(self, action: #selector(ViewController.alertForDelete(_:)), for: UIControlEvents.touchUpInside)
     }
     
     //MARK: Credits button
@@ -180,6 +225,45 @@ class ViewController: ChapterViewController {
         view.bringSubview(toFront: button)
         button.addTarget(self, action: #selector(ViewController.goToCredits(_:)), for: UIControlEvents.touchUpInside)
     }
+
+    
+    //MARK: Delete button
+    func createDeleteButton() {
+        let button = UIButton()
+        button.setTitle("Delete Data", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        button.backgroundColor = .red
+        button.frame = CGRect(x: view.frame.width/2 - 150, y: view.frame.height/1.35, width: 300, height: 36)
+        
+        button.layer.borderWidth = 2
+        button.layer.cornerRadius = 18
+        
+        view.addSubview(button)
+        view.bringSubview(toFront: button)
+        button.addTarget(self, action: #selector(ViewController.alertForDelete(_:)), for: UIControlEvents.touchUpInside)
+    }
+    
+    
+    
+    func createDifficultyLabel(contextLabel: String?) {
+        let label = self.difficultyLabel
+        label.text = contextLabel
+        label.backgroundColor = .clear
+        self.difficultyLabel.font = UIFont(name: "Futura", size: 20.0)
+        label.frame = CGRect(x:  view.frame.width/2 - 75, y: view.frame.height/1.20, width: 300, height: 36)
+        view.addSubview(label)
+        view.bringSubview(toFront: label)
+    }
+
+    func createUISwitch() {
+        self.toggleDifficulty.frame = CGRect(x: view.frame.width/2 - 50 , y: view.frame.height/1.10, width: 400, height: 70)
+        view.addSubview(self.toggleDifficulty)
+        view.bringSubview(toFront: self.toggleDifficulty)
+        self.toggleDifficulty.addTarget(self, action: #selector(ViewController.callDifficultySwitch(_:)), for: UIControlEvents.touchUpInside)
+        
+        
+    }
+
     
     //MARK: Alert For Delete button
     @IBAction func alertForDelete(_ sender: UIButton) {
@@ -233,12 +317,40 @@ class ViewController: ChapterViewController {
         
     }
     
+    //Core data saves the Difficulty boolean into an array, but I only ever need to know the last
+    //value. So I delete everything up to the last value.
+    func purgeDifficultyData() {
+        // Initialize Fetch Request
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Difficulty")
+        
+        // Configure Fetch Request
+        fetchRequest.includesPropertyValues = false
+        
+        do {
+            let items = try PersistanceService.context.fetch(fetchRequest) as! [NSManagedObject]
+            let itemSize = items.count - 1
+            var i = 0
+            while i < itemSize {
+                print("deleting...")
+                PersistanceService.context.delete(items[i])
+                i=i+1
+            }
+            
+            // Save Changes
+            try PersistanceService.context.save()
+        } catch {
+            NSLog("Delete Failed")
+        }
+    }
+
 }
+
 
 // MARK: delegate protocol to display the current chapter on the manin menu screen.
 
 protocol DisplayViewIDDelegate: class {
     func displayPageViewID(_ name : String?)
+   
     
 }
 

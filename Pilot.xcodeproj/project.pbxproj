@@ -13,6 +13,8 @@
 		5317FA9B2049A2AF00CC30EE /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317FA9A2049A2AF00CC30EE /* PersistanceService.swift */; };
 		5317FA9E2049AF3E00CC30EE /* Chapter+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317FA9C2049AF3E00CC30EE /* Chapter+CoreDataClass.swift */; };
 		5317FA9F2049AF3E00CC30EE /* Chapter+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317FA9D2049AF3E00CC30EE /* Chapter+CoreDataProperties.swift */; };
+		532F6DA621034584005334B9 /* Difficulty+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532F6DA421034584005334B9 /* Difficulty+CoreDataClass.swift */; };
+		532F6DA721034584005334B9 /* Difficulty+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532F6DA521034584005334B9 /* Difficulty+CoreDataProperties.swift */; };
 		5336A422205D2DB4002802C7 /* NavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336A421205D2DB3002802C7 /* NavButton.swift */; };
 		5336A424205D6DAA002802C7 /* Chapter4PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336A423205D6DAA002802C7 /* Chapter4PageViewController.swift */; };
 		533B40992049EA0000D61D80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B40982049EA0000D61D80 /* Constants.swift */; };
@@ -74,6 +76,8 @@
 		5317FA9A2049A2AF00CC30EE /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
 		5317FA9C2049AF3E00CC30EE /* Chapter+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5317FA9D2049AF3E00CC30EE /* Chapter+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		532F6DA421034584005334B9 /* Difficulty+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Difficulty+CoreDataClass.swift"; sourceTree = "<group>"; };
+		532F6DA521034584005334B9 /* Difficulty+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Difficulty+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5336A421205D2DB3002802C7 /* NavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButton.swift; sourceTree = "<group>"; };
 		5336A423205D6DAA002802C7 /* Chapter4PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4PageViewController.swift; sourceTree = "<group>"; };
 		533B40982049EA0000D61D80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				539842352044713D00CCD93E /* MusicHelper.swift */,
+				532F6DA421034584005334B9 /* Difficulty+CoreDataClass.swift */,
+				532F6DA521034584005334B9 /* Difficulty+CoreDataProperties.swift */,
 				5317FA9D2049AF3E00CC30EE /* Chapter+CoreDataProperties.swift */,
 				5317FA9A2049A2AF00CC30EE /* PersistanceService.swift */,
 				5317FA9C2049AF3E00CC30EE /* Chapter+CoreDataClass.swift */,
@@ -410,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532F6DA621034584005334B9 /* Difficulty+CoreDataClass.swift in Sources */,
 				53984230204468AA00CCD93E /* MainMenuViewController.swift in Sources */,
 				536D8E1C20F25FDF00EFF639 /* LauncherViewController.swift in Sources */,
 				5317FA9E2049AF3E00CC30EE /* Chapter+CoreDataClass.swift in Sources */,
@@ -432,6 +439,7 @@
 				533B40992049EA0000D61D80 /* Constants.swift in Sources */,
 				5336A424205D6DAA002802C7 /* Chapter4PageViewController.swift in Sources */,
 				539841FF20439F3300CCD93E /* AppDelegate.swift in Sources */,
+				532F6DA721034584005334B9 /* Difficulty+CoreDataProperties.swift in Sources */,
 				5365E3DC20602104009E481F /* GoAsAmbassadorPageViewController.swift in Sources */,
 				53A5FAE820692050008304F9 /* GenericButton.swift in Sources */,
 				5317FA9920499BD400CC30EE /* ChapterSelectViewController.swift in Sources */,

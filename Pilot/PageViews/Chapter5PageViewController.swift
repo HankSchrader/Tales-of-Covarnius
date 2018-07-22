@@ -47,6 +47,7 @@ class Chapter5PageViewController: GenericPageViewController {
                     self.newVC(viewController: "Chapter 5 7")]
     
             case "just go home"?:
+                enableHardModeEffect()
                 setImage(image: Constants.EARTH_PIC)
                 return [self.newVC(viewController: "Image"),
                         self.newVC(viewController: "never know the end")]
@@ -73,8 +74,10 @@ class Chapter5PageViewController: GenericPageViewController {
         // Do any additional setup after loading the view.
     }
     override func viewDidAppear(_ animated: Bool){
-        super.viewDidAppear(animated)
-        super.checkNewChapter(chapterName: Constants.MASTER_OF_DISGUISE_OR_LIES,order: 6)
+            super.viewDidAppear(animated)
+        if(self.segueID != "just go home") {
+            super.checkNewChapter(chapterName: Constants.MASTER_OF_DISGUISE_OR_LIES,order: 6)
+        }
             
         }
     }

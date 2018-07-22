@@ -12,7 +12,7 @@ import StoreKit
 class ChapterViewController: UIViewController {
 
 
-    
+    let navButton = NavButton()
 
     let noiseClosure: (Bool) -> Void = { if $0 {
       
@@ -758,7 +758,7 @@ class ChapterViewController: UIViewController {
 
     
     func goToChapterSelectAction() {
-        let button = NavButton()
+        let button = self.navButton
         button.frame = CGRect(x: -100, y: 30, width: 300, height: 40)
         view.addSubview(button)
         button.addTarget(self, action: #selector(handleMore(sender:)), for:

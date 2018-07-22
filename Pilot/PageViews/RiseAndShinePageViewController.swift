@@ -25,23 +25,22 @@ class RiseAndShinePageViewController: GenericPageViewController {
                      ]
         } else if(self.segueID == "hyper sleep release chamber") {
               setImage(image: Constants.HYPERSLEEP_CONTROL_PANEL)
-                return [
-                self.newVC(viewController: "Image"),
+                return [self.newVC(viewController: "Image"),
                 self.newVC(viewController: "hyper sleep 0")]
         }
         
         else if(self.segueID == "home sweet home") {
-             setImage(image: Constants.LUNA_IN_SHIP_PIC)
-            return [
-                    self.newVC(viewController: "Image"),
+            setImage(image: Constants.LUNA_IN_SHIP_PIC)
+            return [self.newVC(viewController: "Image"),
                     self.newVC(viewController: "rise and shine 8")]
         } else if(self.segueID == "celebrate") {
-             setImage(image: Constants.CHRONO_STATUE_PIC)
+            setImage(image: Constants.CHRONO_STATUE_PIC)
             return [self.newVC(viewController: "Image"),
                 self.newVC(viewController: "celebrate")]
         } else
         
-        { setImage(image: Constants.SLEEPING_SINISTERIANS)
+        {
+            setImage(image: Constants.SLEEPING_SINISTERIANS)
             return [ self.newVC(viewController: "Image"),
                     self.newVC(viewController: "rise and shine 1"),
                     self.newVC(viewController: "rise and shine 2"),
