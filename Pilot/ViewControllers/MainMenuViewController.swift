@@ -304,7 +304,7 @@ class ViewController: ChapterViewController {
         label.textAlignment = .center
         let width = self.view.frame.size.width
         self.difficultyLabel.changeFontSizeByDevice(width: width)
-        label.frame = CGRect(x:  view.frame.width/2 - 150, y: view.frame.height/1.20, width: 300, height: 50)
+        label.frame = CGRect(x:  view.frame.width/2 - 150, y: view.frame.height/1.20, width: 300, height: 60)
         view.addSubview(label)
         view.bringSubview(toFront: label)
     }

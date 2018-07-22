@@ -65,48 +65,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe down to continue..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYG-Qx-qNv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe down to continue..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYG-Qx-qNv">
                                 <rect key="frame" x="25" y="70" width="270" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your decisions wisely..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afJ-L8-8I8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your decisions wisely..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afJ-L8-8I8">
                                 <rect key="frame" x="25" y="174" width="270" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Luck!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wa-xN-66m">
-                                <rect key="frame" x="25" y="402" width="270" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Because you can't go back!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rvs-aq-iRH">
+                                <rect key="frame" x="25" y="253" width="270" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Because you can't go back!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rvs-aq-iRH">
-                                <rect key="frame" x="25" y="274" width="270" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Luck!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wa-xN-66m">
+                                <rect key="frame" x="25" y="336.5" width="270" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="zQE-LM-5FL" firstAttribute="bottom" secondItem="6Wa-xN-66m" secondAttribute="bottom" constant="145" id="0PM-4V-Dht"/>
+                            <constraint firstItem="zQE-LM-5FL" firstAttribute="bottom" secondItem="6Wa-xN-66m" secondAttribute="bottom" constant="200" id="0PM-4V-Dht"/>
                             <constraint firstItem="zQE-LM-5FL" firstAttribute="trailing" secondItem="6Wa-xN-66m" secondAttribute="trailing" constant="25" id="21o-rU-GEs"/>
-                            <constraint firstItem="6Wa-xN-66m" firstAttribute="top" secondItem="Rvs-aq-iRH" secondAttribute="bottom" constant="107" id="2Zq-Vn-Rup"/>
-                            <constraint firstItem="Rvs-aq-iRH" firstAttribute="trailing" secondItem="afJ-L8-8I8" secondAttribute="trailing" id="2iu-xV-prh"/>
                             <constraint firstItem="oYG-Qx-qNv" firstAttribute="leading" secondItem="zQE-LM-5FL" secondAttribute="leading" constant="25" id="2lY-vM-OeD"/>
                             <constraint firstItem="oYG-Qx-qNv" firstAttribute="top" secondItem="zQE-LM-5FL" secondAttribute="top" constant="50" id="5HF-05-coW"/>
+                            <constraint firstItem="zQE-LM-5FL" firstAttribute="trailing" secondItem="Rvs-aq-iRH" secondAttribute="trailing" constant="25" id="8aZ-he-RcB"/>
+                            <constraint firstItem="6Wa-xN-66m" firstAttribute="top" secondItem="Rvs-aq-iRH" secondAttribute="bottom" constant="62.5" id="BDu-fy-6Fa"/>
                             <constraint firstItem="afJ-L8-8I8" firstAttribute="leading" secondItem="zQE-LM-5FL" secondAttribute="leading" constant="25" id="EPR-fW-WiC"/>
-                            <constraint firstItem="Rvs-aq-iRH" firstAttribute="centerX" secondItem="6Wa-xN-66m" secondAttribute="centerX" id="OBb-Zt-BFb"/>
-                            <constraint firstItem="Rvs-aq-iRH" firstAttribute="leading" secondItem="afJ-L8-8I8" secondAttribute="leading" id="Q77-Fz-woc"/>
+                            <constraint firstItem="Rvs-aq-iRH" firstAttribute="leading" secondItem="zQE-LM-5FL" secondAttribute="leading" constant="25" id="ONJ-DB-8GN"/>
                             <constraint firstItem="zQE-LM-5FL" firstAttribute="trailing" secondItem="afJ-L8-8I8" secondAttribute="trailing" constant="25" id="RK9-k5-coZ"/>
                             <constraint firstItem="afJ-L8-8I8" firstAttribute="top" secondItem="oYG-Qx-qNv" secondAttribute="bottom" constant="83" id="U5j-gf-gPR"/>
                             <constraint firstItem="6Wa-xN-66m" firstAttribute="leading" secondItem="zQE-LM-5FL" secondAttribute="leading" constant="25" id="YUa-za-DbP"/>
-                            <constraint firstItem="Rvs-aq-iRH" firstAttribute="centerY" secondItem="dlS-oc-7gi" secondAttribute="centerY" id="Ze2-P5-qQp"/>
                             <constraint firstItem="zQE-LM-5FL" firstAttribute="trailing" secondItem="oYG-Qx-qNv" secondAttribute="trailing" constant="25" id="amC-TV-Kp8"/>
                             <constraint firstItem="afJ-L8-8I8" firstAttribute="top" secondItem="oYG-Qx-qNv" secondAttribute="bottom" constant="83" id="cuM-us-Yzk"/>
+                            <constraint firstItem="Rvs-aq-iRH" firstAttribute="top" secondItem="afJ-L8-8I8" secondAttribute="bottom" constant="57" id="ifS-Hu-uUW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zQE-LM-5FL"/>
                     </view>
@@ -374,13 +373,13 @@ Butterflies fill your stomach. Maybe you should have ran while you had the chanc
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Thoughts of scalpels and examination tables suddenly fill your head. The last thing you want to become is a test subject in an alien experiment!
+                                        <mutableString key="content">Thoughts of scalpels and examination tables suddenly fill your head. The last thing you want to become is a test subject in some alien experiment!
 
 You tell the alien that you won’t go with him. “How do I know you won’t just dissect my brain?” you ask accusingly. Your fists are clenched with anger and fright. So this is what the fight or flight mechanism you learned about in school must feel like.
 
 The alien stares at you as if you are completely crazy. 
 
-“Why on Covarnius would I do a thing like that?” The alien asks indignantly. “Do you have any idea how messy that would be?” </string>
+“Why on Covarnius would I do a thing like that?” The alien asks indignantly. “Do you have any idea how messy that would be?” </mutableString>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                         </attributes>
@@ -601,7 +600,7 @@ And where </string>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> Covarnius anyway? If it was close to Earth, wouldn’t we know of it existence? And if it was far…you recall your science teacher informing your class that it would take thousands of years just to travel one light year. 
+                                        <string key="content"> Covarnius anyway? If it was close to Earth, wouldn’t we know of its existence? And if it was far…you recall your science teacher informing your class that it would take thousands of years just to travel one light year. 
 </string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
@@ -643,7 +642,7 @@ And where </string>
                                     <fragment>
                                         <string key="content">“So how far away is this Covarnius?” you inquire with skepticism, afraid of what the answer may be.
 
-“Is it going to take us thousands of years to get there?” you question with growing panic. “I change my mind, I want to go back to Earth!” you shout, pressing your nose to the glass window. 
+“Is it going to take us thousands of years to get there?” you continue with growing panic. “I change my mind, I want to go back to Earth!” you shout, pressing your nose to the glass window. 
 
 </string>
                                         <attributes>
@@ -651,7 +650,7 @@ And where </string>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Chrono turns to you with a look of confusion. “Covarnius is located in the next star system, approximately five light years away or about seven earthling days.”
+                                        <string key="content">Chrono turns to you with a look of confusion. “Covarnius is located in the next star system, approximately five light years away...or about seven earthling days.”
 
 The alien turns to you with one eyebrow raised sternly. “Besides, you can’t back out now. You already agreed to help.”
 </string>
@@ -1819,7 +1818,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I2W-ZX-pZi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6909" y="7708"/>
+            <point key="canvasLocation" x="6863" y="7255"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="Jzc-mU-vCS">
@@ -1861,7 +1860,7 @@ Cg
                                     <fragment>
                                         <string key="content">A Covarnian in a long white lab coat greets you. “Ah, you must be the genius, Clyde Du Bois.”
 
-“Oui,” you answer sneakily, saying the only french word you know. 
+“Oui,” you answer sneakily, saying the only French word you know. 
 
 ”But I prefer English,” you say hurriedly afterwards.</string>
                                         <attributes>
@@ -15043,7 +15042,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“I’m afraid not,” Chrono says dejectedly. Our only hope was to get the Earth renowned scientist who would be able to complete the cloaking device our own scientists have been working on." 
+                                        <string key="content">“I’m afraid not,” Chrono says dejectedly. Our only hope was to get the Earth renowned scientist. He would've beeen able to complete the cloaking device our own scientists have been working on." 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15180,7 +15179,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“What’s a Sinisterian?” you ask. Judging by the Covarnians' reactions you can tell whoever or whatever it is can’t be good. 
+                                        <string key="content">“What’s a Sinisterian?” you ask. Judging by the Covarnians' reactions, you can tell whoever or whatever it is can’t be good. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16208,7 +16207,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Pl-Vt-Rac" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7559" y="7253"/>
+            <point key="canvasLocation" x="7562" y="7255"/>
         </scene>
         <!--Generic Decision Point View Controller-->
         <scene sceneID="ohp-DK-HM5">
@@ -17135,7 +17134,6 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -17149,11 +17147,11 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Kayo walks with you outside to the ship.         
+                                        <string key="content">Kayo walks with you outside to the ship.      
+  
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -17162,7 +17160,6 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -17175,7 +17172,6 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="1" paragraphSpacingBefore="1" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -17189,7 +17185,6 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -17202,7 +17197,6 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -17216,7 +17210,6 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Kayo laughs heartily. “No problem! Let me lead you back to your ship. It’s not too far from here.”">
@@ -17227,7 +17220,6 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -17977,17 +17969,17 @@ The message on the monitor changes and you read it aloud, “Making emergency la
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">This is just too much, too soon. The vastness of space is terrifying, and feelings of homesickness weigh heavily upon you.
+                                        <mutableString key="content">This is just too much, too soon. The vastness of space is terrifying, and feelings of homesickness weigh heavily upon you.
 
 “Take me back to Earth!” you shout panicked at Chrono.
 
 “I’m afraid that’s not possible,” he replies, sighing. “You see, the course has already been set for Covarnius. I can’t undo it.” 
 
-“There’s got to be something we can do,” you say desperately. You begin to hit buttons and switches on the control console in front of you. 
+“There’s got to be something we can do,” you say desperately. You hit buttons and switches on the control console in front of you. 
 
 “No, don’t do that!” Chrono shouts with horror. “This is a very delicate piece of machinery.”
 
-The lights in the ship begin to flicker on and off. A static sound emanates through the air. Perhaps you shouldn’t have messed with the controls after all. </string>
+The lights in the ship begin to flicker on and off. A loud static sound can be heard. Perhaps you shouldn’t have messed with the controls after all. </mutableString>
                                         <attributes>
                                             <font key="NSFont" size="14" name="Baskerville"/>
                                         </attributes>
@@ -18112,7 +18104,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Chrono stops trying to restart the ship and looks out as well. “Based on the rocky desert terrain and low lying shrubbery… I’d have to say, I have no idea!” Chrono shouts with panic. 
+                                        <string key="content">Chrono stops trying to restart the ship and looks out towards the horizon. “Based on the rocky desert terrain and low lying shrubbery… I’d have to say, I have no idea!” Chrono shouts with panic. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18621,7 +18613,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“And that’s saying a lot,” Kayo continues as he eats his stew. “You’ve never seen a mess until you’ve owned a hapal. I guess I don’t have to tell you though,” Kayo says gesturing to Luna who is busy lapping up a bowl of the alien stew. “You know what it’s like to own a baby hapal."
+                                        <string key="content">“And that’s saying a lot,” Kayo continues as he eats his stew. “You’ve never seen a mess until you’ve owned a hapal. I guess I don’t have to tell you though,” Kayo says gesturing to Luna, who is busy lapping up a bowl of the alien stew. “You know what it’s like to own a baby hapal."
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18753,7 +18745,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Kayo lets out a small chuckle. Well then I can’t speak for your critter but hapals are mighty messy. But we pride ourselves on having the cleanest stables in all the land. 
+                                        <string key="content">Kayo lets out a small chuckle. Well then I can’t speak for your critter, but hapals are mighty messy. But we pride ourselves on having the cleanest stables in all the land. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18782,7 +18774,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You look at Luna as she continues eating, meanwhile splashing gravy and dog slobbers all over the floor. Her golden fur has been shedding and falls down into the mix of gravy and dog slobbers. You aren’t sure what a hapal is… but there is no way one could be messier than Luna. 
+                                        <string key="content">You look at Luna as she continues eating, meanwhile splashing gravy and dog slobbers all over the floor. Her golden fur has been shedding and falls down into the mix of gravy and dog slobbers. You aren’t sure what a hapal is...but there is no way one could be messier than Luna. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18829,7 +18821,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Now y’all go on and relax,” Kayo says, standing up from the table. “I’ll get Kebo and we’ll get your ship fixed in no time!”
+                                        <string key="content">“Now y’all go on and relax,” Kayo says, standing up from the table. “I’ll grab Kebo and we’ll get your ship fixed in no time!”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18858,7 +18850,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You notice a large, overstuffed couch positioned next to a roaring fire. Having a moment to relax doesn’t sound bad. After all that’s happened, you figure you’re entitled to a break. 
+                                        <string key="content">You see a large, overstuffed couch positioned next to a roaring fire. Having a moment to relax doesn’t sound too bad. After all that’s happened, you figure you’re entitled to a break. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18915,7 +18907,7 @@ Cg
                                             <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="The couch and the fire do look inviting. But the ship is your only hope to get off the planet. ">
+                                    <fragment content="The couch and the fire do look inviting...but the ship is your only hope to get off the planet. ">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -19006,7 +18998,7 @@ Cg
                                     <fragment>
                                         <string key="content">be staring at a UFO? It doesn’t seem possible, you don’t even believe in aliens. 
 
-But the odd green creature makes you start to think otherwise. You hear a loud hissing sound like the decompressing of air. The top of what appears to be an alien spaceship opens. 
+But the odd green creature in the UFO makes you think otherwise. You hear a loud hissing sound like the decompressing of air. The top of what appears to be an alien spaceship opens. 
 
 Yup, definitely an alien!</string>
                                         <attributes>
@@ -19049,9 +19041,9 @@ Yup, definitely an alien!</string>
                                     <fragment>
                                         <string key="content">The creature inside hops out of the aircraft. His body is long and slender; he appears frantic and in a great hurry.
 
-The creature looks at you with his large bulbous eyes. He scans you head to toe, silent for a moment, like a boxer sizing up an opponent. The alien is about your height. Maybe you could take him on?
+The creature looks at you with his large round eyes. He scans you head to toe, silent for a moment, like a boxer sizing up an opponent. The alien is about your height. Maybe you could take him on?
 
-All the scary alien movies you’ve ever watched flood into memory. What if he wants to dissect your brain? Or worse! The alien moves closer to you. Luna lets out a bark as a warning bark</string>
+All the scary alien movies you’ve ever watched flood into memory. What if he wants to dissect your brain? Or worse! The alien moves closer to you. Luna lets out a warning bark.</string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                         </attributes>
@@ -19143,7 +19135,7 @@ Cg
                                     </fragment>
                                     <fragment>
                                         <string key="content">
-“I need you to come with me right away!” the alien declares with alarm in his voice. You hesitate for a moment, and reply...</string>
+“I need you to come with me right away!” the alien declares alarmingly. You hesitate for a moment, and reply...</string>
                                         <attributes>
                                             <font key="NSFont" size="15" name="Baskerville"/>
                                         </attributes>
@@ -19426,14 +19418,14 @@ Do you:
         <segue reference="Cpv-90-8rr"/>
         <segue reference="pZ2-f4-yno"/>
         <segue reference="MqN-Mj-29S"/>
-        <segue reference="edL-fS-Lym"/>
-        <segue reference="eAf-3k-Vpu"/>
+        <segue reference="6es-We-obc"/>
+        <segue reference="why-Zw-93Q"/>
         <segue reference="jox-Tc-HCZ"/>
         <segue reference="dm8-JS-0k1"/>
         <segue reference="Rlm-ND-bdU"/>
         <segue reference="UT2-He-dFh"/>
         <segue reference="w4t-kW-FBM"/>
         <segue reference="3rd-jJ-Mjs"/>
-        <segue reference="RIJ-aP-aMJ"/>
+        <segue reference="4hG-Mm-Rda"/>
     </inferredMetricsTieBreakers>
 </document>

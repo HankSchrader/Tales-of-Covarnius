@@ -51,7 +51,7 @@ class FakeScientistArcPageViewController: GenericPageViewController {
     override func viewDidAppear(_ animated: Bool){
         super.viewDidAppear(animated)
         if(self.segueID != "green liquid" &&  self.segueID != "yellow liquid") {
-            super.checkNewChapter(chapterName: Constants.FAKE_IT_TIL_YOU_MAKE_IT, order: 7)
+            super.checkNewChapter(chapterName: Constants.FAKE_IT_TIL_YOU_MAKE_IT, order: 6)
         }
     }
 }
