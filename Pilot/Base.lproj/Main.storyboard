@@ -285,7 +285,7 @@
                                 <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">“We could be missing out on a chance of a lifetime!” you say to Luna. She wags her tail playfully and barks in agreement.
 
-Could it be military? Or an alien? Or an extra dimensional being? It could be anything, and there is only one way to find out! Without further ado, you sprint back to the object in the sky. 
+Could it be military? Or an alien? It could be anything, and there is only one way to find out! Without further ado, you sprint back to the object in the sky. 
 </string>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -321,7 +321,7 @@ Could it be military? Or an alien? Or an extra dimensional being? It could be an
                                 <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Run away? No way, this is too good to miss!
 
-You stop and observe the strange object descending slowly from the sky. As it gets closer, you see a strange creature inside, just behind the bulbous glass encasing. His complexion is green and he has two antennae protruding from his head.
+You stop and observe the strange object descending slowly from the sky. As it gets closer, you see a strange creature inside, just behind the glass encasing. His complexion is green and he has two antennae protruding from his head.
 
 Butterflies fill your stomach. Maybe you should have ran while you had the chance...
 </string>
@@ -373,9 +373,9 @@ Butterflies fill your stomach. Maybe you should have ran while you had the chanc
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Thoughts of scalpels and examination tables suddenly fill your head. The last thing you want to become is a test subject in some alien experiment!
+                                        <mutableString key="content">Thoughts of scalpels and examination tables suddenly fill your head. The last thing you want is to become a test subject in some alien experiment!
 
-You tell the alien that you won’t go with him. “How do I know you won’t just dissect my brain?” you ask accusingly. Your fists are clenched with anger and fright. So this is what the fight or flight mechanism you learned about in school must feel like.
+You tell the alien that you won’t go with him. “How do I know you won’t just dissect my brain?” you ask accusingly. Your fists are clenched with anger and fright.
 
 The alien stares at you as if you are completely crazy. 
 
@@ -417,7 +417,7 @@ The alien stares at you as if you are completely crazy.
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You put your hands on your hip and gaze at him suspiciously, hoping to find a sign that he’s not being entirely truthful.
+                                        <string key="content">You put your hands on your hips and gaze at him suspiciously, hoping to find a sign that he’s not being entirely truthful.
 
 “Then why do I need to go with you?” you question him. A sound starts to emanate from the spacecraft a few yards away. It sounds like a cross between a wind chime and a howling dog. 
 
@@ -540,11 +540,11 @@ You stare at the alien defiantly, “If I’m going back to Covarnius with you, 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">my name is Chrono, and my home planet Covarnius is in trouble.”
+                                        <mutableString key="content">my name is Chrono, and my home planet Covarnius is in trouble.”
 
-Chrono pulls a lever on the blinking console in front of him and a ping sound emanates through the small ship. His attention seems to be dedicated to the operation of the ship, rather than the answering of your questions.
+Chrono pulls a lever on the blinking console in front of him and a ping sound emanates through the small ship. His attention seems to be more dedicated to the operation of the ship, rather than the answering of your questions.
 
-“And what does any of this have to do with me?” you question skeptically. You watch out the window as the spacecraft ascends upwards leaving Earth behind. The houses below quickly become tiny dots...this is becoming too real.</string>
+“And what does any of this have to do with me?” you question skeptically. You watch out the window as the spacecraft ascends upwards leaving Earth behind. The houses below quickly become tiny dots...this is becoming too real.</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="15" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
@@ -585,7 +585,7 @@ Chrono pulls a lever on the blinking console in front of him and a ping sound em
                                     <fragment>
                                         <string key="content">“Your groundbreaking research,” Chrono starts as he continues flipping switches and dials on the control panel, “it’s absolutely brilliant. You are the only one who can save Covarnius now.”
 
-Leaning back in your seat, you mull over what Chrono just told you. Your research for the science fair had definitely been A+ material, but you didn’t see how it could save an alien planet. 
+Leaning back in your seat, you mull over what Chrono just told you. Your research for the science fair had definitely been A+ material, but you don't see how it could save an alien planet. 
 
 And where </string>
                                         <attributes>
@@ -652,7 +652,7 @@ And where </string>
                                     <fragment>
                                         <string key="content">Chrono turns to you with a look of confusion. “Covarnius is located in the next star system, approximately five light years away...or about seven earthling days.”
 
-The alien turns to you with one eyebrow raised sternly. “Besides, you can’t back out now. You already agreed to help.”
+The alien turns to you with one eyebrow raised. “Besides, you can’t back out now. You already agreed to help.”
 </string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
@@ -668,7 +668,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">"Just seven days? That’s not too bad." you breath a sigh of relief. A week was bad enough, but at least it wasn’t going to be thousands of year! But still, you start to wonder if you made the right decision to travel to Covarnius. Your parents and your room back at home… it’s all on Earth. You feel a little homesick. What should you do?</string>
+                                        <string key="content">"Just seven days? That’s not too bad." you breath a sigh of relief. A week was bad enough, but at least it wasn’t going to be thousands of years! But still, you start to wonder if you made the right decision to travel to Covarnius. Your parents and your room back at home… it’s all on Earth. You feel a little homesick. What should you do?</string>
                                         <attributes>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -745,10 +745,10 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YrL-gO-6g9">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YrL-gO-6g9">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Chrono grins at you, brimming with hope. A weight appears to have been lifted off his shoulders.
+                                <mutableString key="text">Chrono grins at you, brimming with hope. A weight appears to have been lifted off his shoulders.
 
 “You’ll help me? That’s great! So if you have no further questions, I will engage hypersleep now.” Chrono says glancing in your direction. 
 
@@ -758,11 +758,12 @@ Cg
 
 “But if we’re both sleeping, who is going to pilot this ship?” you ask with trepidation.
 
-Chrono looks down dejectedly. “The ship has been pre-programmed to take us back to Covarnius. I’m not allowed to pilot the ships by myself anymore.” Manual piloting must be a privilege where he is from, you think to yourself.
+Chrono looks down dejectedly. “The ship has been pre-programmed to take us back to Covarnius. I’m not allowed to pilot the ships by myself anymore.”
 
+Manual piloting must be a privilege where he is from, you think to yourself.
 “Why not?” you ask Chrono. “Did you crash one or something?"
 
- Just how superior are these aliens anyhow? You begin to wonder. After all, they’re relying on you to save their planet.</string>
+ Just how superior are these aliens anyhow? You begin to wonder. After all, they’re relying on you to save their planet.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -782,7 +783,7 @@ Chrono looks down dejectedly. “The ship has been pre-programmed to take us bac
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GMC-Ul-osK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2233" y="6486"/>
+            <point key="canvasLocation" x="2213" y="6507"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="3E6-Mj-1kM">
@@ -797,16 +798,16 @@ Chrono looks down dejectedly. “The ship has been pre-programmed to take us bac
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“There may have been a slight...incident,” Chrono says shifting in his seat, eyes cast downward. Suddenly, his mood shifts. He snaps his head up and looks at you brightly. “But once I get Earth’s greatest scientist back to Covarnius, they’ll all see I’m smarter than they think. Now if you’re ready, I’m going to engage hypersleep.” 
+                                        <mutableString key="content">“There may have been a slight...incident,” Chrono says shifting in his seat, eyes cast downward. Then his mood shifts, he snaps his head up and looks at you. “But once I get Earth’s greatest scientist back to Covarnius, they’ll all see I’m smarter than they think. Now if you’re ready, I’m going to engage hypersleep.” 
 
 Earth’s greatest scientist? I sure hope he’s not talking about me, you think worriedly. 
 
-Chrono leads you to one of two large comfy sofas at the back of the tiny spaceship. It looks like the kind of couch that would be found in a psychologist’s office. You hesitantly lay down and instantly sink into the warm, cushiony lining.
+Chrono leads you to one of two large comfy sofas at the back of the tiny spaceship. It looks like the kind of couch that would be found in a psychologist’s office. You hesitantly lay down and instantly sink into the warm, cushiony lining. Luna leaps onto the couch next to you and snuggles up close.
 
 “These couches impart a sleeping agent into your skin upon contact,” Chrono explains. “That’s why you’re getting so tired. Do me a favor and count to ten.”
 
 “Sure,” you reply groggily. “One...two…”
-</string>
+</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="17" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -856,15 +857,15 @@ You glance frantically at your surroundings and it all comes back to you.
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
+                                        <mutableString key="content">
 Chrono, your alien companion, is waking up as well. “Ah, we’re finally here!” he announces, stretching out his long slender arms. 
 
 The ship quietly descends on a planet that looks similar to Earth. Aliens that look like Chrono surround the ship as you land. The ship's top opens and the air lock’s decompression sequence fills the air once again. 
 
 “Bonjour!” One of the aliens bellows as he steps closer to the ship. He seems to be the one in charge. Or at least, that’s what you assume based on the large crown worn atop his head. 
 
-“You’re going to need to adjust your translators,” Chrono says with a yawn. “This French citizen doesn’t speak French.” 
-</string>
+“You’re going to need to adjust your translators,” Chrono says with a yawn. “This Earthling doesn’t speak French.” 
+</mutableString>
                                         <attributes>
                                             <font key="NSFont" size="17" name="Baskerville"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -962,7 +963,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Anxiety blooms in the pit of your stomach. If these aliens think you’re French, then clearly they have the wrong person. If you tell them the truth now, who knows how they’ll react? 
+                                        <string key="content">Anxiety blooms in the pit of your stomach. If these aliens think you’re French, then clearly they have the wrong person...but if you tell them the truth now, who knows how they’ll react? 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1906,7 +1907,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Well it seems as if those are our only two options,” you say after a moment of silence. “It has to be one of them.”
+                                        <string key="content">“Well it seems like those are our only options,” you say after a moment of silence. “It has to be one of them.”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1959,7 +1960,7 @@ Cg
                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="“Then what’s our next move?” Chrono asks you. “I’ll leave it up to you, earthling.”">
+                                    <fragment content="“Then what’s our next move?” Chrono asks, interrupting your thoughts. “I’ll leave it up to you, earthling.”">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -2062,7 +2063,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">On the other hand, maybe keeping the mission covert is the way to go. Stay hidden and out of sight from the Sinisterians. Change the coordinates and get out before anyone ever realizes you’re there. What do you tell Chrono?
+                                        <string key="content">On the other hand, maybe keeping the mission covert is the way to go. Stay hidden and out of sight from the Sinisterians. Change the coordinates and get out before anyone ever realizes you’re there. After careful consideration, you tell Chrono...
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2759,7 +2760,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Chrono nods his head agreeably, “Good point. Onto the council chamber!”
 
-You follow Chrono to the council chamber and then around to the back of the large metal building. It’s bland utilitarian architecture starkly contrasts the vibrant flora of Covarnius. Speaking of vegetation, strange and colorful looking shrubbery is planted all along the walkways. It grows about a foot high with thick green branches covered in prickly little leaves the color of mustard. </string>
+You follow Chrono to the council chamber and then around to the back of the large metal building. It’s bland architecture contrasts the vibrant flowers of Covarnius. Speaking of vegetation, strange and colorful looking shrubbery is planted all along the walkways. It grows about a foot high with thick green branches covered in prickly little leaves the color of mustard. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3627,7 +3628,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“I spent last summer working here as a Covarnian Cleanliness Companion or CCC for short.” Chrono explains. 
+                                        <string key="content">“I spent last summer working here as a Covarnian Cleanliness Companion or CCC for short,” Chrono explains. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3656,7 +3657,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“That sounds impressive,” you answer.
+                                        <string key="content">“That sounds impressive.”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3998,17 +3999,17 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You make it to the door of the store room without ever seeing a single guard. This is easier than you thought it would be. You turn the knob and enter the small room. There are racks and racks of the fancy robes with different insignias and ranks embroidered on them. A large stack of boxes sit off to one corner next to various other gadgets you can’t make heads or tails of. 
+                                        <string key="content">You make it to the door of the store room without ever seeing a guard. This is easier than you thought it would be.
+
+You turn the knob and enter the small room. There are racks and racks of the fancy robes with different insignias and ranks embroidered on them. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -4019,11 +4020,9 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -4033,11 +4032,9 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -4048,11 +4045,9 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -4062,11 +4057,9 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -4077,11 +4070,9 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -4091,11 +4082,9 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -4106,25 +4095,20 @@ Cg
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You head to the door and are about to open it when you hear footsteps on the other side. It’s probably a good idea to make sure the coast is clear before exiting. 
-</string>
+                                        <string key="content">You head to the door and are about to open it when you hear footsteps on the other side. It’s probably a good idea to make sure the coast is clear before exiting. </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -4199,7 +4183,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You look at Luna, standing next to you. She’s your best friend in the whole world or universe for that matter. You don’t want to leave her behind. 
+                                        <string key="content">You look at Luna standing next to you. She’s your best friend in the whole world. (Or universe for that matter.) You don’t want to leave her behind. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4228,7 +4212,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Suddenly Luna shakes as if her fur were wet. The Sinisterian begins sneezing and green ooze begins to leak from his eyes and nose. He takes a step backward as he tries to compose himself. 
+                                        <string key="content">Suddenly Luna shakes vigorously, like she just stepped out of a rain shower. The Sinisterian instantly sneezes and green ooze leaks from his eyes and nose. He takes a step backwards, trying to compose himself. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4504,23 +4488,23 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Well, that was a mistake. Hindsight, as they say, is 20/20. Just like that guard’s eyesight. As soon as you peek into the window, you make eye contact with a giant Covarnian watchman.
+                                        <mutableString key="content">Well, that was a mistake. Hindsight, as they say, is 20/20...just like that guard’s eyesight. As soon as you peek into the window, you make eye contact with a giant Covarnian watchman.
 
-“Hey!” the guard yells, “who is that in the storage room?”
+“Hey!” the guard yells. “Who is that in the storage room?”
 
 “Oh no, he saw us!” Chrono whispers frantically, “why would you look through the window?” Chrono’s ire turns to you.
 
 The guard swings the storage room door open. You’ve been caught! The jig is up.
 
-“What are you two doing in here?” The guard growls.
+“What are you two doing in here?”
 
 “Well you see, we were—” you stammer, but he interrupts you.
 
-“Enough! All trespassers are to be sent to Covarnian Security for interrogation. There is a Sinisterian invasion soon, and for all we know you two could be spies!” He then pokes his ray gun at you. “What kind of alien are you? A Sinisterian minion, no doubt.”
+“Enough! All trespassers are to be sent to Covarnian Security for interrogation. There's a Sinisterian invasion soon, and for all we know you two could be spies!” He then pokes his ray gun at you. “What kind of alien are you? A Sinisterian minion, no doubt.”
 
-The guard leads you to a small, austere building. This must be the interrogation room. After several hours of intense interrogation, you are promptly sent back to Earth. You never even get a chance to say goodbye to Chrono. At least they are letting you take Luna with you!
+The guard leads you to a small, austere building. This must be the interrogation room. After several hours of intense questioning, you are promptly sent back to Earth. You never even get a chance to say goodbye to Chrono. At least they are letting you take Luna.
 
-I guess you should have peeked under the door!</string>
+I guess you should have peeked under the door!</mutableString>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="16" name="Baskerville"/>
@@ -4554,7 +4538,7 @@ I guess you should have peeked under the door!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HV7-o5-EyV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4672.5" y="10817.957746478873"/>
+            <point key="canvasLocation" x="-4513" y="10818"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="wIv-FS-jly">
@@ -10336,7 +10320,7 @@ It becomes clear that you’re the one that will be calling the shots and implem
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1qB-2U-pvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4350" y="9393"/>
+            <point key="canvasLocation" x="-4526" y="9393"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="TtI-Ki-JUA">
@@ -10409,7 +10393,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Unfortunately, we can’t.” Chrono argues. “We’d have to be Covarnian Ambassadors in order to get onto the Sinisterian ship. And I don’t know about you, but I’m not an ambassador. 
+                                        <string key="content">“Unfortunately, we can’t.” Chrono argues. “We’d have to be Covarnian Ambassadors in order to get onto the Sinisterian ship. And I don’t know about you, but I’m not an ambassador."
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -10652,7 +10636,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Chrono smiles in agreement, “Yes, just like that. Good job, Luna!” She nuzzles Chrono and barks happily. Luna’s plan worked!
+                                        <string key="content">Chrono smiles in agreement, “Yes, just like that. Good job, Luna!” She nuzzles Chrono and barks happily.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -10690,7 +10674,7 @@ Cg
                                     </fragment>
                                     <fragment>
                                         <string key="content">
-…but then again, sneaking onto the Sinisterian ship could be very risky. But on the other hand, you have the keycard! It must be fate. What to do?
+…Then again, sneaking onto the Sinisterian ship could be very risky. But on the other hand, you have the keycard! It must be fate. What to do?
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -10759,7 +10743,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“I don’t like the idea of sneaking into the council chamber or into an ambassador’s home,” you state flatly. “I think it might be best if we skip straight to boarding the Sinisterian’s ship. We’ll be extra stealthy, we’ll change the coordinates and be out of there before the Sinisterians ever know we’re there.”
+                                        <string key="content">“I don’t like the idea of sneaking into the council chamber or into an ambassador’s home,” you state flatly. “I think it might be best if we skip straight to boarding the Sinisterian’s ship. We’ll be extra stealthy, we’ll change the coordinates and be out of there before the Sinisterians even know we’re there.”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -10788,7 +10772,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Chrono nods as he scratches his chin with his tentacle. “The only problem is, we don’t have a key card.” Sighing dejectedly, he continues, “We can’t take a Covarnian cruiser without one.”
+                                        <string key="content">Chrono nods and scratches his chin thoughtfully. “The only problem is, we don’t have a key card.” Sighing dejectedly, he continues, “We can’t take a Covarnian cruiser without one.”
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -10817,7 +10801,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">At that moment, a Covarnian ambassador outfitted in a standard ambassador robe walks by where the three of you are standing. Suddenly, Luna lets out a playful bark. The ambassador, clearly frightened, jumps backwards and nearly trips. Just as he does, a keycard falls out of his flowing robe.</string>
+                                        <string key="content">At that very moment, a Covarnian ambassador walks by the three of you. Suddenly, Luna lets out a playful bark. The ambassador, clearly frightened, jumps backwards and nearly trips. Just as he does, a keycard falls out of his flowing robe.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -10848,7 +10832,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CPM-zV-dOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3576" y="9393"/>
+            <point key="canvasLocation" x="-3844" y="9393"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="Ova-wf-dCV">
@@ -11114,17 +11098,17 @@ Chrono raises his device triumphantly into the air. “This is an </string>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">.”
+                                        <mutableString key="content">.”
 
 “A what?” you ask skeptically.
 
-“An autoparker. I just type in our coordinates and our space shuttle will automatically arrive. All we need to do is schedule it to arrive right here,” he says excitedly, point at the ground. “That spacecraft is equipped with mega ion engines. It will crash through the ships wall and we’ll be able to escape.”
+“An autoparker. I just type in our coordinates and our space shuttle will automatically arrive. All we need to do is schedule it to arrive right here,” he says excitedly, pointing at the ground. “That spacecraft is equipped with mega ion engines. It will crash through the ship's wall and we’ll be able to escape.”
 
 You can’t help but feel a little skeptical about this plan. It sounds dangerous and probably won’t work. You turn your head back to Luna, who stares at you expectantly.
 
-“Just one button push away from freedom!” Chrono exclaims.
+“Just one button push away from freedom!” Chrono exclaims. "So what should we do?"
 
-So what should we do?</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="15" name="Baskerville"/>
@@ -11177,7 +11161,7 @@ So what should we do?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHm-Qd-D9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2421" y="10243"/>
+            <point key="canvasLocation" x="-2389" y="10125"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="n4R-Ta-jDE">
@@ -11369,7 +11353,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eAF-15-HpH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1613" y="10242"/>
+            <point key="canvasLocation" x="-1613" y="10125"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="FqO-ZW-cTq">
@@ -11514,7 +11498,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hfo-lu-yhJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-859" y="10241"/>
+            <point key="canvasLocation" x="-859" y="10125"/>
         </scene>
         <!--Generic Decision Point View Controller-->
         <scene sceneID="9oV-M2-Hjq">
@@ -11641,7 +11625,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dpk-NG-Bqy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1612" y="10980"/>
+            <point key="canvasLocation" x="-1613" y="10981"/>
         </scene>
         <!--Generic Decision Point View Controller-->
         <scene sceneID="X3f-E4-03B">
@@ -11714,7 +11698,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You help Luna squeeze through the bars of the cell. “Now go get the key!” You instruct Luna. 
+                                        <string key="content">You help Luna squeeze through the bars of the cell. “Now go get the key!” you instruct Luna. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -11804,7 +11788,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zMh-e3-5Rr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-38" y="10254"/>
+            <point key="canvasLocation" x="-38" y="10125"/>
         </scene>
         <!--Raid On Covarnius Page View Controller-->
         <scene sceneID="AwI-gp-00I">
@@ -12077,7 +12061,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“What are you talking about?” Chrono asks, becoming intrigued.
+                                        <string key="content">“What are you talking about?” Chrono asks, intrigued.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -12168,9 +12152,9 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Chrono’s eyes light up and a flicker of hope dances across his face. It’s quickly extinguished however. 
+                                        <string key="content">Chrono’s eyes light up and a flicker of hope dances across his face. However, it’s quickly extinguished. 
 
-“It’s broken," He responds glumly, "I haven’t been able to figure out how to fix it.” Chrono stares downtrodden at the ground.</string>
+“It’s broken," he responds glumly, "I haven’t been able to figure out how to fix it.” Chrono stares downtrodden at the ground.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="15" name="Baskerville"/>
@@ -12263,7 +12247,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Quick, we need to sneak to your house and try to fix it,” you whisper urgently to your alien companion. In all the excitement of getting off the ship, it hadn’t occurred to you that Covarnius is now hostile territory. You’ll have to sneak your way back to Chrono’s house!
+                                        <string key="content">“Quick, we need to sneak to your house and try to fix it,” you whisper urgently to your alien companion. In all the excitement of getting off the ship, it hadn’t occurred to you that Covarnius is now hostile territory.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -12307,16 +12291,16 @@ Cg
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="acU-cP-Zfn">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">"If we want to get to Chrono’s house in one piece, we will have to be VERY tactful." 
+                                <mutableString key="text">"If we want to get to your house in one piece, we will have to be VERY tactful," you tell Chrono. 
 
 After briefly surveying your surroundings, you see all sorts of trees and shrubberies to hide behind.
 
-You conclude that there is just enough vegetation to get to his house. 
+You conclude that there is just enough vegetation to get to his house unnoticed.
 
-If you’re really careful, you could take cover behind them and slowly but surely make your way there. On the other hand, time is of the essence. 
+If you’re really careful, you could take cover behind them and slowly but surely make your way there. But on the other hand, time is of the essence. 
 
 If you sprint there, you could get to his abode just in time to lock the door and fire up the Hyper Growth Ray. Whatever you decide, it has to be decided now!
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -12383,17 +12367,21 @@ If you sprint there, you could get to his abode just in time to lock the door an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RxK-2u-yqO">
                                 <rect key="frame" x="25" y="70" width="270" height="301"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">"There's no time to lose, we need to get to your house as quickly as possible." Chrono nods in agreement and Luna nervously wags her tail.
+                                <mutableString key="text">"There's no time to lose, we need to get to your house as quickly as possible." Chrono nods in agreement and Luna nervously wags her tail.
 
 “We’ll run towards the door at the count of three,” you say confidently. “One…Two…THREE!”
 
-The three of you sprint towards the door, running faster than you’ve ever ran before…but it just wasn’t enough.
+The three of you sprint towards the door. You run faster than you’ve ever ran before…but it just isn't enough.
 
-“YOU TWO! HALT.” The Sinisterian across the street notices you, and quickly notifies his companions. Before you know it, several Sinisterians surround you, and you have no choice but to stop running. You’re quickly led away and placed into a holding cell.
+“YOU TWO! HALT.” A Sinisterian across the street notices you and quickly notifies his companions. Before you know it, several Sinisterians surround you and you have no choice but to stop running. You’re quickly led away and placed into a holding cell.
 
-The good news is the food isn’t too bad in here.
+The good news is the food in here isn’t too bad.
 
-The bad news is you never got the Hyper Growth Ray, and Covarnius is doomed. I guess stealth would have been a better choice!</string>
+The bad news is you never made it to Chrono's house to use the Hyper Growth Ray.
+
+Covarnius is doomed. 
+
+I guess stealth would have been a better choice!</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -12437,7 +12425,7 @@ The bad news is you never got the Hyper Growth Ray, and Covarnius is doomed. I g
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Darting behind bushes and dodging between trees, the two of you finally arrive at 99 Larblok Lane: Chrono’s house. Chrono sprints up the staircase with you and Luna immediately upon him. Peering out the window of his bedroom, you notice that Sinisterians are going door to door, rounding up all of the Covarnians.
+                                        <string key="content">Darting behind bushes and dodging between trees, the two of you finally arrive at 99 Larblok Lane: Chrono’s house. Chrono sprints up the staircase, you and Luna follow closely behind. Peering out the window of his bedroom, you notice that Sinisterians are going door to door, rounding up all of the Covarnians.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -12524,7 +12512,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You quickly turn to the Hyper Growth Ray and realize that it might be a little more difficult to fix than you thought. The contraption looks similar to a telescope, but with a large dial on it on the side. Strange Covarnian script is printed at different intervals on the dial. After asking Chrono, you discover it reads: Large, Very Large, and Humongous!</string>
+                                        <string key="content">You quickly turn to the Hyper Growth Ray and realize that it might be a little more difficult to fix than you thought. The contraption looks similar to a telescope, but with a large dial on the side. Strange Covarnian script is printed at different intervals on the dial. After asking Chrono, you discover it reads: Large, Very Large, and Humongous!</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -12570,7 +12558,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“So you’re saying that this thing doesn’t work?” An edge of desperation grows in your voice. You look back out the window and notice that they’re only 5 houses away now!
+                                        <string key="content">“So you’re saying that this thing doesn’t work?” An edge of desperation grows in your voice. You look back out the window and notice that they’re only five houses away now!
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -12698,7 +12686,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“It’s ok,” you say quickly, “it doesn't matter now. They're only 1 door away now!” A posse of Sinisterian thugs are slamming their fists against Chrono’s next door neighbor’s home. It’s time to get this thing working!
+                                        <string key="content">“It’s ok,” you say quickly, “it doesn't matter now. They're only one door away now!” A posse of Sinisterian thugs are slamming their fists against Chrono’s next door neighbor’s home. It’s time to get this thing working!
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -12756,7 +12744,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Wait!” you cry, test it on that first. You point at a tiny bug you see on the ground. It appears to be a purple ant with two heads. It must be a native Covarnian bug.</string>
+                                        <string key="content">“Wait!” you cry, "test it on that first." You point at a tiny bug you see on the ground. It appears to be a purple ant with two heads. It must be a native Covarnian bug.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -12902,7 +12890,7 @@ Chrono glances nervously out his bedroom window. “The Sinisterians will be her
                                     <fragment>
                                         <string key="content">Chrono thinks for a moment and shrugs his shoulders. “Well that makes sense. Here goes nothing!” 
 
-He points the blow-up ray at the Murkblur and fires the ray. A wide, multi-colored ray shoots out of the muzzle and hits the bug. In about two seconds, the two inch Murkblur becomes a two foot Murkblur. 
+He points the Hyper Growth Ray at the Murkblur and fires. A wide, blue ray shoots out of the muzzle and hits the bug. In about two seconds, the two inch Murkblur becomes a two foot Murkblur. 
 
 You nod approvingly and give a thumbs up to Chrono. Luna, meanwhile, barks at the poor Murkblur, whose face quickly becomes one of terror. It quickly scurries out of the bedroom and down the hall.</string>
                                         <attributes>
@@ -13009,12 +12997,12 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You kneel down and level with Luna. “Are you ready girl? You’re about to save the world!” you pat Luna on the head and she barks reassuringly. 
+                                        <mutableString key="content">You kneel down and level with Luna. “Are you ready girl? You’re about to save the world!” You pat Luna on the head and she barks reassuringly. 
 
 Chrono turns the dial to 'Humungous', points it at Luna and fires.
 
 The blue wave envelopes Luna and she barks and runs in circles. Then suddenly...nothing happens.
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -13038,11 +13026,11 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You and your alien friend wait in anticipation, which quickly turns into panicked disappointment.
+                                        <mutableString key="content">You and your alien friend wait in anticipation, which quickly turns into panicked disappointment.
 
 “What happened?” Chrono says crestfallen. “Luna was supposed to—”
  The entire house rumbles like an earthquake. Suddenly, Luna is the size of you! She gives you a slobbery lick to tell you everything is ok. Then, before you know it, her canine head is hitting the ceiling. Putting two and two together, it dawns on you that it's critical you get out of the house. A look of understanding is communicated between you and Chrono.
-</string>
+</mutableString>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -13840,7 +13828,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">You feel the ship rumble as it makes its landing on Covarnius. Peeking out the porthole, you see hordes of Sinisterians disembarking from the ship to start their invasion. Like Vikings from the days of yore, the Sinisterians wreak havoc.
+                                        <string key="content">You feel the ship rumble as it makes its landing on Covarnius. Peeking out the porthole, you see hordes of Sinisterians disembarking from the ship to start their invasion. Like Vikings from the days of yore, the Sinisterians begin to wreak havoc.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -13869,7 +13857,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Panic sets in as you languish in the dark, damp dungeon.
+                                        <string key="content">Panic sets in as you languish in the damp dungeon.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -13898,7 +13886,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“We have to think of something!” You whisper urgently to Chrono. Between Luna’s incessant barking and the Sinisterian guard’s constant sneezing, you can barely get a thought in edgewise. </string>
+                                        <string key="content">“We have to think of something!” you whisper urgently to Chrono. Between Luna’s incessant barking and the Sinisterian guard’s constant sneezing, you can barely get a thought in edgewise. </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="15" name="Baskerville"/>
@@ -13929,7 +13917,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JdP-2Y-wV8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3216" y="10125"/>
+            <point key="canvasLocation" x="-3116" y="10125"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="GTY-2y-mca">
@@ -14029,7 +14017,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZbT-F1-1ya" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3215" y="10981"/>
+            <point key="canvasLocation" x="-3116" y="10818"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="NtG-nf-kQU">
@@ -14192,7 +14180,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eKI-Eh-7uT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2779" y="9393"/>
+            <point key="canvasLocation" x="-3116" y="9408"/>
         </scene>
         <!--Chapter View Controller-->
         <scene sceneID="pUO-L5-zTU">
@@ -14207,7 +14195,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">You make your way through the deep recesses of space. Before you know it, you see the Sinisterian ship in the distance.
+                                        <string key="content">You make your way through the deep recesses of space. Before you know it, you're approaching the Sinisterian ship.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14232,7 +14220,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“So here’s the plan,” Chrono announces. “We’ll steer the ship into the cargo loading dock. Then, we’ll sneak on board the ship, change the destination coordinates and head back to Covarnius as heroes!"
+                                        <string key="content">“So here’s the plan,” Chrono announces. “After I steer the ship into the cargo loading dock, then we’ll sneak on board, change the destination coordinates, and head back to Covarnius as heroes!"
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14462,7 +14450,7 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“That might be the worst plan I have ever heard,” King Zanarq responds quickly. “It’s almost certain death to anyone who would undertake such a mission.” King Zanarq waves his hand dismissively and the guards respond by opening the door and escorting you and Chrono outside.  
+                                        <string key="content">“That might be the worst plan I have ever heard,” King Zanarq responds quickly. “It’s almost certain death for anyone who would undertake such a mission.” King Zanarq waves his hand dismissively. The guards respond by opening the door and escorting the three of you outside.  
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14516,7 +14504,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">How do you respond?
+                                        <string key="content">You think it over for a moment and respond...
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14767,9 +14755,9 @@ You have to admit, the situation looks grim, but you don’t tell Chrono that. T
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">The two of you (with Luna) hurry to tell King Zanarq about your genius plan to stop the Sinisterians once and for all! Upon arriving, you are escorted to a large room. The area is nearly empty, save a table surrounded by a dozen comfy looking chairs. 
+                                        <string key="content">The two of you (with Luna) hurry to tell King Zanarq about your genius plan to stop the Sinisterians once and for all! Upon arriving, you are escorted to a large room. The area is nearly empty, except for a table and a dozen comfy looking chairs. 
 
-King Zanarq sits at the head of the table, his shiny crown perched atop his head. More Covarnians sit in the seats around the alien king, weary looks on their faces. This must be the war room. The wise councilmen flank each side of the king.
+King Zanarq sits at the head of the table, his shiny crown perched atop his head. More Covarnians sit in the seats around the alien king, weary looks on their faces. This must be the war room.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14794,7 +14782,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“This better be important,” King Zanarq says in that booming voice of his. “And I see you didn’t send the earthlings back either,” he adds, noticing you and Luna.
+                                        <string key="content">“This better be important,” King Zanarq growls. “And I see you didn’t send the earthlings back either,” he adds, noticing you and Luna.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14880,7 +14868,7 @@ Cg
                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="could">
+                                    <fragment content="could ">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name="Baskerville-Italic"/>
@@ -14891,7 +14879,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> work,” he says thoughtfully. Then he shakes his head, clearly dismissing the idea. “But it’s way too dangerous.” He tilts his head to the side and says, “It </string>
+                                        <string key="content">work,” he says thoughtfully. Then he shakes his head, clearly dismissing the idea. “But it’s way too dangerous.” After a pause, he tilts his head and says, “It </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name="Baskerville"/>
@@ -15042,7 +15030,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“I’m afraid not,” Chrono says dejectedly. Our only hope was to get the Earth renowned scientist. He would've beeen able to complete the cloaking device our own scientists have been working on." 
+                                        <string key="content">“I’m afraid not,” Chrono says. "Our only hope was the Earth renowned scientist. He would've been able to complete the cloaking device our own scientists have been working on." 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15071,7 +15059,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Well can’t we just go back to Earth and get the right person this time?” You counter, trying to find a solution.
+                                        <string key="content">“Well can’t we just go back to Earth and get the right person this time?” you counter, trying to find a solution.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15914,9 +15902,9 @@ Cg
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">“Enough,” King Zanarq says quietly, cutting off Chrono. “This was your last chance and you failed. The invasion is imminent and there is absolutely nothing we can do about it.” A grave look crosses King Zanarq’s face. “Take the earthling to the shipping chamber for the next flight back to Earth.” 
+                                        <string key="content">“Enough,” King Zanarq says quietly, cutting off Chrono. “This was your last chance and you failed. The invasion is imminent and there is absolutely nothing we can do about it.” An exasperated look crosses the king’s face. “Take the earthling to the shipping chamber for the next flight back to Earth.” 
 
-King Zanarq storms away followed by his Covarnian entourage. They leave you and Chrono standing forlornly at the base of the spaceship that you had arrived on. 
+King Zanarq storms away followed by his Covarnian crew. They leave you and Chrono standing forlornly at the base of the spaceship that you arrived on. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -15943,7 +15931,7 @@ Cg
                                     <fragment>
                                         <string key="content">You look at Chrono, who looks more miserable than ever. “What did he mean by invasion?” you question.
 
-“It’s the Sinisterians,” Chrono says pitifully. “They are on their way to Covarnius as we speak.”</string>
+“It’s the Sinisterians,” Chrono says sadly. “They are on their way to Covarnius as we speak.”</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Baskerville"/>
@@ -16412,7 +16400,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Just as you go into full panic mode, someone turns the lights back on. The scientists is looking down at you. He’s a giant!
+                                        <string key="content">Before you know it, you realize that the scientist is looking down at you. He’s a giant!
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16470,7 +16458,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">“Ribbit, Ribbit!” You cry out to the scientist. Everytime you speak, only croaks come out.
+                                        <string key="content">“Ribbit, Ribbit!” You cry out to the scientist. Every time you speak, only croaks come out.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16586,7 +16574,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Before you know it, the scientist is floating! And come to think of it, you are too! The tables, viles, and everything the vapor touches gently lifts from the ground. You can’t help but notice a look of rage on the scientist’s face as he floats lazily past you.
+                                        <string key="content">Before you know it, the scientist is floating! And come to think of it, you are too! The tables, vials, and everything the vapor touches gently lifts from the ground. You can’t help but notice a look of rage on the scientist’s face as he floats lazily past you.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -16615,7 +16603,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">The good news is the ceiling is keeping you from floating into the cold, oxygenless recesses of space. The bad news is that it will take a LOT of chemical mixing to find a concoction to bring the gravity back. Well, better get to it!</string>
+                                        <string key="content">The good news is the ceiling is keeping you from floating into the cold, oxygen-less recesses of space. The bad news is that it will take a LOT of chemical mixing to find a concoction to bring the gravity back. Well, better get to it!</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="15" name="Baskerville"/>
@@ -17436,7 +17424,7 @@ Cg
                                     <fragment>
                                         <string key="content">Kayo takes off in the direction of the sound. You feel like you should follow him, in case he needs help. But how could you be any help to a baby hapal? 
 
-You’re desperate to get on the newly fixed ship and fly off this planet. You begin to board the Covarnian ship but then stop. 
+You’re desperate to get on the newly fixed ship and fly off the planet. You begin to board the Covarnian ship but then stop. 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -17461,7 +17449,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Kayo has been so good to you. He helped you when you needed it. Fixing your ship, offering you food and a place to relax… You feel a pang of guilt for not returning the favor.
+                                        <string key="content">Kayo has been so good to you. He helped you when you needed it. Fixing your ship, offering you food and a place to relax…you feel a pang of guilt for not returning the favor.
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -17925,7 +17913,7 @@ Cg
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">
-The monitors on the console display a message in bright red letters. “Experiencing Technical difficulties.” 
+The monitors on the console display a message in bright red letters: “EXPERIENCING TECHNICAL DIFFICULTIES” 
 
 You and Chrono exchange a glance, unsure what to expect next. 
 
@@ -17969,7 +17957,7 @@ The message on the monitor changes and you read it aloud, “Making emergency la
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">This is just too much, too soon. The vastness of space is terrifying, and feelings of homesickness weigh heavily upon you.
+                                        <string key="content">This is just too much, too soon. The vastness of space is terrifying, and feelings of homesickness weigh heavily upon you.
 
 “Take me back to Earth!” you shout panicked at Chrono.
 
@@ -17979,7 +17967,7 @@ The message on the monitor changes and you read it aloud, “Making emergency la
 
 “No, don’t do that!” Chrono shouts with horror. “This is a very delicate piece of machinery.”
 
-The lights in the ship begin to flicker on and off. A loud static sound can be heard. Perhaps you shouldn’t have messed with the controls after all. </mutableString>
+The lights in the ship begin to flicker on and off. A loud static sound can be heard. Perhaps you shouldn’t have messed with the controls after all. </string>
                                         <attributes>
                                             <font key="NSFont" size="14" name="Baskerville"/>
                                         </attributes>
@@ -18745,7 +18733,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Kayo lets out a small chuckle. Well then I can’t speak for your critter, but hapals are mighty messy. But we pride ourselves on having the cleanest stables in all the land. 
+                                        <string key="content">Kayo lets out a small chuckle. "Well then I can’t speak for your critter, but hapals are mighty messy. But we pride ourselves on having the cleanest stables in all the land." 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -18996,7 +18984,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">be staring at a UFO? It doesn’t seem possible, you don’t even believe in aliens. 
+                                        <string key="content">be staring at a UFO? It doesn’t seem possible, you don’t even believe in aliens!
 
 But the odd green creature in the UFO makes you think otherwise. You hear a loud hissing sound like the decompressing of air. The top of what appears to be an alien spaceship opens. 
 
@@ -19039,7 +19027,7 @@ Yup, definitely an alien!</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">The creature inside hops out of the aircraft. His body is long and slender; he appears frantic and in a great hurry.
+                                        <string key="content">The creature inside hops out of the aircraft. His body is long and slender. He appears frantic and in a great hurry.
 
 The creature looks at you with his large round eyes. He scans you head to toe, silent for a moment, like a boxer sizing up an opponent. The alien is about your height. Maybe you could take him on?
 
@@ -19328,7 +19316,7 @@ Veering off the sidewalk, you cut through Mrs. Hill’s garden and run as fast a
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zem-sG-OUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="778" y="1297"/>
+            <point key="canvasLocation" x="752" y="1407"/>
         </scene>
         <!--Generic Decision Point View Controller-->
         <scene sceneID="cGq-fh-97v">
@@ -19366,12 +19354,9 @@ Veering off the sidewalk, you cut through Mrs. Hill’s garden and run as fast a
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
-                                <string key="text">Bright red and yellow leaves—the hallmark of autumn–crunch underneath your sneakers. You walk your dog Luna down a neighborhood street, without a care in the world. The wind whips against your face and the streets are eerily empty. As much as you enjoy walking Luna, you’re still looking forward to getting back home, making a snack and watching T.V. 
+                                <mutableString key="text">Bright red and yellow leaves—the hallmark of autumn–crunch underneath your sneakers. You walk your dog Luna down a neighborhood street, without a care in the world. The wind whips against your face and the streets are eerily empty. As much as you enjoy walking Luna, you’re still looking forward to getting back home, making a snack and watching T.V. 
 
-Just as you are about to circle back home, a strange shape emerges from the sky. It’s large and shaped like a saucer. Bulbous multi-colored lights blink rapidly all over the aircraft, making it look like a strangely shaped Christmas tree. Your first instinct is to run away, but you also want to see what the strange object is. 
-
-Do you:
-</string>
+Just as you are about to circle back home, a strange shape emerges from the sky. It’s large and shaped like a saucer. Multi-colored lights blink all over the aircraft. It looks somewhat like a strangely shaped Christmas tree. Your first instinct is to run away, but you also want to see what the strange object is. </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -19413,19 +19398,19 @@ Do you:
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="U32-uH-FzI"/>
-        <segue reference="QEn-le-N99"/>
-        <segue reference="pst-IE-SND"/>
-        <segue reference="Cpv-90-8rr"/>
+        <segue reference="UXL-GQ-izu"/>
+        <segue reference="hvB-TT-ury"/>
+        <segue reference="Rn9-Sm-4qA"/>
         <segue reference="pZ2-f4-yno"/>
-        <segue reference="MqN-Mj-29S"/>
-        <segue reference="6es-We-obc"/>
-        <segue reference="why-Zw-93Q"/>
+        <segue reference="wZo-rO-d7q"/>
+        <segue reference="7dg-rL-hhO"/>
+        <segue reference="3tM-1C-F1f"/>
         <segue reference="jox-Tc-HCZ"/>
-        <segue reference="dm8-JS-0k1"/>
+        <segue reference="vUV-Ay-okI"/>
         <segue reference="Rlm-ND-bdU"/>
-        <segue reference="UT2-He-dFh"/>
-        <segue reference="w4t-kW-FBM"/>
+        <segue reference="KYf-bL-oLj"/>
+        <segue reference="h7j-ZC-5Tj"/>
         <segue reference="3rd-jJ-Mjs"/>
-        <segue reference="4hG-Mm-Rda"/>
+        <segue reference="693-ya-JrE"/>
     </inferredMetricsTieBreakers>
 </document>

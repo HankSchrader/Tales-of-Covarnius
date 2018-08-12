@@ -170,13 +170,13 @@ class ArrowViewController: ChapterViewController {
         label2.textColor  = .yellow
         let width = self.view.frame.size.width
         if(width > 600) {
-            label.frame = CGRect(x:  view.frame.width/2 - 250, y: view.frame.height/1.30, width: 400, height: 80)
-            label2.frame =  CGRect(x:  view.frame.width/2 - 250, y: view.frame.height/1.20, width: 400, height: 80)
+            label.frame = CGRect(x:  view.frame.width/2 - 250, y: view.frame.height/1.30, width: 500, height: 80)
+            label2.frame =  CGRect(x:  view.frame.width/2 - 250, y: view.frame.height/1.20, width: 500, height: 80)
             label.font = UIFont(name: "Futura", size: 30)
             label2.font = UIFont(name: "Futura", size: 30)
         } else {
-            label.frame = CGRect(x:  view.frame.width/2 - 150, y: view.frame.height/1.30, width: 400, height: 80)
-            label2.frame =  CGRect(x:  view.frame.width/2 - 150, y: view.frame.height/1.20, width: 400, height: 80)
+            label.frame = CGRect(x:  view.frame.width/2 - 150, y: view.frame.height/1.30, width:500, height: 80)
+            label2.frame =  CGRect(x:  view.frame.width/2 - 150, y: view.frame.height/1.20, width: 500, height: 80)
              label.font = UIFont(name: "Futura", size: 20)
              label2.font = UIFont(name: "Futura", size: 20)
         }
