@@ -15,6 +15,8 @@ class RiseAndShinePageViewController: GenericPageViewController {
         if(self.segueID == "Use Key") {
             setImage(image: Constants.SLEEPING_SINISTERIANS)
             return [self.newVC(viewController: "Image"),
+                    
+                    self.newVC(viewController: "yet another distraction_0"),
                     self.newVC(viewController: "yet another distraction"),
                     self.newVC(viewController: "yet another distraction 2"),
                     self.newVC(viewController: "yet another distraction 3"),
