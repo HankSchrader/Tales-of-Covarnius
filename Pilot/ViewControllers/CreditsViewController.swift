@@ -16,7 +16,7 @@ class CreditsViewController: UIViewController {
     @IBOutlet weak var writtenBy: UILabel!
     @IBOutlet weak var illustrationsBy: UILabel!
     @IBOutlet weak var site: UILabel!
-    
+    //TEST
     
     override func viewDidLoad() {
         super.viewDidLoad()
